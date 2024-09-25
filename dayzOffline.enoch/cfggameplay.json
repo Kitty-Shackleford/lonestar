@@ -1,0 +1,143 @@
+{
+	"version": 122,
+	"_info": "LONESTAR",
+	"GeneralData": {
+		"disableBaseDamage": false,
+		"disableContainerDamage": false,
+		"disableRespawnDialog": false,
+		"disableRespawnInUnconsciousness": false
+	},
+	"PlayerData": {
+		"spawnGearPresetFiles": [
+			"./custom/loadoutbitch.json",
+			"./custom/loadoutcannibal.json",
+			"./custom/loadoutcriminal.json",
+			"./custom/loadoutfirefighter.json",
+			"./custom/loadouthockey.json",
+			"./custom/loadoutknight.json",
+			"./custom/loadoutpoliceofficer.json",
+			"./custom/loadoutpoliceswat.json",
+			"./custom/loadoutvanillaenhancedwalpurgisnite.json",
+			"./custom/loadoutlonestar.json",
+			"./custom/loadoutwhore.json"
+		],
+		"disablePersonalLight": true,
+		"StaminaData": {
+			"sprintStaminaModifierErc": 1,
+			"sprintStaminaModifierCro": 1,
+			"staminaWeightLimitThreshold": 6000,
+			"staminaMax": 100,
+			"staminaKgToStaminaPercentPenalty": 1.55,
+			"staminaMinCap": 5,
+			"sprintSwimmingStaminaModifier": 1,
+			"sprintLadderStaminaModifier": 1,
+			"meleeStaminaModifier": 1,
+			"obstacleTraversalStaminaModifier": 1,
+			"holdBreathStaminaModifier": 1
+		},
+		"ShockHandlingData": {
+			"shockRefillSpeedConscious": 5,
+			"shockRefillSpeedUnconscious": 1,
+			"allowRefillSpeedModifier": true
+		},
+		"MovementData": {
+			"timeToStrafeJog": 0.1,
+			"rotationSpeedJog": 0.1,
+			"timeToSprint": 0.1,
+			"timeToStrafeSprint": 0.1,
+			"rotationSpeedSprint": 0.1,
+			"allowStaminaAffectInertia": true
+		},
+		"DrowningData": {
+			"staminaDepletionSpeed": 10,
+			"healthDepletionSpeed": 10,
+			"shockDepletionSpeed": 10
+		}
+	},
+	"WorldsData": {
+		"lightingConfig": 1,
+		"objectSpawnersArr": [
+			"custom/livonia_cannibal_radiun.json",
+			"custom/livonia_cannibal_topolin.json",
+            "custom/livonia_cannibal_nabdor.json"
+        ],
+		"environmentMinTemps": [
+			-32,
+			-27,
+			-21,
+			-14,
+			-7,
+			-4,
+			-2,
+			2,
+			-3,
+			-7,
+			-15,
+			-25
+		],
+		"environmentMaxTemps": [
+			-12,
+			-8,
+			-3,
+			14,
+			2,
+			5,
+			7,
+			11,
+			8,
+			5,
+			2,
+			-8
+		],
+		"wetnessWeightModifiers": [
+			1,
+			1,
+			1.33,
+			1.66,
+			2
+		]
+	},
+	"BaseBuildingData": {
+		"HologramData": {
+			"disableIsCollidingBBoxCheck": true,
+			"disableIsCollidingPlayerCheck": true,
+			"disableIsClippingRoofCheck": true,
+			"disableIsBaseViableCheck": true,
+			"disableIsCollidingGPlotCheck": false,
+			"disableIsCollidingAngleCheck": true,
+			"disableIsPlacementPermittedCheck": true,
+			"disableHeightPlacementCheck": true,
+			"disableIsUnderwaterCheck": false,
+			"disableIsInTerrainCheck": true,
+			"disallowedTypesInUnderground": [
+				"FenceKit",
+				"TerritoryFlagKit",
+				"WatchtowerKit"
+			]
+		},
+		"ConstructionData": {
+			"disablePerformRoofCheck": true,
+			"disableIsCollidingCheck": true,
+			"disableDistanceCheck": true
+		}
+	},
+	"UIData": {
+		"use3DMap": false,
+		"HitIndicationData": {
+			"hitDirectionOverrideEnabled": false,
+			"hitDirectionBehaviour": 1,
+			"hitDirectionStyle": 0,
+			"hitDirectionIndicatorColorStr": "#9900FF0",
+			"hitDirectionMaxDuration": 2,
+			"hitDirectionBreakPointRelative": 0.2,
+			"hitDirectionScatter": 10,
+			"hitIndicationPostProcessEnabled": true
+		}
+	},
+	"MapData": {
+		"ignoreMapOwnership": false,
+		"ignoreNavItemsOwnership": false,
+		"displayPlayerPosition": true,
+		"displayNavInfo": true
+	}
+}
