@@ -37,6 +37,10 @@ jobs:
             echo "files=${files}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Install Prettier and XML Plugin
+        run: |
+          npm install --save-dev prettier @prettier/plugin-xml
+
       - name: Format files with Prettier
         run: |
           for file in ${{ steps.get_changed_files.outputs.files }}; do
@@ -54,8 +58,6 @@ jobs:
           ENABLE_LINTER: "eslint,LibXML"
           VALIDATE_XML: "true"
           VALIDATE_JSON: "true"
-        with:
-          FILES: ${{ steps.get_changed_files.outputs.files }}
 
       - name: Create temporary directory
         run: mkdir temp_upload
