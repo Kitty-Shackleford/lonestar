@@ -29,7 +29,13 @@ jobs:
       - name: Get changed files
         id: get_changed_files
         run: |
-          echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"
+          files=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          if [ -z "$files" ]; then
+            echo "No changed files detected. Exiting."
+            exit 0  # Exit gracefully if no changed files
+          else
+            echo "files=${files}" >> $GITHUB_OUTPUT
+          fi
 
       - name: Run Super Linter
         id: linter
@@ -46,10 +52,15 @@ jobs:
           FILES: ${{ steps.get_changed_files.outputs.files }}
 
       - name: Create temporary directory
+        run: mkdir temp_upload
+
+      - name: Copy files for FTP upload
         run: |
-          mkdir temp_upload
           for file in ${{ steps.get_changed_files.outputs.files }}; do
-            cp "$file" temp_upload/
+            # Check if the file is one of the ignored ones
+            if [[ ! "$file" =~ ^\.github/ && "$file" != "cfgeffectarea.json" && "$file" != "cfgeventspawns.xml" && "$file" != "db/events.xml" ]]; then
+              cp "$file" temp_upload/
+            fi
           done
 
       - name: Upload to FTP
