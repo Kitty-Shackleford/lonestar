@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
 	<event name="AnimalGoatSpooky">
-		<nominal>27</nominal>
-		<min>26</min>
-		<max>27</max>
+		<nominal>50</nominal>
+		<min>45</min>
+		<max>69</max>
 		<lifetime>180</lifetime>
 		<restock>0</restock>
 		<saferadius>200</saferadius>
@@ -14,7 +14,7 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="0" lootmin="0" max="27" min="26" type="Animal_CapraHircus_Spooky"/>
+			<child lootmax="0" lootmin="0" max="69" min="45" type="Animal_CapraHircus_Spooky"/>
 		</children>
 	</event>
 	<event name="InfectedMummy">
