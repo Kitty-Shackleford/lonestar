@@ -205,7 +205,7 @@
 		<usage name="Military"/>
 	</type>
 	<type name="GorkaHelmet_Black">
-		<nominal>8</nominal>
+		<nominal>7</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
 		<min>3</min>
