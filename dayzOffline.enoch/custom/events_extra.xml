@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
 	<event name="AmbientHenCustom">
-		<nominal>2</nominal>
-		<min>1</min>
-		<max>6</max>
+		<nominal>6</nominal>
+		<min>3</min>
+		<max>18</max>
 		<lifetime>33</lifetime>
 		<restock>15</restock>
 		<saferadius>40</saferadius>
