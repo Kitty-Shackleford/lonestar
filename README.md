@@ -4,7 +4,7 @@
 
 | Property        | Value                   |
 |-----------------|-------------------------|
-| Status | restarting |
+| Status | started |
 | Player Count | 0/50 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
@@ -14,4 +14,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Sep 29 04:25:40 UTC 2024
+Last updated: Sun Sep 29 04:27:25 UTC 2024
