@@ -5,7 +5,7 @@
 | Property        | Value                   |
 |-----------------|-------------------------|
 | Status | started |
-| Player Count | 1/50 |
+| Player Count | 0/50 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 | Banned Users |  |
@@ -14,4 +14,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Sep 29 06:57:25 UTC 2024
+Last updated: Sun Sep 29 07:19:09 UTC 2024
