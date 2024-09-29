@@ -1,15 +1,15 @@
 # 🎮 Gameserver Details
 
-## 🖥️ Lonestar
+## 🖥️ ServerNameNotAvailable
 
 ### 📋 General Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | started |
+| Status | restarting |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | v1.25.158593 |
+| Version | Unknown |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 
@@ -19,7 +19,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 6/50 |
+| Player Count | 0/50 |
 | Banned Users |  |
 
 ---
@@ -44,4 +44,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Sep 29 21:56:26 UTC 2024
+Last updated: Sun Sep 29 22:18:31 UTC 2024
