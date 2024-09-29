@@ -1,17 +1,47 @@
-# Gameserver Details
+# 🎮 Gameserver Details
 
-## Server Name Not Available
+## 🖥️ Lonestar
 
-| Property        | Value                   |
-|-----------------|-------------------------|
+### 📋 General Information
+
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
 | Status | started |
-| Player Count | 0/50 |
+| Game | DayZ (Xbox One) |
+| Mission | dayzOffline.enoch |
+| Version | v1.25.158593 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
+
+---
+
+### 👥 Player Information
+
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
+| Player Count | 0/50 |
 | Banned Users |  |
+
+---
+
+### ⚙️ Server Settings
+
+| **Property**        | **Value**                  |
+|---------------------|----------------------------|
+| 3rd Person | ✅ Enabled |
+| Crosshair | ✅ Enabled |
+| Shot Validation | ✅ Enabled |
+| Mouse and Keyboard | ❌ Disabled |
+| Whitelist Feature | ❌ Disabled |
+| Base Damage | ✅ Enabled |
+| Container Damage | ✅ Enabled |
+| Priority | Salt6199, Mr Purple7299 |
+| Whitelist | Salt6199, Mr Purple7299, ImDaddy2300 |
+
+---
 
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Sep 29 07:19:09 UTC 2024
+Last updated: Sun Sep 29 07:21:43 UTC 2024
