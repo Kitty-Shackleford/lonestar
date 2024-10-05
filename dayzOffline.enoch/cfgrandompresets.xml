@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
 		<!-- MODS -->
-		<cargo chance="1.00" name="BuriedStash">
-			<item name="AgaricusMushroom" chance="0.1"/>
-		</cargo>
 		<cargo chance="1.00" name="SantaBeard">
 			<item name="SantasBeard" chance="1.00"/>
 		</cargo>
@@ -17,12 +14,22 @@
 			<item name="DarkMotoHelmet_YellowScarred" chance="0.20"/>
 			<item name="NorseHelm" chance="0.20"/>
 			<item name="GreatHelm" chance="0.20"/>
+			<item name="Chainmail_Coif" chance="0.20"/>
+			<item name="PaydayMask_Chains" chance="0.20"/>
+			<item name="PaydayMask_Dallas" chance="0.20"/>
+			<item name="PaydayMask_Hoxton" chance="0.20"/>
+			<item name="PaydayMask_Wolf" chance="0.20"/>
+		</attachments>
+		<attachments chance="0.50" name="MummyVest">
+			<item name="Chainmail" chance="0.50"/>
+			<item name="PlateCarrierVest" chance="0.50"/>
+		</attachments>
+		<attachments chance="0.50" name="MummyLoot">
+			<item name="SmallGasCanister" chance="0.50"/>
+			<item name="Rag" chance="0.50"/>
 		</attachments>
 		<attachments chance="1.00" name="PriestHat">
 			<item name="WitchHood_Black" chance="0.70"/>
-		</attachments>
-		<attachments chance="0.30" name="MummyVest">
-			<item name="PlateCarrierVest" chance="1.00"/>
 		</attachments>
 		<cargo chance="0.25" name="mushroomInfected">
 			<item name="AgaricusMushroom" chance="0.1"/>
@@ -37,7 +44,8 @@
 		<cargo chance="0.50" name="grossInfected">
 			<item name="Guts" chance="0.3"/>
 			<item name="Lard" chance="0.3"/>
-			<item name="HumanSteakMeat" chance="0.4"/>
+			<item name="Bone" chance="0.3"/>
+			<item name="HumanSteakMeat" chance="0.2"/>
 		</cargo>
 		<cargo chance="0.3" name="susInfected">
 			<item name="Thermometer" chance="0.25"/>
@@ -579,20 +587,22 @@
 		</attachments>
 		
 		<!-- Halloween -->
-		<cargo chance="1.00" name="halloween_01">
-			<item name="AKS74U" chance="0.50" />
-			<item name="AK74" chance="0.50" />
+		<cargo chance="0.50" name="halloween_01">
+			<item name="ClaymoreMine" chance="0.49" />
+			<item name="Plastic_Explosive" chance="0.49" />
+			<item name="SmallGasCanister" chance="0.02" />
 		</cargo>
-		<cargo chance="1.00" name="halloween_02">
-			<item name="Mag_AK74_30Rnd" chance="0.50" />
-			<item name="Mag_AK74_45Rnd" chance="0.50" />
+		<cargo chance="0.50" name="halloween_02">
+			<item name="ElectronicRepairKit" chance="0.33" />
+			<item name="RemoteDetonator" chance="0.33" />
+			<item name="SmallProtectorCase" chance="0.33" />
 		</cargo>
 		<cargo chance="1.00" name="halloween_03">
-			<item name="Zagorky" chance="0.30" />
-			<item name="ZagorkyChocolate" chance="0.30" />
-			<item name="ZagorkyPeanuts" chance="0.30" />
+			<item name="Zagorky" chance="0.33" />
+			<item name="ZagorkyChocolate" chance="0.33" />
+			<item name="ZagorkyPeanuts" chance="0.33" />
+			<item name="PunchedCard" chance="0.01" />
 		</cargo>
-	
 		<!--Xmas Clothing-->
 		<attachments chance="1.00" name="SantaHat">
 			<item name="SantasHat" chance="1.00" />
