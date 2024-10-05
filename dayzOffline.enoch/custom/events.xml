@@ -502,7 +502,9 @@
         <position>player</position>
         <limit>custom</limit>
         <active>1</active>
-        <children/>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_NBC_Yellow"/>
+        </children>
     </event>
     <event name="InfectedPolice">
         <nominal>50</nominal>
@@ -1106,7 +1108,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
+           <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/> -->
             <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Wine"/>
         </children>
@@ -1125,7 +1127,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
+           <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/> -->
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
         </children>
@@ -1161,7 +1163,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/>
+           <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback"/> -->
             <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_Blue"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_White"/>
         </children>
@@ -1180,7 +1182,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
+            <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/> -->
             <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Grey"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red"/>
         </children>
@@ -1199,9 +1201,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
+           <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/> -->
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Blue"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
+           <!-- <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/> -->
         </children>
     </event>
 </events>

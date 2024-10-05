@@ -21,13 +21,13 @@
 			<item name="PaydayMask_Wolf" chance="0.20"/>
 		</attachments>
 		<attachments chance="0.50" name="MummyVest">
-			<item name="Chainmail" chance="0.50"/>
+			<item name="Chestplate" chance="0.50"/>
 			<item name="PlateCarrierVest" chance="0.50"/>
 		</attachments>
-		<attachments chance="0.50" name="MummyLoot">
+		<cargo chance="0.50" name="MummyLoot">
 			<item name="SmallGasCanister" chance="0.50"/>
 			<item name="Rag" chance="0.50"/>
-		</attachments>
+		</cargo>
 		<attachments chance="1.00" name="PriestHat">
 			<item name="WitchHood_Black" chance="0.70"/>
 		</attachments>
@@ -71,26 +71,6 @@
 			<item name="CigarettePack_Partyzanka" chance="0.14"/>
 			<item name="HumanSteakMeat" chance="0.14"/>
 			<item name="InjectionVial" chance="0.14"/>
-		</cargo>
-		<cargo chance="1.00" name="BonfireStash">
-			<item name="PumpkinHelmet" chance="0.0556" />
-			<item name="FNX45_arrow" chance="0.0556" />
-			<item name="Winchester70_Green" chance="0.0556" />
-			<item name="Mosin9130_Green" chance="0.0556" />
-			<item name="SKS_Green" chance="0.0556" />
-			<item name="AK74_Green" chance="0.0556" />
-			<item name="AKS74U_Green" chance="0.0556" />
-			<item name="AK101_Green" chance="0.0556" />
-			<item name="M4A1_Green" chance="0.0556" />
-			<item name="CZ527_Green" chance="0.0556" />
-			<item name="Winchester70_Black" chance="0.0556" />
-			<item name="Mosin9130_Black" chance="0.0556" />
-			<item name="SKS_Black" chance="0.0556" />
-			<item name="AK74_Black" chance="0.0556" />
-			<item name="AKS74U_Black" chance="0.0556" />
-			<item name="AK101_Black" chance="0.0556" />
-			<item name="M4A1_Black" chance="0.0556" />
-			<item name="CZ527_Black" chance="0.0556" />
 		</cargo>
 		<!-- END OF MODS -->
 		<cargo chance="0.15" name="foodHermit">

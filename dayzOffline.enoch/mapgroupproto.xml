@@ -22156,18 +22156,18 @@
 		</dispatch>
 	</group>
 	<!-- SEASONAL EVENTS-->
-	<group name="Bonfire" >
+	<group name="Bonfire" lootmax="8">
 		<usage name="Bonfire"/>
-		<container name="lootFloor" >
+		<container name="lootFloor" lootmax="8">
 			<category name="bonfire"/>
-			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" flags="32"/>
-			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" flags="32"/>
-			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" flags="32"/>
-			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" flags="32"/>
-			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" flags="32"/>
-			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" flags="32"/>
-			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32"/>
-			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32"/>
+			<point pos="2.876667 0.500000 3.211807" range="1.650000" height="1.500000" flags="32" />
+			<point pos="2.496737 0.500000 -3.174454" range="1.650000" height="1.500000" flags="32" />
+			<point pos="-3.760472 0.500000 3.067368" range="1.650000" height="1.500000" flags="32" />
+			<point pos="-2.757211 0.500000 -2.885785" range="1.650000" height="1.500000" flags="32" />
+			<point pos="-3.068999 0.500000 0.274213" range="1.650000" height="1.500000" flags="32" />
+			<point pos="3.068931 0.500000 0.468461" range="1.650000" height="1.500000" flags="32" />
+			<point pos="0.829929 0.500000 3.131861" range="1.650000" height="1.500000" flags="32" />
+			<point pos="0.975612 0.500000 -3.178558" range="1.650000" height="1.500000" flags="32" />
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">
@@ -22906,6 +22906,41 @@
 			<point pos="-11.189990 -4.075775 4.543908" range="0.993750" height="2.000000"/>
 		</container>
 	</group>
+	<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="4">
+				<usage name="Police" />
+				<container name="loot" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<point pos="2.244171 -0.855103 -0.003878" range="0.615625" height="1.539063" flags="32" />
+						<point pos="-0.379375 -0.763641 0.538238" range="0.100000" height="0.250000" />
+						<point pos="1.667249 -0.310577 0.402907" range="0.100000" height="0.250000" />
+						<point pos="-0.012969 -0.353394 0.290916" range="0.168750" height="0.421875" />
+						<point pos="-0.111954 -0.343048 -0.491136" range="0.203125" height="0.507690" />
+						<point pos="0.539827 -0.982239 1.444528" range="0.615625" height="1.539063" flags="32" />
+						<point pos="0.032454 -1.099182 -1.504397" range="0.650000" height="1.625000" flags="32" />
+						<point pos="-2.347648 -1.273956 0.213771" range="0.650000" height="1.625000" flags="32" />
+						<point pos="1.553578 -0.305939 -0.257805" range="0.203125" height="0.507813" />
+				</container>
+		</group>
+	<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="4">
+				<usage name="Police" />
+				<container name="loot" lootmax="4">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<point pos="-2.847461 -0.966690 0.172083" range="1.199951" height="2.000000" flags="32" />
+						<point pos="1.667220 -0.238739 0.402927" range="0.100000" height="0.250000" />
+						<point pos="0.032452 -0.884659 -1.504606" range="0.650000" height="1.625000" flags="32" />
+						<point pos="-0.090111 -0.163162 0.465262" range="0.195803" height="0.489508" />
+						<point pos="1.553675 -0.258041 -0.258164" range="0.203125" height="0.507813" />
+						<point pos="0.539674 -0.946152 1.444935" range="0.615625" height="1.539063" flags="32" />
+						<point pos="2.244192 -0.895828 -0.003533" range="0.615625" height="1.539063" flags="32" />
+						<point pos="-0.129650 -0.169647 -0.330082" range="0.234375" height="0.585937" />
+				</container>
+		</group>
 	<group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>

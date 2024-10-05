@@ -9,7 +9,7 @@
 		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="SmallGasCanister">
-		<damage min="1.0" max="1.0"/>
+		<damage min="0.9" max="0.9"/>
 	</type>
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="grossInfected"/>
