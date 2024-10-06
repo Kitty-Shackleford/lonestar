@@ -14,7 +14,7 @@
 		<limit>mixed</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="0" lootmin="0" max="16" min="6" type="Animal_CapraHircus_Spooky"/>
+			<child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircus_Spooky"/>
 		</children>
 	</event>
 	<event name="InfectedMummy">
@@ -47,11 +47,11 @@
 		<cleanupradius>2500</cleanupradius>
 		<secondary>InfectedMummy</secondary>
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
-		<position>fixed</position>
+		<position>uniform</position>
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="8" lootmin="7" max="27" min="27" type="Bonfire"/>
+			<child lootmax="8" lootmin="8" max="27" min="27" type="Bonfire"/>
 		</children>
 	</event>
 </events>

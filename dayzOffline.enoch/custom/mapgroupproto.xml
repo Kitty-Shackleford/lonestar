@@ -22162,14 +22162,25 @@
 		<usage name="Bonfire"/>
 		<container name="lootFloor" lootmax="8">
 			<category name="containers"/>
-			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" />
-			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" />
-			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" />
-			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" />
-			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" />
-			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" />
-			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" />
-			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" />
+			<point pos="2.621000 1.000000 -3.694000" range="0.300000" height="1.000000"/>
+			<point pos="-2.043000 1.000000 -3.967000" range="0.300000" height="1.000000"/>
+			<point pos="-2.616000 1.000000 -3.121000" range="0.300000" height="1.000000"/>
+			<point pos="-3.926000 1.000000 -2.848000" range="0.300000" height="1.000000"/>
+			<point pos="-4.417000 1.000000 -1.566000" range="0.300000" height="1.000000"/>
+			<point pos="-1.880000 1.000000 3.781000" range="0.300000" height="1.000000"/>
+			<point pos="-0.243000 1.000000 3.917000" range="0.300000" height="1.000000"/>
+			<point pos="0.957000 1.000000 4.190000" range="0.300000" height="1.000000"/>
+			<point pos="2.621000 1.000000 3.644000" range="0.300000" height="1.000000"/>
+			<point pos="3.494000 1.000000 2.662000" range="0.300000" height="1.000000"/>
+			<point pos="4.313000 1.000000 1.817000" range="0.300000" height="1.000000"/>
+			<point pos="4.667000 1.000000 0.753000" range="0.300000" height="1.000000"/>
+			<point pos="4.777000 1.000000 -0.366000" range="0.300000" height="1.000000"/>
+			<point pos="4.449000 1.000000 -1.593000" range="0.300000" height="1.000000"/>
+			<point pos="4.013000 1.000000 -3.367000" range="0.300000" height="1.000000"/>
+			<point pos="1.066000 1.000000 -3.585000" range="0.300000" height="1.000000"/>
+			<point pos="-0.543000 1.000000 -3.912000" range="0.300000" height="1.000000"/>
+			<point pos="-4.771000 1.000000 0.725000" range="0.300000" height="1.000000"/>
+			<point pos="-4.144000 1.000000 3.808000" range="0.300000" height="1.000000"/>
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">
