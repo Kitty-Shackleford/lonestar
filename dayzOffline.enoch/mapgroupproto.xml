@@ -739,24 +739,38 @@
 		</dispatch>
 	</group>
 	<group name="ExplosionTest">
-					<usage name="Airstrike"/>
-					<container name="lootFloor" lootmax="8">
-							<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" flags="32" />
-							<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" flags="32" />
-							<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" flags="32" />
-							<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" flags="32" />
-							<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" flags="32" />
-							<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" flags="32" />
-							<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32" />
-							<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32" />
-					</container>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="-2.744141 -0.003479 4.600586" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="5.261719 -0.015442 -9.054199" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="-5.560547 -0.022308 9.751009" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="8.207031 -0.030182 -13.998047" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="-7.803711 -0.049011 13.481445" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="10.544922 -0.051513 -18.266114" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
-					<dispatch dechance="1.0"><proxy type="ExplosionTest" pos="2.566406 0.079651 -4.415528" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" /></dispatch>
+		<usage name="Airstrike"/>
+		<container name="lootFloor" lootmax="8">
+			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" flags="32"/>
+			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" flags="32"/>
+			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" flags="32"/>
+			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" flags="32"/>
+			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" flags="32"/>
+			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" flags="32"/>
+			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32"/>
+			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32"/>
+		</container>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="-2.744141 -0.003479 4.600586" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="5.261719 -0.015442 -9.054199" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="-5.560547 -0.022308 9.751009" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="8.207031 -0.030182 -13.998047" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="-7.803711 -0.049011 13.481445" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="10.544922 -0.051513 -18.266114" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
+		<dispatch dechance="1.0">
+			<proxy type="ExplosionTest" pos="2.566406 0.079651 -4.415528" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
+		</dispatch>
 	</group>
 	<!-- NOTES
 	<group name="" lootmax="">
@@ -765,7 +779,7 @@
 	<!-- MY PROTOS -->
 	<group name="StaticObj_Furniture_shelf" lootmax="15">
 		<usage name="Custom"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<container name="lootshelves">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -857,7 +871,7 @@
 	</group>
 	<group name="StaticObj_Furniture_shelf_1side" lootmax="15">
 		<usage name="Custom"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<container name="lootshelves">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -1060,7 +1074,7 @@
 		</container>
 	</group>
 	<group name="StaticObj_Furniture_tools_racking" lootmax="15">
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<usage name="Custom"/>
 		<container name="lootshelves">
 			<category name="tools"/>
@@ -1120,7 +1134,7 @@
 		</container>
 	</group>
 	<group name="StaticObj_Furniture_shelfs_small" lootmax="15">
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<usage name="Custom"/>
 		<container name="lootshelves">
 			<category name="tools"/>
@@ -3047,11 +3061,11 @@
 			<point pos="-2.373954 -0.961707 1.913692" range="0.271875" height="0.366013"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Storage_Barracks" >
+	<group name="Land_Underground_Storage_Barracks">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<tag name="floor"/>
@@ -3075,7 +3089,7 @@
 			<point pos="-5.377931 1.215576 4.962768" range="0.478125" height="1.195313"/>
 			<point pos="2.948608 1.215515 -5.370728" range="0.512500" height="1.281250"/>
 		</container>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<point pos="-0.267823 0.408752 3.066895" range="0.134375" height="0.335938"/>
 			<point pos="-1.465333 0.412659 3.611694" range="0.168750" height="0.421875"/>
@@ -3094,10 +3108,10 @@
 			<point pos="4.162598 1.215271 5.252929" range="0.409375" height="1.023438"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Floor_Comms" >
+	<group name="Land_Underground_Floor_Comms">
 		<usage name="Military"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<tag name="floor"/>
@@ -3125,10 +3139,10 @@
 			<point pos="-2.186769 0.993164 -8.246400" range="0.443750" height="1.109375" flags="16"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Floor_Crew" >
+	<group name="Land_Underground_Floor_Crew">
 		<usage name="Military"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -3169,11 +3183,11 @@
 			<point pos="4.656862 0.836304 9.314208" range="0.100000" height="0.250000" flags="16"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Entrance" >
+	<group name="Land_Underground_Entrance">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="tools"/>
@@ -3190,12 +3204,12 @@
 			<point pos="1.768126 1.585022 -3.608747" range="0.232227" height="0.294983"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Storage_Workshop" >
+	<group name="Land_Underground_Storage_Workshop">
 		<usage name="Military"/>
 		<usage name="Industrial"/>
 		<usage name="Underground"/>
 		<value name="Tier1"/>
-		<container name="lootTools" >
+		<container name="lootTools">
 			<category name="tools"/>
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -3226,11 +3240,11 @@
 			<point pos="-7.276184 0.937866 -1.379150" range="0.650000" height="1.625000"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Storage_POX" >
+	<group name="Land_Underground_Storage_POX">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -3262,11 +3276,11 @@
 			<proxy type="Grenade_ChemGas" pos="4.863892 2.198035 1.143250" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Land_Underground_Storage_Ammo" >
+	<group name="Land_Underground_Storage_Ammo">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -3365,10 +3379,10 @@
 			<proxy type="Ammo_40mm_Explosive" pos="0.781372 0.082756 -0.982544" rpy="90.000000 140.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Land_Underground_Storage_Ammo2" >
+	<group name="Land_Underground_Storage_Ammo2">
 		<usage name="Military"/>
 		<value name="Tier3"/>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
 			<point pos="5.923706 3.464539 -0.840759" range="0.134375" height="0.335938"/>
@@ -3472,15 +3486,15 @@
 			<proxy type="AmmoBox_9x39AP_20Rnd" pos="-0.202758 1.210266 -1.44458" rpy="-90.000000 120.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.066000">
-		<proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="1.000000"/>
+			<proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Land_Underground_Storage_Hospital" >
+	<group name="Land_Underground_Storage_Hospital">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
 			<point pos="9.824950 0.859985 -3.071290" range="0.100000" height="0.250000"/>
@@ -3505,12 +3519,12 @@
 			<point pos="-9.319457 1.023865 -2.179445" range="0.375000" height="0.937500"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Storage_Laboratory" >
+	<group name="Land_Underground_Storage_Laboratory">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
 			<point pos="-1.534424 0.849976 -0.304383" range="0.306250" height="0.765625" flags="16"/>
@@ -3534,9 +3548,9 @@
 			<proxy type="Ammo_40mm_ChemGas" pos="-4.303712 0.907471 3.644958" rpy="0.000000 0.000000 0.000000" dechance="1.0"/>
 		</dispatch>
 	</group>
-	<group name="Land_Underground_WaterMaintenance" >
+	<group name="Land_Underground_WaterMaintenance">
 		<usage name="Industrial"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="containers"/>
 			<tag name="floor"/>
@@ -3560,11 +3574,11 @@
 			<point pos="-4.371338 1.583557 1.261109" range="0.203125" height="0.295013"/>
 		</container>
 	</group>
-	<group name="Land_Underground_Storage_Prison" >
+	<group name="Land_Underground_Storage_Prison">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -3612,11 +3626,11 @@
 			<proxy type="PlateCarrierVest_Camo" pos="-8.244873 0.012756 -0.5780" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Land_Underground_Storage_POX2" >
+	<group name="Land_Underground_Storage_POX2">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<value name="Tier3"/>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
 			<point pos="-4.917115 1.119415 -3.873595" range="0.168750" height="0.421875" flags="16"/>
@@ -3650,10 +3664,10 @@
 			<proxy type="Grenade_ChemGas" pos="0.450073 0.468536 -3.458923" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
-		<proxy type="Grenade_ChemGas" pos="0.506837 0.468536 -3.274597" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
+			<proxy type="Grenade_ChemGas" pos="0.506837 0.468536 -3.274597" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
-		<proxy type="Grenade_ChemGas" pos="-2.398194 0.272278 -2.031432" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
+			<proxy type="Grenade_ChemGas" pos="-2.398194 0.272278 -2.031432" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
 			<proxy type="Grenade_ChemGas" pos="-2.340942 0.272278 -1.834350" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
@@ -3690,38 +3704,38 @@
 			<point pos="5.688843 -5.184137 2.855345" range="1.199951" height="2.000000" flags="32"/>
 		</container>
 	</group>
-	<group name="Land_Wreck_C130J" >
+	<group name="Land_Wreck_C130J">
 		<usage name="Military"/>
 		<usage name="Medic"/>
-		<container name="lootFloor" >
-			<usage name="Military"/>
 		<container name="lootFloor">
-			<category name="clothes"/>
-			<tag name="floor"/>
-			<tag name="ground"/>
-			<point pos="-10.216827 -4.788198 -0.759033" range="0.333221" height="0.833054"/>
-			<point pos="-5.972808 -4.556667 0.800903" range="0.749146" height="1.872864"/>
-			<point pos="-6.367980 -4.553556 -0.754639" range="0.742432" height="1.856079"/>
-			<point pos="-4.003571 -4.537710 -0.337647" range="1.093384" height="2.000000"/>
-			<point pos="-0.895264 -4.513454 -0.673584" range="0.768188" height="1.920471"/>
-			<point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000"/>
-		</container>
-		<container name="loot">
-			<category name="weapons"/>
-			<tag name="floor"/>
-			<tag name="ground"/>
-			<point pos="-2.139313 -4.527470 0.572631" range="0.884644" height="2.000002"/>
-			<point pos="-7.879120 -4.568596 0.246337" range="1.070224" height="2.000002"/>
-			<point pos="0.352356 -4.509430 0.665771" range="0.834839" height="2.000000"/>
-			<point pos="5.928223 -4.833448 -0.836671" range="0.409375" height="1.023438"/>
-			<point pos="5.909514 -4.836582 0.714355" range="0.409375" height="1.023438"/>
-			<point pos="4.918579 -4.715311 -0.710938" range="0.409375" height="1.023438"/>
-			<point pos="5.039856 -4.732702 0.205566" range="0.409375" height="1.023438"/>
-			<point pos="3.935394 -4.605631 0.972046" range="0.409375" height="1.023438"/>
-			<point pos="3.871979 -4.592604 -0.651612" range="0.409375" height="1.023438"/>
-			<point pos="5.085053 -5.184137 -2.382080" range="1.117920" height="0.173845" flags="32"/>
-			<point pos="5.688843 -5.184137 2.855345" range="1.199951" height="2.000000" flags="32"/>
-		</container>
+			<usage name="Military"/>
+			<container name="lootFloor">
+				<category name="clothes"/>
+				<tag name="floor"/>
+				<tag name="ground"/>
+				<point pos="-10.216827 -4.788198 -0.759033" range="0.333221" height="0.833054"/>
+				<point pos="-5.972808 -4.556667 0.800903" range="0.749146" height="1.872864"/>
+				<point pos="-6.367980 -4.553556 -0.754639" range="0.742432" height="1.856079"/>
+				<point pos="-4.003571 -4.537710 -0.337647" range="1.093384" height="2.000000"/>
+				<point pos="-0.895264 -4.513454 -0.673584" range="0.768188" height="1.920471"/>
+				<point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000"/>
+			</container>
+			<container name="loot">
+				<category name="weapons"/>
+				<tag name="floor"/>
+				<tag name="ground"/>
+				<point pos="-2.139313 -4.527470 0.572631" range="0.884644" height="2.000002"/>
+				<point pos="-7.879120 -4.568596 0.246337" range="1.070224" height="2.000002"/>
+				<point pos="0.352356 -4.509430 0.665771" range="0.834839" height="2.000000"/>
+				<point pos="5.928223 -4.833448 -0.836671" range="0.409375" height="1.023438"/>
+				<point pos="5.909514 -4.836582 0.714355" range="0.409375" height="1.023438"/>
+				<point pos="4.918579 -4.715311 -0.710938" range="0.409375" height="1.023438"/>
+				<point pos="5.039856 -4.732702 0.205566" range="0.409375" height="1.023438"/>
+				<point pos="3.935394 -4.605631 0.972046" range="0.409375" height="1.023438"/>
+				<point pos="3.871979 -4.592604 -0.651612" range="0.409375" height="1.023438"/>
+				<point pos="5.085053 -5.184137 -2.382080" range="1.117920" height="0.173845" flags="32"/>
+				<point pos="5.688843 -5.184137 2.855345" range="1.199951" height="2.000000" flags="32"/>
+			</container>
 		</container>
 	</group>
 	<!-- MISC -->
@@ -5697,7 +5711,7 @@
 			<point pos="-5.150909 -1.888990 -4.171387" range="1.199951" height="2.000000" flags="32"/>
 		</container>
 	</group>
-	<group name="StaticObj_Misc_SupplyBox1_DE" >
+	<group name="StaticObj_Misc_SupplyBox1_DE">
 		<usage name="Coast"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
@@ -5720,7 +5734,7 @@
 			<point pos="0.345056 0.561157 0.339634" range="0.369713" height="0.937500"/>
 		</container>
 	</group>
-	<group name="StaticObj_Misc_SupplyBox2_DE" >
+	<group name="StaticObj_Misc_SupplyBox2_DE">
 		<usage name="Military"/>
 		<usage name="Hunting"/>
 		<container name="lootFloor">
@@ -5742,7 +5756,7 @@
 			<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32"/>
 		</container>
 	</group>
-	<group name="StaticObj_Misc_SupplyBox3_DE" >
+	<group name="StaticObj_Misc_SupplyBox3_DE">
 		<usage name="Medic"/>
 		<container name="lootFloor">
 			<category name="clothes"/>
@@ -5821,11 +5835,11 @@
 			<point pos="-0.871971 -1.076309 -0.342246" range="0.725586" height="1.813965" flags="32"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Barracks" >
+	<group name="Vanilla_Land_Underground_Storage_Barracks">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<tag name="floor"/>
@@ -5849,7 +5863,7 @@
 			<point pos="-5.377931 1.215576 4.962768" range="0.478125" height="1.195313"/>
 			<point pos="2.948608 1.215515 -5.370728" range="0.512500" height="1.281250"/>
 		</container>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<point pos="-0.267823 0.408752 3.066895" range="0.134375" height="0.335938"/>
 			<point pos="-1.465333 0.412659 3.611694" range="0.168750" height="0.421875"/>
@@ -5868,10 +5882,10 @@
 			<point pos="4.162598 1.215271 5.252929" range="0.409375" height="1.023438"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Floor_Comms" >
+	<group name="Vanilla_Land_Underground_Floor_Comms">
 		<usage name="Military"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<tag name="floor"/>
@@ -5899,10 +5913,10 @@
 			<point pos="-2.186769 0.993164 -8.246400" range="0.443750" height="1.109375" flags="16"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Floor_Crew" >
+	<group name="Vanilla_Land_Underground_Floor_Crew">
 		<usage name="Military"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -5943,11 +5957,11 @@
 			<point pos="4.656862 0.836304 9.314208" range="0.100000" height="0.250000" flags="16"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Entrance" >
+	<group name="Vanilla_Land_Underground_Entrance">
 		<usage name="Military"/>
 		<usage name="Police"/>
 		<value name="Tier1"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="tools"/>
@@ -5964,12 +5978,12 @@
 			<point pos="1.768126 1.585022 -3.608747" range="0.232227" height="0.294983"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Workshop" >
+	<group name="Vanilla_Land_Underground_Storage_Workshop">
 		<usage name="Military"/>
 		<usage name="Industrial"/>
 		<usage name="Underground"/>
 		<value name="Tier1"/>
-		<container name="lootTools" >
+		<container name="lootTools">
 			<category name="tools"/>
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -6000,11 +6014,11 @@
 			<point pos="-7.276184 0.937866 -1.379150" range="0.650000" height="1.625000"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_POX" >
+	<group name="Vanilla_Land_Underground_Storage_POX">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -6036,11 +6050,11 @@
 			<proxy type="Grenade_ChemGas" pos="4.863892 2.198035 1.143250" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Ammo" >
+	<group name="Vanilla_Land_Underground_Storage_Ammo">
 		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -6139,10 +6153,10 @@
 			<proxy type="Ammo_40mm_Explosive" pos="0.781372 0.082756 -0.982544" rpy="90.000000 140.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Ammo2" >
+	<group name="Vanilla_Land_Underground_Storage_Ammo2">
 		<usage name="Military"/>
 		<value name="Tier3"/>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
 			<point pos="5.923706 3.464539 -0.840759" range="0.134375" height="0.335938"/>
@@ -6246,15 +6260,15 @@
 			<proxy type="AmmoBox_9x39AP_20Rnd" pos="-0.202758 1.210266 -1.44458" rpy="-90.000000 120.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.066000">
-		<proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="1.000000"/>
+			<proxy type="AmmoBox_762x39Tracer_20Rnd" pos="-0.042846 1.220266 -1.40679" rpy="-90.000000 140.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Hospital" >
+	<group name="Vanilla_Land_Underground_Storage_Hospital">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
 			<point pos="9.824950 0.859985 -3.071290" range="0.100000" height="0.250000"/>
@@ -6279,12 +6293,12 @@
 			<point pos="-9.319457 1.023865 -2.179445" range="0.375000" height="0.937500"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Laboratory" >
+	<group name="Vanilla_Land_Underground_Storage_Laboratory">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
 			<point pos="-1.534424 0.849976 -0.304383" range="0.306250" height="0.765625" flags="16"/>
@@ -6308,9 +6322,9 @@
 			<proxy type="Ammo_40mm_ChemGas" pos="-4.303712 0.907471 3.644958" rpy="0.000000 0.000000 0.000000" dechance="1.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_Underground_WaterMaintenance" >
+	<group name="Vanilla_Land_Underground_WaterMaintenance">
 		<usage name="Industrial"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="containers"/>
 			<tag name="floor"/>
@@ -6334,11 +6348,11 @@
 			<point pos="-4.371338 1.583557 1.261109" range="0.203125" height="0.295013"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_Prison" >
+	<group name="Vanilla_Land_Underground_Storage_Prison">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<value name="Tier2"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
 			<category name="weapons"/>
@@ -6386,11 +6400,11 @@
 			<proxy type="PlateCarrierVest_Camo" pos="-8.244873 0.012756 -0.5780" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_Underground_Storage_POX2" >
+	<group name="Vanilla_Land_Underground_Storage_POX2">
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<value name="Tier3"/>
-		<container name="lootWeapons" >
+		<container name="lootWeapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
 			<point pos="-4.917115 1.119415 -3.873595" range="0.168750" height="0.421875" flags="16"/>
@@ -6424,10 +6438,10 @@
 			<proxy type="Grenade_ChemGas" pos="0.450073 0.468536 -3.458923" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
-		<proxy type="Grenade_ChemGas" pos="0.506837 0.468536 -3.274597" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
+			<proxy type="Grenade_ChemGas" pos="0.506837 0.468536 -3.274597" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
-		<proxy type="Grenade_ChemGas" pos="-2.398194 0.272278 -2.031432" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
+			<proxy type="Grenade_ChemGas" pos="-2.398194 0.272278 -2.031432" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="0.250000">
 			<proxy type="Grenade_ChemGas" pos="-2.340942 0.272278 -1.834350" rpy="0.000000 -179.999985 0.000000" dechance="1.000000"/>
@@ -16731,7 +16745,7 @@
 			<point pos="6.554823 0.428795 -0.249204" range="1.062500" height="2.001121"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Prison_Main" >
+	<group name="Vanilla_Land_Prison_Main">
 		<usage name="Prison"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
@@ -16947,12 +16961,12 @@
 			<point pos="4.240234 -13.747330 13.699952" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Prison_Side" >
+	<group name="Vanilla_Land_Prison_Side">
 		<usage name="Prison"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
 		<usage name="Medic"/>
-		<container name="lootFloor" >
+		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -16982,7 +16996,7 @@
 			<point pos="-5.763671 -5.867592 -5.305176" range="1.199951" height="2.000000"/>
 			<point pos="-0.456791 -6.349945 13.485352" range="1.199951" height="2.000000" flags="32"/>
 		</container>
-		<container name="lootshelves" >
+		<container name="lootshelves">
 			<category name="tools"/>
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -17048,7 +17062,7 @@
 			<point pos="-6.495365 -5.856270 8.836423" range="0.478125" height="0.639448"/>
 			<point pos="-4.920896 -5.871017 -9.012451" range="0.478125" height="1.195313"/>
 		</container>
-		<container name="lootweapons" >
+		<container name="lootweapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
 			<point pos="5.957763 -5.880287 -11.201902" range="0.100000" height="0.250000"/>
@@ -17090,7 +17104,7 @@
 			<point pos="8.127930 -5.866852 8.353514" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
-	<group name="Vanilla_Land_Prison_Wall_Large" >
+	<group name="Vanilla_Land_Prison_Wall_Large">
 		<usage name="Prison"/>
 		<usage name="Police"/>
 		<usage name="Military"/>
@@ -21758,6 +21772,806 @@
 			<proxy type="Offroad_02_Wheel" pos=" -1.7 -1.2 -1.05" rpy="0.0 0.0 0.0"/>
 		</dispatch>
 	</group>
+	<group name="Vanilla_Land_hb01_aban1_blue" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<usage name="Industrial"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000"/>
+			<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000"/>
+			<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229"/>
+			<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605"/>
+			<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750"/>
+			<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813"/>
+			<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000"/>
+			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
+			<proxy type="HatchbackDoors_Driver_BlueRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
+			<proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb01_aban1_green" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000"/>
+			<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000"/>
+			<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229"/>
+			<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605"/>
+			<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750"/>
+			<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813"/>
+			<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000"/>
+			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
+			<proxy type="HatchbackDoors_Driver_GreenRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
+			<proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb01_aban1_white" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<usage name="Industrial"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.514923 -0.683249 -0.580811" range="0.100000" height="0.250000"/>
+			<point pos="-0.546204 -0.739777 0.478760" range="0.100000" height="0.250000"/>
+			<point pos="-0.044220 -0.389238 0.301758" range="0.216492" height="0.541229"/>
+			<point pos="-0.073731 -0.337166 -0.571289" range="0.198242" height="0.495605"/>
+			<point pos="1.521026 -0.462440 0.190185" range="0.237500" height="0.593750"/>
+			<point pos="1.544220 -0.431307 -0.387207" range="0.203125" height="0.507813"/>
+			<point pos="-0.741089 0.031483 -0.782471" range="0.100000" height="0.250000"/>
+			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 -3.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
+			<proxy type="HatchbackDoors_Driver_WhiteRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
+			<proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb01_aban2_blue" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<usage name="Industrial"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000"/>
+			<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000"/>
+			<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507"/>
+			<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813"/>
+			<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523"/>
+			<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982"/>
+			<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000"/>
+			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
+			<proxy type="HatchbackDoors_CoDriver_BlueRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
+			<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb01_aban2_green" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<usage name="Industrial"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000"/>
+			<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000"/>
+			<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507"/>
+			<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813"/>
+			<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523"/>
+			<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982"/>
+			<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000"/>
+			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="-5.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
+			<proxy type="HatchbackDoors_CoDriver_GreenRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
+			<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb01_aban2_white" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Farm"/>
+		<usage name="Cartools"/>
+		<usage name="Industrial"/>
+		<container name="lootFloor" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.590393 -0.510935 0.625977" range="0.100000" height="0.250000"/>
+			<point pos="-0.649689 -0.564240 -0.388916" range="0.100000" height="0.250000"/>
+			<point pos="-0.094360 -0.226664 -0.427002" range="0.203003" height="0.507507"/>
+			<point pos="-0.179352 -0.160469 0.520508" range="0.203125" height="0.507813"/>
+			<point pos="1.462036 -0.296394 -0.305908" range="0.260254" height="0.583523"/>
+			<point pos="1.457825 -0.264769 0.321533" range="0.237500" height="0.577982"/>
+			<point pos="-0.812867 0.201370 0.783203" range="0.100000" height="0.250000"/>
+			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
+			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
+			<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
+			<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban1_red" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000"/>
+			<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137"/>
+			<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335"/>
+			<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851"/>
+			<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241"/>
+			<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314"/>
+			<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942"/>
+			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_1_RedRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_2_RedRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
+			<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban1_black" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000"/>
+			<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137"/>
+			<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335"/>
+			<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851"/>
+			<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241"/>
+			<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314"/>
+			<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942"/>
+			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_1_BlackRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_2_BlackRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
+			<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban1_blue" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="cartools"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.457816 -0.077440 0.185163" range="0.100000" height="0.250000"/>
+			<point pos="-0.122574 -0.237055 -0.407825" range="0.194855" height="0.487137"/>
+			<point pos="-0.640529 -0.388655 0.473257" range="0.118561" height="0.179335"/>
+			<point pos="0.713309 -0.226099 -0.510008" range="0.152740" height="0.381851"/>
+			<point pos="0.700657 -0.183714 0.326738" range="0.163696" height="0.409241"/>
+			<point pos="-0.112578 -0.204390 0.310395" range="0.182526" height="0.456314"/>
+			<point pos="-0.568404 -0.435467 -0.525660" range="0.188019" height="0.258942"/>
+			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_1_BlueRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_2_BlueRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
+			<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban2_red" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454"/>
+			<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557"/>
+			<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339"/>
+			<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890"/>
+			<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000"/>
+			<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526"/>
+			<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938"/>
+			<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837"/>
+			<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000"/>
+			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_2_RedRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_1_RedRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
+			<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban2_black" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="cartools"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454"/>
+			<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557"/>
+			<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339"/>
+			<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890"/>
+			<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000"/>
+			<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526"/>
+			<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938"/>
+			<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837"/>
+			<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000"/>
+			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="-6.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_2_BlackRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_1_BlackRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
+			<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_hb02_aban2_blue" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="cartools"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="1.023582 -0.202618 0.257945" range="0.130982" height="0.327454"/>
+			<point pos="1.920607 -0.109632 -0.300123" range="0.178223" height="0.445557"/>
+			<point pos="1.883080 -0.139698 0.261844" range="0.181335" height="0.453339"/>
+			<point pos="0.591166 -0.382135 0.512848" range="0.147156" height="0.367890"/>
+			<point pos="0.537920 -0.312344 -0.528397" range="0.100000" height="0.250000"/>
+			<point pos="-0.379451 -0.372387 0.538083" range="0.100000" height="0.147526"/>
+			<point pos="0.115108 -0.182005 0.457668" range="0.134375" height="0.335938"/>
+			<point pos="0.999923 -0.154825 -0.393066" range="0.157135" height="0.392837"/>
+			<point pos="0.160377 -0.148722 -0.207611" range="0.100000" height="0.250000"/>
+			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
+			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
+			<proxy type="Hatchback_02_Door_1_2_BlueRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
+			<proxy type="Hatchback_02_Door_2_1_BlueRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
+			<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban1_white" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000"/>
+			<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512"/>
+			<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734"/>
+			<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694"/>
+			<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173"/>
+			<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722"/>
+			<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875"/>
+			<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589"/>
+			<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450"/>
+			<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973"/>
+			<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000"/>
+			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanDoors_CoDriver_WhiteRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
+			<proxy type="CivSedanDoors_BackLeft_WhiteRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
+			<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban1_black" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="cartools"/>
+			<category name="food"/>
+			<category name="weapons"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000"/>
+			<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512"/>
+			<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734"/>
+			<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694"/>
+			<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173"/>
+			<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722"/>
+			<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875"/>
+			<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589"/>
+			<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450"/>
+			<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973"/>
+			<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000"/>
+			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanDoors_CoDriver_BlackRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
+			<proxy type="CivSedanDoors_BackLeft_BlackRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
+			<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban1_wine" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.745453 -0.350191 -0.495850" range="0.100000" height="0.250000"/>
+			<point pos="-0.300934 -0.191841 0.587891" range="0.232605" height="0.581512"/>
+			<point pos="-0.733673 -0.439064 0.669433" range="0.109894" height="0.274734"/>
+			<point pos="0.166809 -0.462395 0.694824" range="0.179230" height="0.434694"/>
+			<point pos="0.645721 -0.162916 -0.431885" range="0.152069" height="0.380173"/>
+			<point pos="0.118622 -0.377073 -0.412354" range="0.152435" height="0.341722"/>
+			<point pos="-0.340118 -0.120390 -0.237549" range="0.168750" height="0.421875"/>
+			<point pos="0.612213 -0.230255 0.522217" range="0.187836" height="0.469589"/>
+			<point pos="2.024384 -0.194431 0.579345" range="0.308350" height="0.188450"/>
+			<point pos="1.922180 -0.169662 0.004150" range="0.276380" height="0.222973"/>
+			<point pos="-1.093232 0.184647 0.904540" range="0.100000" height="0.250000"/>
+			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
+			<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
+			<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban2_white" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875"/>
+			<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938"/>
+			<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842"/>
+			<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000"/>
+			<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712"/>
+			<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813"/>
+			<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957"/>
+			<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819"/>
+			<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322"/>
+			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
+			<proxy type="CivSedanDoors_Driver_WhiteRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
+			<proxy type="CivSedanDoors_BackRight_WhiteRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
+			<proxy type="CivSedanTrunk_WhiteRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban2_wine" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875"/>
+			<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938"/>
+			<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842"/>
+			<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000"/>
+			<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712"/>
+			<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813"/>
+			<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957"/>
+			<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819"/>
+			<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322"/>
+			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
+			<proxy type="CivSedanDoors_Driver_WineRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
+			<proxy type="CivSedanDoors_BackRight_WineRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
+			<proxy type="CivSedanTrunk_WineRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed01_aban2_black" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-1.117584 0.218529 0.777588" range="0.168750" height="0.421875"/>
+			<point pos="-1.115662 0.167839 -0.675293" range="0.134375" height="0.335938"/>
+			<point pos="-0.263031 -0.188763 -0.394531" range="0.220337" height="0.550842"/>
+			<point pos="-0.801514 -0.387016 -0.517578" range="0.100000" height="0.250000"/>
+			<point pos="2.095581 -0.155787 0.419189" range="0.370087" height="0.312712"/>
+			<point pos="0.587616 -0.154692 0.543457" range="0.203125" height="0.507813"/>
+			<point pos="0.615173 -0.190559 -0.450195" range="0.214783" height="0.536957"/>
+			<point pos="2.092529 -0.181551 -0.355957" range="0.317871" height="0.297819"/>
+			<point pos="-0.269776 -0.156334 0.549805" range="0.226929" height="0.567322"/>
+			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
+			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
+			<proxy type="CivSedanDoors_Driver_BlackRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
+			<proxy type="CivSedanDoors_BackRight_BlackRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
+			<proxy type="CivSedanTrunk_BlackRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban1_yellow" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813"/>
+			<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089"/>
+			<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846"/>
+			<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813"/>
+			<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187"/>
+			<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720"/>
+			<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058"/>
+			<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938"/>
+			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_1_YellowRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_2_YellowRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
+			<proxy type="Sedan_02_Trunk_YellowRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban1_grey" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813"/>
+			<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089"/>
+			<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846"/>
+			<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813"/>
+			<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187"/>
+			<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720"/>
+			<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058"/>
+			<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938"/>
+			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_1_GreyRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_2_GreyRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
+			<proxy type="Sedan_02_Trunk_GreyRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban1_red" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.190887 -0.256781 -0.205811" range="0.203125" height="0.507813"/>
+			<point pos="-1.793030 -0.361715 -0.176514" range="0.167480" height="0.233089"/>
+			<point pos="-1.795593 -0.317720 0.329590" range="0.200195" height="0.213846"/>
+			<point pos="0.180328 -0.207417 0.560791" range="0.203125" height="0.507813"/>
+			<point pos="-1.025238 -0.440590 0.437744" range="0.114075" height="0.285187"/>
+			<point pos="-0.531372 -0.232500 0.336182" range="0.147888" height="0.369720"/>
+			<point pos="-0.553802 -0.272118 -0.315430" range="0.168823" height="0.422058"/>
+			<point pos="1.296081 0.138826 -0.510498" range="0.134375" height="0.335938"/>
+			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_1_RedRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_2_RedRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
+			<proxy type="Sedan_02_Trunk_RedRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban2_yellow" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196"/>
+			<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030"/>
+			<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861"/>
+			<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875"/>
+			<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670"/>
+			<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595"/>
+			<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000"/>
+			<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389"/>
+			<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813"/>
+			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 -0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_1_YellowRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_2_YellowRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
+			<proxy type="Sedan_02_Hood_YellowRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban2_grey" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196"/>
+			<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030"/>
+			<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861"/>
+			<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875"/>
+			<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670"/>
+			<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595"/>
+			<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000"/>
+			<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389"/>
+			<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813"/>
+			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_1_GreyRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_2_GreyRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
+			<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
+		</dispatch>
+	</group>
+	<group name="Vanilla_Land_sed02_aban2_red" lootmax="3">
+		<usage name="Village"/>
+		<usage name="Industrial"/>
+		<usage name="Cartools"/>
+		<container name="loot" lootmax="3">
+			<category name="tools"/>
+			<category name="cartools"/>
+			<category name="containers"/>
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196"/>
+			<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030"/>
+			<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861"/>
+			<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875"/>
+			<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670"/>
+			<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595"/>
+			<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000"/>
+			<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389"/>
+			<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813"/>
+			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
+		</container>
+		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
+			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
+			<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
+			<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
+			<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
+		</dispatch>
+	</group>
 	<group name="Vanilla_Land_Lunapark_Shooting_Gallery" lootmax="4">
 		<usage name="Hunting"/>
 		<usage name="Lunapark"/>
@@ -22159,17 +22973,17 @@
 	</group>
 	<!-- SEASONAL EVENTS-->
 	<group name="Bonfire" lootmax="8">
-		<usage name="Bonfire"/>
+		<usage name="SeasonalEvent"/>
 		<container name="lootFloor" lootmax="8">
 			<category name="containers"/>
-			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" />
-			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" />
-			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" />
-			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" />
-			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" />
-			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" />
-			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" />
-			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" />
+			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5"/>
+			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5"/>
+			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5"/>
+			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5"/>
+			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5"/>
+			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5"/>
+			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5"/>
+			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5"/>
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">
@@ -22264,6 +23078,7 @@
 			<point pos="-2.765030 -1.518448 2.362644" range="1.096875" height="2.000000" flags="32"/>
 		</container>
 	</group>
+	<!-- Dynamic EVENTS-->
 	<group name="StaticObj_Wreck_Train_Wagon_Flat_DE" lootmax="15">
 		<usage name="Industrial"/>
 		<usage name="Town"/>
@@ -22909,40 +23724,40 @@
 		</container>
 	</group>
 	<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="4">
-				<usage name="Police" />
-				<container name="loot" lootmax="4">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
-						<category name="weapons" />
-						<point pos="2.244171 -0.855103 -0.003878" range="0.615625" height="1.539063" flags="32" />
-						<point pos="-0.379375 -0.763641 0.538238" range="0.100000" height="0.250000" />
-						<point pos="1.667249 -0.310577 0.402907" range="0.100000" height="0.250000" />
-						<point pos="-0.012969 -0.353394 0.290916" range="0.168750" height="0.421875" />
-						<point pos="-0.111954 -0.343048 -0.491136" range="0.203125" height="0.507690" />
-						<point pos="0.539827 -0.982239 1.444528" range="0.615625" height="1.539063" flags="32" />
-						<point pos="0.032454 -1.099182 -1.504397" range="0.650000" height="1.625000" flags="32" />
-						<point pos="-2.347648 -1.273956 0.213771" range="0.650000" height="1.625000" flags="32" />
-						<point pos="1.553578 -0.305939 -0.257805" range="0.203125" height="0.507813" />
-				</container>
-		</group>
+		<usage name="Police"/>
+		<container name="loot" lootmax="4">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="clothes"/>
+			<category name="weapons"/>
+			<point pos="2.244171 -0.855103 -0.003878" range="0.615625" height="1.539063" flags="32"/>
+			<point pos="-0.379375 -0.763641 0.538238" range="0.100000" height="0.250000"/>
+			<point pos="1.667249 -0.310577 0.402907" range="0.100000" height="0.250000"/>
+			<point pos="-0.012969 -0.353394 0.290916" range="0.168750" height="0.421875"/>
+			<point pos="-0.111954 -0.343048 -0.491136" range="0.203125" height="0.507690"/>
+			<point pos="0.539827 -0.982239 1.444528" range="0.615625" height="1.539063" flags="32"/>
+			<point pos="0.032454 -1.099182 -1.504397" range="0.650000" height="1.625000" flags="32"/>
+			<point pos="-2.347648 -1.273956 0.213771" range="0.650000" height="1.625000" flags="32"/>
+			<point pos="1.553578 -0.305939 -0.257805" range="0.203125" height="0.507813"/>
+		</container>
+	</group>
 	<group name="Land_Wreck_hb01_aban2_police_DE" lootmax="4">
-				<usage name="Police" />
-				<container name="loot" lootmax="4">
-						<category name="tools" />
-						<category name="containers" />
-						<category name="clothes" />
-						<category name="weapons" />
-						<point pos="-2.847461 -0.966690 0.172083" range="1.199951" height="2.000000" flags="32" />
-						<point pos="1.667220 -0.238739 0.402927" range="0.100000" height="0.250000" />
-						<point pos="0.032452 -0.884659 -1.504606" range="0.650000" height="1.625000" flags="32" />
-						<point pos="-0.090111 -0.163162 0.465262" range="0.195803" height="0.489508" />
-						<point pos="1.553675 -0.258041 -0.258164" range="0.203125" height="0.507813" />
-						<point pos="0.539674 -0.946152 1.444935" range="0.615625" height="1.539063" flags="32" />
-						<point pos="2.244192 -0.895828 -0.003533" range="0.615625" height="1.539063" flags="32" />
-						<point pos="-0.129650 -0.169647 -0.330082" range="0.234375" height="0.585937" />
-				</container>
-		</group>
+		<usage name="Police"/>
+		<container name="loot" lootmax="4">
+			<category name="tools"/>
+			<category name="containers"/>
+			<category name="clothes"/>
+			<category name="weapons"/>
+			<point pos="-2.847461 -0.966690 0.172083" range="1.199951" height="2.000000" flags="32"/>
+			<point pos="1.667220 -0.238739 0.402927" range="0.100000" height="0.250000"/>
+			<point pos="0.032452 -0.884659 -1.504606" range="0.650000" height="1.625000" flags="32"/>
+			<point pos="-0.090111 -0.163162 0.465262" range="0.195803" height="0.489508"/>
+			<point pos="1.553675 -0.258041 -0.258164" range="0.203125" height="0.507813"/>
+			<point pos="0.539674 -0.946152 1.444935" range="0.615625" height="1.539063" flags="32"/>
+			<point pos="2.244192 -0.895828 -0.003533" range="0.615625" height="1.539063" flags="32"/>
+			<point pos="-0.129650 -0.169647 -0.330082" range="0.234375" height="0.585937"/>
+		</container>
+	</group>
 	<group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
@@ -23115,6 +23930,12 @@
 			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
 			<proxy type="HatchbackDoors_Driver_BlueRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
 			<proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
@@ -23142,6 +23963,12 @@
 			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
 			<proxy type="HatchbackDoors_Driver_GreenRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
 			<proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
@@ -23168,6 +23995,12 @@
 			<point pos="-0.768067 -0.043346 0.660156" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.274414 -0.251983 -0.034180" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.350159 0.601074" rpy=" 0.0 85.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.791016 -0.709228 -0.015625" rpy="0.0 -3.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-1.750977 -0.450134 0.551758" rpy="0.0 90.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.385742 -0.233307 -0.441894" rpy="0.0 180.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.144531 -0.229248 -0.501953" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="1.071 -0.736000 -0.852" rpy="90.0 0.0 0.0"/>
 			<proxy type="HatchbackDoors_Driver_WhiteRust" pos="-0.273 -0.182000 -1.374" rpy="0.0 240.0 0.0"/>
 			<proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
@@ -23194,6 +24027,11 @@
 			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy=" 0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
 			<proxy type="HatchbackDoors_CoDriver_BlueRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
 			<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
@@ -23221,6 +24059,11 @@
 			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="-5.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
 			<proxy type="HatchbackDoors_CoDriver_GreenRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
 			<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
@@ -23247,6 +24090,11 @@
 			<point pos="-0.794555 0.130087 -0.663086" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.333984 -0.070771 0.072265" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-0.935547 -0.100220 0.700684" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.816406 -0.549988 0.088379" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.295899 -0.050507 0.391602" rpy="0.0 0.0 0.0"/>
+			<proxy type="HatchbackWheel" pos="-1.222656 -0.098023 -0.364746" rpy="0.0 0.0 90.0"/>
 			<proxy type="HatchbackWheel" pos="0.999 -0.508 0.896" rpy="90.0 180.0 0.0"/>
 			<proxy type="HatchbackDoors_CoDriver_WhiteRust" pos="-0.35 -0.01 1.340" rpy="0.0 -240.0 0.0"/>
 			<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
@@ -23273,6 +24121,10 @@
 			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_1_RedRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_2_RedRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
@@ -23300,6 +24152,10 @@
 			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_1_BlackRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_2_BlackRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
@@ -23327,6 +24183,10 @@
 			<point pos="1.589356 -0.123903 -0.355557" range="0.179352" height="0.448379"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.804687 -0.480011 -0.079590" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="-1.732422 -0.200195 -0.594238" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.662110 0.063751 0.364746" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="1.356 -0.458 0.697" rpy="90.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_1_BlueRust" pos="-0.271 -0.093 -1.024" rpy="0.0 200.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_2_BlueRust" pos="0.683 0.025 0.909" rpy="0.0 150.0 0.0"/>
@@ -23356,6 +24216,10 @@
 			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_2_RedRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_1_RedRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
@@ -23385,6 +24249,10 @@
 			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="-6.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_2_BlackRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_1_BlackRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
@@ -23414,6 +24282,10 @@
 			<point pos="-0.318821 -0.302542 -0.524253" range="0.156159" height="0.213125"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.092774 0.036255 0.011230" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.483398 -0.043579 -0.444824" rpy="0.0 94.0 0.0"/>
+			<proxy type="CarRadiator" pos="-1.555664 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="1.949219 -0.001281 0.509277" rpy="0.0 0.0 0.0"/>
 			<proxy type="Hatchback_02_Wheel" pos="-1.003 -0.394 -0.711" rpy="90.0 180.0 0.0"/>
 			<proxy type="Hatchback_02_Door_1_2_BlueRust" pos="1.002 0.078 -0.987" rpy="0.0 210.0 0.0"/>
 			<proxy type="Hatchback_02_Door_2_1_BlueRust" pos="-0.057 -0.060 1.132" rpy="0.0 140.0 0.0"/>
@@ -23445,6 +24317,12 @@
 			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanDoors_CoDriver_WhiteRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
 			<proxy type="CivSedanDoors_BackLeft_WhiteRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
@@ -23476,6 +24354,12 @@
 			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanDoors_CoDriver_BlackRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
 			<proxy type="CivSedanDoors_BackLeft_BlackRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
@@ -23507,6 +24391,12 @@
 			<point pos="-1.069641 0.297686 -0.593994" range="0.134375" height="0.335938"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.677734 0.060395 0.104492" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.334375 -0.100000 0.670000" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.118164 -0.369354 0.239258" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.066254 0.855957" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 0.036011 -0.577148" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.270508 -0.201629 0.695313" rpy="90.0 90.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.406 -0.652" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanDoors_CoDriver_WineRust" pos="-0.463 -0.186 1.273" rpy="-5.0 140.0 0.0"/>
 			<proxy type="CivSedanDoors_BackLeft_WineRust" pos="0.510 -0.087 -0.953" rpy="0.0 210.0 0.0"/>
@@ -23558,6 +24448,12 @@
 			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
 			<proxy type="CivSedanDoors_Driver_WhiteRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
 			<proxy type="CivSedanDoors_BackRight_WhiteRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
@@ -23587,6 +24483,12 @@
 			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
 			<proxy type="CivSedanDoors_Driver_WineRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
 			<proxy type="CivSedanDoors_BackRight_WineRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
@@ -23616,6 +24518,12 @@
 			<point pos="-0.801483 -0.370373 0.625000" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="SparkPlug" pos="-1.654297 -0.013336 0.020996" rpy="0.0 0.0 0.0"/>
+			<proxy type="CarBattery" pos="-1.284180 -0.049988 0.650879" rpy="0.0 90.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.369995 0.000000" rpy="0.0 0.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.199219 -0.070007 0.779785" rpy="0.0 -9.0 0.0"/>
+			<proxy type="HeadlightH7" pos="-2.200195 -0.113953 -0.649902" rpy="0.0 -9.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="2.203125 -0.110015 -0.548340" rpy="90.0 0.0 0.0"/>
 			<proxy type="CivSedanWheel" pos="-1.659 -0.416 0.796" rpy="90.0 180.0 0.0"/>
 			<proxy type="CivSedanDoors_Driver_BlackRust" pos="-0.506 -0.181 -1.033" rpy="0.0 220.0 0.0"/>
 			<proxy type="CivSedanDoors_BackRight_BlackRust" pos="0.550 -0.114 1.083" rpy="0.0 160.0 0.0"/>
@@ -23666,6 +24574,10 @@
 			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_1_YellowRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_2_YellowRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
@@ -23694,6 +24606,10 @@
 			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_1_GreyRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_2_GreyRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
@@ -23722,6 +24638,10 @@
 			<point pos="1.275025 0.247122 0.728027" range="0.100000" height="0.250000"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.554688 -0.249939 -0.444824" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.261718 -0.628373 0.111328" rpy="0.0 0.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.432617 -0.100006 0.169922" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.876953 -0.322846 -0.134766" rpy="-90.0 180.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="0.911 -0.528 0.865" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_1_RedRust" pos="-0.706 0.01 1.080" rpy="-5.0 340.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_2_RedRust" pos="0.125 -0.129 -0.870" rpy="0.0 200.0 0.0"/>
@@ -23751,6 +24671,10 @@
 			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 -0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_1_YellowRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_2_YellowRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
@@ -23780,6 +24704,10 @@
 			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_1_GreyRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_2_GreyRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
@@ -23809,6 +24737,10 @@
 			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
 		</container>
 		<dispatch>
+			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+			<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
+			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
 			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
 			<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
 			<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>

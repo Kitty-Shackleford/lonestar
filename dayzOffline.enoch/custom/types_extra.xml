@@ -191,6 +191,18 @@
         <category name="weapons"/>
         <usage name="Cannibal"/>
     </type>
+	<type name="Raycaster">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+		<category name="tools"/>
+		<tag name="shelves"/>
+	</type>
 	<!-- CLOTHES -->
 	<type name="ZSh3PilotHelmet_Black">
 		<nominal>15</nominal>
@@ -637,7 +649,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK74_Green">
 		<nominal>0</nominal>
@@ -663,7 +675,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK101_Green">
 		<nominal>0</nominal>
@@ -702,7 +714,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mosin9130_Camo">
 		<nominal>0</nominal>
@@ -753,7 +765,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AKM_TESTBED">
 		<nominal>0</nominal>
@@ -803,7 +815,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="CZ527_Camo">
 		<nominal>0</nominal>
@@ -842,7 +854,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Winchester70_Green">
 		<nominal>0</nominal>
@@ -868,7 +880,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<!-- <tag name="wall"/> -->
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="SawedoffB95">
 		<nominal>1</nominal>
@@ -1096,7 +1108,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<tag name="floor"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="FirefighterAxe_Green">
 		<nominal>0</nominal>
@@ -1137,7 +1149,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_AKM_Drum75Rnd_Black">
 		<nominal>0</nominal>
@@ -1150,7 +1162,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_AKM_Palm30Rnd_Black">
 		<nominal>0</nominal>
@@ -1163,7 +1175,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_AKM_Drum75Rnd_Green">
 		<nominal>0</nominal>
@@ -1214,7 +1226,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_AK74_30Rnd_Green">
 		<nominal>0</nominal>
@@ -1239,7 +1251,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_CMAG_20Rnd_Black">
 		<nominal>0</nominal>
@@ -1252,7 +1264,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_CMAG_30Rnd_Black">
 		<nominal>0</nominal>
@@ -1265,7 +1277,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_CMAG_40Rnd_Black">
 		<nominal>0</nominal>
@@ -1278,7 +1290,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="Mag_CMAG_10Rnd_Green">
 		<nominal>0</nominal>
@@ -1365,7 +1377,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK74_WoodBttstck_Black">
 		<nominal>0</nominal>
@@ -1378,7 +1390,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AKS74U_Bttstck_Black">
 		<nominal>0</nominal>
@@ -1391,7 +1403,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK74_Hndgrd_Black">
 		<nominal>0</nominal>
@@ -1404,7 +1416,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK_FoldingBttstck_Green">
 		<nominal>0</nominal>
@@ -1429,7 +1441,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK_PlasticBttstck_Green">
 		<nominal>0</nominal>
@@ -1454,7 +1466,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK_RailHndgrd_Green">
 		<nominal>0</nominal>
@@ -1479,7 +1491,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK_WoodBttstck_Camo">
 		<nominal>0</nominal>
@@ -1504,7 +1516,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="AK_WoodHndgrd_Camo">
 		<nominal>0</nominal>
@@ -1529,7 +1541,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_MPHndgrd_Black">
 		<nominal>0</nominal>
@@ -1542,7 +1554,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_PlasticHndgrd_Black">
 		<nominal>0</nominal>
@@ -1555,7 +1567,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_CQBBttstck_Black">
 		<nominal>0</nominal>
@@ -1568,7 +1580,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_MPBttstck_Black">
 		<nominal>0</nominal>
@@ -1581,7 +1593,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_OEBttstck_Black">
 		<nominal>0</nominal>
@@ -1594,7 +1606,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 	</type>
 	<type name="M4_RISHndgrd_Green">
 		<nominal>0</nominal>

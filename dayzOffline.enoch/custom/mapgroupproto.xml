@@ -765,7 +765,7 @@
 	<!-- MY PROTOS -->
 	<group name="StaticObj_Furniture_shelf" lootmax="15">
 		<usage name="Custom"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<container name="lootshelves">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -857,7 +857,7 @@
 	</group>
 	<group name="StaticObj_Furniture_shelf_1side" lootmax="15">
 		<usage name="Custom"/>
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<container name="lootshelves">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -1060,7 +1060,7 @@
 		</container>
 	</group>
 	<group name="StaticObj_Furniture_tools_racking" lootmax="15">
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<usage name="Custom"/>
 		<container name="lootshelves">
 			<category name="tools"/>
@@ -1120,7 +1120,7 @@
 		</container>
 	</group>
 	<group name="StaticObj_Furniture_shelfs_small" lootmax="15">
-		<usage name="BlackMarket"/>
+		<usage name="Military"/>
 		<usage name="Custom"/>
 		<container name="lootshelves">
 			<category name="tools"/>

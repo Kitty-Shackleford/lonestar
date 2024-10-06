@@ -19,6 +19,17 @@
 		<child type="LandMineTrap" spawnsecondary="false" x="-18.357421875" z="-10.59765625" a="0" y="0.21490478515625"/>
 		<child type="LandMineTrap" spawnsecondary="false" x="18.31591796875" z="10.595703125" a="0" y="-0.054046630859375"/>
 	</group>
+	<group name="Bonfire">
+		<child type="Bonfire" deloot="0" lootmax="8" lootmin="8" x="0" z="0" a="0" y="0"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="2.751953125" z="-2.96875" a="0" y="-1.8610076904296875"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="4.380126953125" z="-0.181640625" a="0" y="-1.887298583984375"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="3.157470703125" z="2.572265625" a="0" y="-1.8873138427734375"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="0.2333984375" z="3.91796875" a="0" y="-1.8873291015625"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="-2.591552734375" z="2.7255859375" a="174.60060119628906" y="-1.8872833251953125"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="-3.9462890625" z="-0.2021484375" a="174.6007843017578" y="-1.91357421875"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="-2.47607421875" z="-2.8330078125" a="174.6007843017578" y="-1.9135894775390625"/>
+		<child type="UndergroundStash" spawnsecondary="false" x="0.56005859375" z="-3.8955078125" a="174.6007843017578" y="-1.913604736328125"/>
+	</group>
 	<group name="C130J">
 		<child type="Land_Wreck_C130J" deloot="0" lootmax="8" lootmin="4" x="0" z="0" a="0" y="0"/>
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
