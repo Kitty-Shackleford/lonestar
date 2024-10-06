@@ -181,12 +181,6 @@
 		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="3.5830078125" z="-0.395751953125" a="72.00006866455078" y="0.9632139205932617"/>
 		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.30859375" z="0.97314453125" a="351" y="0.9632625579833984"/>
 	</group>
-	<!-- Airstrike Pattern 2 -->
-	<group name="airstrike">
-		<child type="ExplosionTest" deloot="0" lootmax="1" lootmin="1" x="0" z="0" a="0" y="0"/>
-		<child type="ExplosionTest" deloot="0" lootmax="3" lootmin="1" x="-0.294921875" z="0.324462890625" a="306.00001525878906" y="0"/>
-		<child type="ExplosionTest" deloot="0" lootmax="3" lootmin="1" x="-0.3349609375" z="-1.35498046875" a="261.00003814697266" y="0"/>
-	</group>
 	<!-- END MODS -->
     <!--pos x="9994.689" z="11443.961" a="0" y="174.216" group="Train_Abandoned_Grabin"/-->
     <group name="Train_Abandoned_Grabin">

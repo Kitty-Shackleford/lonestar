@@ -9,18 +9,18 @@
 			<item name="Ammo_40mm_Explosive" chance="0.50"/>
 		</cargo>
 		<attachments chance="1.00" name="MummyHat">
-			<item name="PumpkinHelmet" chance="0.20"/>
-			<item name="WitchHat" chance="0.20"/>
-			<item name="DarkMotoHelmet_YellowScarred" chance="0.20"/>
-			<item name="NorseHelm" chance="0.20"/>
-			<item name="GreatHelm" chance="0.20"/>
-			<item name="Chainmail_Coif" chance="0.20"/>
-			<item name="PaydayMask_Chains" chance="0.20"/>
-			<item name="PaydayMask_Dallas" chance="0.20"/>
-			<item name="PaydayMask_Hoxton" chance="0.20"/>
-			<item name="PaydayMask_Wolf" chance="0.20"/>
+			<item name="PumpkinHelmet" chance="0.10"/>
+			<item name="WitchHat" chance="0.10"/>
+			<item name="DarkMotoHelmet_YellowScarred" chance="0.10"/>
+			<item name="NorseHelm" chance="0.10"/>
+			<item name="GreatHelm" chance="0.10"/>
+			<item name="Chainmail_Coif" chance="0.10"/>
+			<item name="PaydayMask_Chains" chance="0.10"/>
+			<item name="PaydayMask_Dallas" chance="0.10"/>
+			<item name="PaydayMask_Hoxton" chance="0.10"/>
+			<item name="PaydayMask_Wolf" chance="0.10"/>
 		</attachments>
-		<attachments chance="0.50" name="MummyVest">
+		<attachments chance="1.00" name="MummyVest">
 			<item name="Chestplate" chance="0.50"/>
 			<item name="PlateCarrierVest" chance="0.50"/>
 		</attachments>
@@ -567,12 +567,12 @@
 		</attachments>
 		
 		<!-- Halloween -->
-		<cargo chance="0.50" name="halloween_01">
+		<cargo chance="0.75" name="halloween_01">
 			<item name="ClaymoreMine" chance="0.49" />
 			<item name="Plastic_Explosive" chance="0.49" />
 			<item name="SmallGasCanister" chance="0.02" />
 		</cargo>
-		<cargo chance="0.50" name="halloween_02">
+		<cargo chance="0.80" name="halloween_02">
 			<item name="ElectronicRepairKit" chance="0.33" />
 			<item name="RemoteDetonator" chance="0.33" />
 			<item name="SmallProtectorCase" chance="0.33" />

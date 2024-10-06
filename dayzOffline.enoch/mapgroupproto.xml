@@ -2,7 +2,7 @@
 <prototype>
 	<defaults>
 		<default name="group" lootmax="13"/>
-		<default name="container" lootmax="7"/>
+		<default name="container" lootmax="8"/>
 		<default name="keepInvalidPoints" enabled="yes"/>
 		<default name="clusterMatrix" de="TrajectoryApple" width="12" height="12"/>
 		<default name="clusterMatrix" de="TrajectoryStones" width="12" height="12"/>
@@ -3877,6 +3877,7 @@
 			<point pos="0.381926 -1.087845 0.069467" range="0.993652" height="2.000000"/>
 		</container>
 	</group>
+	<!-- DISABLED
 	<group name="Land_Container_1Mo_DE" lootmax="15">
 		<usage name="Military"/>
 		<value name="Unique"/>
@@ -3922,6 +3923,7 @@
 			<point pos="-0.214438 16.870667 -2.092011" range="1.199951" height="2.000000"/>
 		</container>
 	</group>
+	-->
 	<group name="Land_Garage_Row_Big">
 		<usage name="Industrial"/>
 		<container name="lootFloor">
@@ -22158,16 +22160,16 @@
 	<!-- SEASONAL EVENTS-->
 	<group name="Bonfire" lootmax="8">
 		<usage name="Bonfire"/>
-		<container name="lootFloor" lootmax="8">
+		<container name="lootdispatch" lootmax="8">
 			<category name="bonfire"/>
-			<point pos="2.876667 0.500000 3.211807" range="1.650000" height="1.500000" flags="32" />
-			<point pos="2.496737 0.500000 -3.174454" range="1.650000" height="1.500000" flags="32" />
-			<point pos="-3.760472 0.500000 3.067368" range="1.650000" height="1.500000" flags="32" />
-			<point pos="-2.757211 0.500000 -2.885785" range="1.650000" height="1.500000" flags="32" />
-			<point pos="-3.068999 0.500000 0.274213" range="1.650000" height="1.500000" flags="32" />
-			<point pos="3.068931 0.500000 0.468461" range="1.650000" height="1.500000" flags="32" />
-			<point pos="0.829929 0.500000 3.131861" range="1.650000" height="1.500000" flags="32" />
-			<point pos="0.975612 0.500000 -3.178558" range="1.650000" height="1.500000" flags="32" />
+			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" />
+			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" />
+			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" />
+			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" />
+			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" />
+			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" />
+			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" />
+			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" />
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">
