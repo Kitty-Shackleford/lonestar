@@ -19,7 +19,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 0/50 |
+| Player Count | 2/50 |
 | Banned Users |  |
 
 ---
@@ -44,4 +44,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Thu Oct 10 21:31:03 UTC 2024
+Last updated: Thu Oct 10 21:46:27 UTC 2024
