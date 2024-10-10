@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ Lonestar
 
 ### 📋 General Information
 
@@ -9,7 +9,7 @@
 | Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.enoch |
-| Version | Unknown |
+| Version | v1.25.158593 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 
@@ -44,4 +44,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Thu Oct 10 09:00:22 UTC 2024
+Last updated: Thu Oct 10 09:28:10 UTC 2024
