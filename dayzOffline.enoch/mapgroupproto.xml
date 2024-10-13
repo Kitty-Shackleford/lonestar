@@ -750,27 +750,6 @@
 			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32"/>
 			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32"/>
 		</container>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="-2.744141 -0.003479 4.600586" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="5.261719 -0.015442 -9.054199" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="-5.560547 -0.022308 9.751009" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="8.207031 -0.030182 -13.998047" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="-7.803711 -0.049011 13.481445" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="10.544922 -0.051513 -18.266114" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
-		<dispatch dechance="1.0">
-			<proxy type="ExplosionTest" pos="2.566406 0.079651 -4.415528" rpy="-0.000000 0.000000 -0.000000" dechance="1.0"/>
-		</dispatch>
 	</group>
 	<!-- NOTES
 	<group name="" lootmax="">
@@ -4091,7 +4070,7 @@
 		</container>
 	</group>
 	<!-- STATUE EVENT -->
-	<group name="StaticObj_Statue_Enoch1" lootmax="10">
+	<group name="StaticObj_Statue_Enoch1" lootmax="7">
 		<usage name="Historical"/>
 		<usage name="SeasonalEvent"/>
 		<usage name="Custom"/>
@@ -5884,7 +5863,6 @@
 	</group>
 	<group name="Vanilla_Land_Underground_Floor_Comms">
 		<usage name="Military"/>
-		<value name="Tier1"/>
 		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -5915,7 +5893,6 @@
 	</group>
 	<group name="Vanilla_Land_Underground_Floor_Crew">
 		<usage name="Military"/>
-		<value name="Tier1"/>
 		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -5960,7 +5937,6 @@
 	<group name="Vanilla_Land_Underground_Entrance">
 		<usage name="Military"/>
 		<usage name="Police"/>
-		<value name="Tier1"/>
 		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -5982,7 +5958,6 @@
 		<usage name="Military"/>
 		<usage name="Industrial"/>
 		<usage name="Underground"/>
-		<value name="Tier1"/>
 		<container name="lootTools">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -6015,7 +5990,6 @@
 		</container>
 	</group>
 	<group name="Vanilla_Land_Underground_Storage_POX">
-		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<container name="lootFloor">
@@ -6051,7 +6025,6 @@
 		</dispatch>
 	</group>
 	<group name="Vanilla_Land_Underground_Storage_Ammo">
-		<value name="Tier1"/>
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<container name="lootFloor">
@@ -6267,7 +6240,6 @@
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
-		<value name="Tier2"/>
 		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
@@ -6297,7 +6269,6 @@
 		<usage name="Military"/>
 		<usage name="Underground"/>
 		<usage name="Medic"/>
-		<value name="Tier2"/>
 		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="clothes"/>
@@ -6324,6 +6295,7 @@
 	</group>
 	<group name="Vanilla_Land_Underground_WaterMaintenance">
 		<usage name="Industrial"/>
+		<usage name="Underground"/>
 		<container name="lootFloor">
 			<category name="tools"/>
 			<category name="containers"/>
@@ -6351,7 +6323,6 @@
 	<group name="Vanilla_Land_Underground_Storage_Prison">
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<value name="Tier2"/>
 		<container name="lootFloor">
 			<category name="containers"/>
 			<category name="clothes"/>
@@ -6403,7 +6374,6 @@
 	<group name="Vanilla_Land_Underground_Storage_POX2">
 		<usage name="Military"/>
 		<usage name="Underground"/>
-		<value name="Tier3"/>
 		<container name="lootWeapons">
 			<category name="weapons"/>
 			<category name="explosives"/>
@@ -18135,6 +18105,9 @@
 			<point pos="-0.035645 -1.227242 -0.473145" range="0.580566" height="1.451416"/>
 			<point pos="-0.046875 -1.227226 0.859863" range="0.612305" height="1.530762"/>
 		</container>
+		<dispatch dechance="1.0">
+			<proxy type="GardenPlotGreenhouse" pos="-0.036133 0.552338 0.190429" rpy="-0.000000 0.000000 -0.000000"/>
+		</dispatch>
 	</group>
 	<group name="Vanilla_Land_Misc_Polytunnel" lootmax="1">
 		<usage name="Farm"/>
@@ -18147,6 +18120,9 @@
 			<point pos="-0.005738 -1.198172 2.579468" range="0.491821" height="1.229553"/>
 			<point pos="0.002930 -1.197395 -0.154968" range="0.492920" height="1.232300"/>
 		</container>
+		<dispatch dechance="1.0">
+			<proxy type="GardenPlotPolytunnel" pos="-0.134765 -1.272247 0.168213" rpy="-0.000000 0.000000 -0.000000"/>
+		</dispatch>
 	</group>
 	<group name="Vanilla_Land_Farm_CowshedA" lootmax="5">
 		<usage name="Farm"/>
@@ -21772,7 +21748,7 @@
 			<proxy type="Offroad_02_Wheel" pos=" -1.7 -1.2 -1.05" rpy="0.0 0.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban1_blue" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban1_blue" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Cartools"/>
@@ -21805,7 +21781,7 @@
 			<proxy type="HatchbackTrunk_BlueRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban1_green" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban1_green" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="Farm"/>
@@ -21838,7 +21814,7 @@
 			<proxy type="HatchbackTrunk_GreenRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban1_white" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban1_white" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Cartools"/>
@@ -21871,7 +21847,7 @@
 			<proxy type="HatchbackTrunk_WhiteRust" pos="1.726 0.304000 -0.05" rpy="20.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban2_blue" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban2_blue" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Cartools"/>
@@ -21903,7 +21879,7 @@
 			<proxy type="HatchbackHood_BlueRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban2_green" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban2_green" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="Farm"/>
@@ -21936,7 +21912,7 @@
 			<proxy type="HatchbackHood_GreenRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb01_aban2_white" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb01_aban2_white" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Cartools"/>
@@ -21968,7 +21944,7 @@
 			<proxy type="HatchbackHood_WhiteRust" pos="-1.451 0.095 0.05" rpy="1.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban1_red" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban1_red" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -21999,7 +21975,7 @@
 			<proxy type="Hatchback_02_Trunk_RedRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban1_black" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban1_black" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22030,7 +22006,7 @@
 			<proxy type="Hatchback_02_Trunk_BlackRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban1_blue" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban1_blue" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22061,7 +22037,7 @@
 			<proxy type="Hatchback_02_Trunk_BlueRust" pos="1.284 0.712 -0.10" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban2_red" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban2_red" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22094,7 +22070,7 @@
 			<proxy type="Hatchback_02_Hood_RedRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban2_black" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban2_black" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22127,7 +22103,7 @@
 			<proxy type="Hatchback_02_Hood_BlackRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_hb02_aban2_blue" lootmax="3">
+	<group name="Vanilla_Land_Wreck_hb02_aban2_blue" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22160,7 +22136,7 @@
 			<proxy type="Hatchback_02_Hood_BlueRust" pos="-0.433 0.269 0.02" rpy="0.0 180.0 0.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban1_white" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban1_white" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22197,7 +22173,7 @@
 			<proxy type="CivSedanHood_WhiteRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban1_black" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban1_black" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22235,7 +22211,7 @@
 			<proxy type="CivSedanHood_BlackRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban1_wine" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban1_wine" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22272,7 +22248,7 @@
 			<proxy type="CivSedanHood_WineRust" pos="-1.590 0.300 0.15" rpy="-90.0 8.0 95.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban2_white" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban2_white" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22307,7 +22283,7 @@
 			<proxy type="CivSedanTrunk_WhiteRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban2_wine" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban2_wine" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22342,7 +22318,7 @@
 			<proxy type="CivSedanTrunk_WineRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed01_aban2_black" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed01_aban2_black" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22377,7 +22353,7 @@
 			<proxy type="CivSedanTrunk_BlackRust" pos="2.213 0.203 0.07" rpy="-90.0 0.5 87.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban1_yellow" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban1_yellow" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22409,7 +22385,7 @@
 			<proxy type="Sedan_02_Trunk_YellowRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban1_grey" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban1_grey" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22441,7 +22417,7 @@
 			<proxy type="Sedan_02_Trunk_GreyRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban1_red" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban1_red" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22473,7 +22449,7 @@
 			<proxy type="Sedan_02_Trunk_RedRust" pos="1.518 0.155 -0.144" rpy="0.0 183.0 85.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban2_yellow" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban2_yellow" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22506,7 +22482,7 @@
 			<proxy type="Sedan_02_Hood_YellowRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban2_grey" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban2_grey" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22539,7 +22515,7 @@
 			<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
 		</dispatch>
 	</group>
-	<group name="Vanilla_Land_sed02_aban2_red" lootmax="3">
+	<group name="Vanilla_Land_Wreck_sed02_aban2_red" lootmax="3">
 		<usage name="Village"/>
 		<usage name="Industrial"/>
 		<usage name="Cartools"/>
@@ -22974,16 +22950,17 @@
 	<!-- SEASONAL EVENTS-->
 	<group name="Bonfire" lootmax="8">
 		<usage name="SeasonalEvent"/>
+		<usage name="Bonfire"/>
 		<container name="lootFloor" lootmax="8">
 			<category name="containers"/>
-			<point pos="2.876667 0.5 3.211807" range="1.65" height="1.5"/>
-			<point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5"/>
-			<point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5"/>
-			<point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5"/>
-			<point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5"/>
-			<point pos="3.068931 0.5 0.468461" range="1.65" height="1.5"/>
-			<point pos="0.829929 0.5 3.131861" range="1.65" height="1.5"/>
-			<point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5"/>
+			<point pos="2.876667 0.5 3.211807"/>
+			<point pos="2.496737 0.5 -3.174454"/>
+			<point pos="-3.760472 0.5 3.067368"/>
+			<point pos="-2.757211 0.5 -2.885785"/>
+			<point pos="-3.068999 0.5 0.274213"/>
+			<point pos="3.068931 0.5 0.468461"/>
+			<point pos="0.829929 0.5 3.131861"/>
+			<point pos="0.975612 0.5 -3.178558"/>
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">

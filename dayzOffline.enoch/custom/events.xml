@@ -71,8 +71,8 @@
     </event>
     <event name="AnimalBear">
         <nominal>0</nominal>
-        <min>13</min>
-        <max>33</max>
+        <min>50</min>
+        <max>85</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -83,7 +83,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <event name="AnimalCow">
@@ -1105,7 +1105,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="CivilianSedan"/>
@@ -1124,7 +1124,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Hatchback_02"/>
@@ -1143,7 +1143,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="3" min="2" type="Offroad_02"/>
@@ -1160,7 +1160,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="OffroadHatchback"/>
@@ -1179,7 +1179,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Sedan_02"/>
@@ -1198,7 +1198,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="0" min="0" type="Truck_01_Covered"/>

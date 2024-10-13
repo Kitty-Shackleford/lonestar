@@ -25,8 +25,8 @@
 			<item name="PlateCarrierVest" chance="0.50"/>
 		</attachments>
 		<cargo chance="0.50" name="MummyLoot">
-			<item name="SmallGasCanister" chance="0.50"/>
-			<item name="Rag" chance="0.50"/>
+			<item name="LandMineTrap" chance="0.50"/>
+			<item name="Grenade_ChemGas" chance="0.50"/>
 		</cargo>
 		<attachments chance="1.00" name="PriestHat">
 			<item name="WitchHood_Black" chance="0.70"/>
