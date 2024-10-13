@@ -22953,14 +22953,14 @@
 		<usage name="Bonfire"/>
 		<container name="lootFloor" lootmax="8">
 			<category name="containers"/>
-			<point pos="2.876667 0.5 3.211807"/>
-			<point pos="2.496737 0.5 -3.174454"/>
-			<point pos="-3.760472 0.5 3.067368"/>
-			<point pos="-2.757211 0.5 -2.885785"/>
-			<point pos="-3.068999 0.5 0.274213"/>
-			<point pos="3.068931 0.5 0.468461"/>
-			<point pos="0.829929 0.5 3.131861"/>
-			<point pos="0.975612 0.5 -3.178558"/>
+					<point pos="2.876667 0.500000 3.211807" range="1.650000" height="1.500000" flags="32" />
+					<point pos="2.496737 0.500000 -3.174454" range="1.650000" height="1.500000" flags="32" />
+					<point pos="-3.760472 0.500000 3.067368" range="1.650000" height="1.500000" flags="32" />
+					<point pos="-2.757211 0.500000 -2.885785" range="1.650000" height="1.500000" flags="32" />
+					<point pos="-3.068999 0.500000 0.274213" range="1.650000" height="1.500000" flags="32" />
+					<point pos="3.068931 0.500000 0.468461" range="1.650000" height="1.500000" flags="32" />
+					<point pos="0.829929 0.500000 3.131861" range="1.650000" height="1.500000" flags="32" />
+					<point pos="0.975612 0.500000 -3.178558" range="1.650000" height="1.500000" flags="32" />
 		</container>
 	</group>
 	<group name="ChristmasTree_Green" lootmax="10">
