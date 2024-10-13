@@ -13,16 +13,12 @@
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 
----
-
 ### 👥 Player Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 5/50 |
-| Banned Users |  |
-
----
+| Player Count | 3/50 |
+| Banned Users | None |
 
 ### ⚙️ Server Settings
 
@@ -38,10 +34,7 @@
 | Priority | Salt6199, Mr Purple7299 |
 | Whitelist | Salt6199, Mr Purple7299, ImDaddy2300 |
 
----
-
-
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Oct 13 05:50:47 UTC 2024
+Last updated: Sun Oct 13 06:25:09 UTC 2024
