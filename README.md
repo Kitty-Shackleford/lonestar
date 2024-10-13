@@ -1,6 +1,6 @@
 # 🎮 Gameserver Details
 
-## 🖥️ Lonestar
+## 🖥️ Server Name Not Available
 
 ### 📋 General Information
 
@@ -19,7 +19,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 0/50 |
+| Player Count | 6/50 |
 | Banned Users |  |
 
 ---
@@ -44,4 +44,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Mon Oct  7 22:41:06 UTC 2024
+Last updated: Sun Oct 13 03:15:39 UTC 2024
