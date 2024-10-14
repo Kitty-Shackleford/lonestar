@@ -246,7 +246,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
 			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
@@ -269,7 +269,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PatrolNormal_Autumn"/>
 			<child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_SoldierNormal"/>
@@ -289,7 +289,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_Autumn"/>
 			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
@@ -314,7 +314,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="1" type="ZmbF_BlueCollarFat_White"/>
 			<child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_CitizenANormal_Beige"/>
@@ -395,7 +395,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_FirefighterNormal"/>
 			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_NBC_Yellow"/>
@@ -413,7 +413,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_BlueCollarFat_Blue"/>
 			<child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_BlueCollarFat_Green"/>
@@ -455,7 +455,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="10" type="ZmbF_DoctorSkinny"/>
 			<child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_NurseFat"/>
@@ -484,7 +484,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_NBC_Grey"/>
 		</children>
@@ -501,7 +501,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_NBC_Yellow"/>
 		</children>
@@ -518,7 +518,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="40" type="ZmbF_PoliceWomanNormal"/>
 			<child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PolicemanFat"/>
@@ -538,7 +538,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="100" min="90" type="ZmbM_PolicemanSpecForce_Heavy"/>
 			<child lootmax="5" lootmin="0" max="10" min="0" type="ZmbM_PrisonerSkinny"/>
@@ -556,7 +556,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_PrisonerSkinny"/>
 		</children>
@@ -573,7 +573,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="50" type="ZmbM_priestPopSkinny"/>
 			<child lootmax="5" lootmin="0" max="0" min="50" type="ZmbF_MilkMaidOld_Black"/>
@@ -608,7 +608,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_HikerSkinny_Blue"/>
 			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_HikerSkinny_Green"/>
@@ -643,7 +643,7 @@
 		<flags deletable="0" init_random="0" remove_damaged="1"/>
 		<position>player</position>
 		<limit>custom</limit>
-		<active>0</active>
+		<active>1</active>
 		<children>
 			<child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_JoggerSkinny_Blue"/>
 			<child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_JoggerSkinny_Brown"/>
