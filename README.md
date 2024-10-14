@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 4/50 |
+| Player Count | 1/50 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -31,10 +31,10 @@
 | Whitelist Feature | ❌ Disabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
-| Priority | Salt6199, Mr Purple7299 |
-| Whitelist | Salt6199, Mr Purple7299, ImDaddy2300 |
+| Priority | Salt6199, Mr Purple7299, FosterName420 |
+| Whitelist | Salt6199, Mr Purple7299, ImDaddy2300, FosterName420 |
 
 ## Summary of Last Gameserver Check
 
 
-Last updated: Sun Oct 13 15:18:23 UTC 2024
+Last updated: Mon Oct 14 08:50:30 UTC 2024
