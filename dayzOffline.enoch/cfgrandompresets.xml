@@ -64,7 +64,7 @@
 			<item name="Apple" chance="0.07"/>
 		</cargo>
 		<cargo chance="0.01" name="btkloot">
-			<item name="Vodka" chance="0.14"/>
+			<item name="GlassBottle" chance="0.14"/>
 			<item name="CannabisSeedsPack" chance="0.14"/>
 			<item name="CigarettePack_Chernamorka" chance="0.14"/>
 			<item name="CigarettePack_Merkur" chance="0.14"/>
@@ -588,7 +588,7 @@
 			<item name="PsilocybeMushroom" chance="0.09" />
 			<item name="AmanitaMushroom" chance="0.08" />
 			<item name="Syringe" chance="0.08" />
-			<item name="Vodka" chance="0.08" />
+			<item name="GlassBottle" chance="0.08" />
 			<item name="PunchedCard" chance="0.01" />
 		</cargo>
 		<!--Xmas Clothing-->

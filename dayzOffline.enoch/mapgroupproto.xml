@@ -586,7 +586,7 @@
 			<proxy type="Flaregun" pos="-0.039062 -0.363525 1.502441" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="1.000000">
-			<proxy type="Vodka" pos="7.944336 -2.363403 0.146972" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
+			<proxy type="GlassBottle" pos="7.944336 -2.363403 0.146972" rpy="-0.000000 0.000000 -0.000000" dechance="1.000000"/>
 		</dispatch>
 		<dispatch dechance="1.000000">
 			<proxy type="SodaCan_Kvass" pos="-1.021484 -0.780182 2.004394" rpy="-0.000000 -44.200729 -0.000000" dechance="1.000000"/>
@@ -5754,6 +5754,34 @@
 			<point pos="0.735190 -0.892029 0.413747" range="0.222352" height="0.555878" flags="32"/>
 			<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32"/>
 		</container>
+	</group>
+	<group name="Land_Misc_Greenhouse" lootmax="1">
+		<usage name="Farm"/>
+		<container name="lootFloor" lootmax="1">
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.035645 -1.227242 -0.473145" range="0.580566" height="1.451416"/>
+			<point pos="-0.046875 -1.227226 0.859863" range="0.612305" height="1.530762"/>
+		</container>
+		<dispatch dechance="1.0">
+			<proxy type="GardenPlotGreenhouse" pos="-0.036133 0.552338 0.190429" rpy="-0.000000 0.000000 -0.000000"/>
+		</dispatch>
+	</group>
+	<group name="Land_Misc_Polytunnel" lootmax="1">
+		<usage name="Farm"/>
+		<container name="lootFloor" lootmax="1">
+			<category name="food"/>
+			<tag name="floor"/>
+			<tag name="shelves"/>
+			<point pos="-0.041382 -1.199625 -1.482208" range="0.459961" height="1.149902"/>
+			<point pos="0.005982 -1.197760 1.176849" range="0.479614" height="1.199036"/>
+			<point pos="-0.005738 -1.198172 2.579468" range="0.491821" height="1.229553"/>
+			<point pos="0.002930 -1.197395 -0.154968" range="0.492920" height="1.232300"/>
+		</container>
+		<dispatch dechance="1.0">
+			<proxy type="GardenPlotPolytunnel" pos="-0.134765 -1.272247 0.168213" rpy="-0.000000 0.000000 -0.000000"/>
+		</dispatch>
 	</group>
 	<!-- END MODS -->
 	<group name="Vanilla_Land_Roadblock_Table" lootmax="1">
@@ -24691,37 +24719,37 @@
 			<proxy type="Sedan_02_Hood_GreyRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
 		</dispatch>
 	</group>
-	<group name="Land_Wreck_sed02_aban2_red_DE" lootmax="2">
-		<usage name="Village"/>
-		<usage name="Industrial"/>
-		<container name="loot" lootmax="2">
-			<category name="tools"/>
-			<category name="containers"/>
-			<category name="clothes"/>
-			<category name="food"/>
-			<category name="weapons"/>
-			<tag name="floor"/>
-			<tag name="shelves"/>
-			<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196"/>
-			<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030"/>
-			<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861"/>
-			<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875"/>
-			<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670"/>
-			<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595"/>
-			<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000"/>
-			<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389"/>
-			<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813"/>
-			<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
-		</container>
-		<dispatch>
-			<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
-			<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
-			<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
-			<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
-			<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
-			<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
-			<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
-			<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
-		</dispatch>
-	</group>
+<group name="Land_Wreck_sed02_aban2_red_DE" lootmax="2">
+	<usage name="Village"/>
+	<usage name="Industrial"/>
+	<container name="loot" lootmax="2">
+		<category name="tools"/>
+		<category name="containers"/>
+		<category name="clothes"/>
+		<category name="food"/>
+		<category name="weapons"/>
+		<tag name="floor"/>
+		<tag name="shelves"/>
+		<point pos="0.361908 -0.091345 -0.150635" range="0.262878" height="0.657196"/>
+		<point pos="0.404724 -0.069578 0.381103" range="0.222412" height="0.556030"/>
+		<point pos="-0.065613 -0.230871 0.553223" range="0.120117" height="0.245861"/>
+		<point pos="-0.494202 -0.023838 0.367920" range="0.168750" height="0.421875"/>
+		<point pos="-1.701843 -0.099649 -0.129883" range="0.225098" height="0.308670"/>
+		<point pos="-1.722961 -0.076416 0.370605" range="0.145020" height="0.281595"/>
+		<point pos="-0.958649 -0.259422 -0.214844" range="0.100000" height="0.250000"/>
+		<point pos="-0.052399 -0.278509 -0.386230" range="0.141327" height="0.288389"/>
+		<point pos="1.393433 0.333178 0.669678" range="0.124725" height="0.311813"/>
+		<point pos="1.413422 0.248268 -0.544922" range="0.124725" height="0.311813"/>
+	</container>
+	<dispatch>
+		<proxy type="CarBattery" pos="1.704102 -0.149963 -0.494629" rpy="0.0 -180.0 0.0"/>
+		<proxy type="CarRadiator" pos="-2.141602 -0.320007 0.149414" rpy="0.0 -180.0 0.0"/>
+		<proxy type="SparkPlug" pos="1.629883 -0.000031 0.129883" rpy="0.0 0.0 0.0"/>
+		<proxy type="CanisterGasoline" pos="-1.768554 -0.028808 -0.142579" rpy="90.0 -90.0 0.0"/>
+		<proxy type="Sedan_02_Wheel" pos="-1.486 -0.296 0.805" rpy="0.0 0.0 0.0"/>
+		<proxy type="Sedan_02_Door_1_1_RedRust" pos="-0.556 0.125 -0.860" rpy="0.0 190.0 0.0"/>
+		<proxy type="Sedan_02_Door_2_2_RedRust" pos="0.156 0.168 1.150" rpy="-2.0 310.0 0.0"/>
+		<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0"/>
+	</dispatch>
+</group>
 </prototype>

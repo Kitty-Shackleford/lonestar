@@ -15,7 +15,6 @@
         <category name="bonfire"/>
         <category name="mechanic"/>
         <category name="custom"/>
-        <category name="cartools"/>
     </categories>
     <tags>
         <tag name="floor"/>
