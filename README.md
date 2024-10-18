@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 8/50 |
+| Player Count | 4/50 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -27,7 +27,7 @@
 | 3rd Person | ✅ Enabled |
 | Crosshair | ✅ Enabled |
 | Shot Validation | ✅ Enabled |
-| Mouse and Keyboard | ❌ Disabled |
+| Mouse and Keyboard | ✅ Enabled |
 | Whitelist Feature | ❌ Disabled |
 | Base Damage | ✅ Enabled |
 | Container Damage | ✅ Enabled |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Thu Oct 17 17:32:46 UTC 2024
+Last updated: Fri Oct 18 07:59:56 UTC 2024
