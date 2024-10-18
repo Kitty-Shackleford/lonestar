@@ -193,8 +193,8 @@
 		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.30859375" z="0.97314453125" a="351" y="0.9632625579833984"/>
 	</group>
 	<!-- END MODS -->
-    <group name="Scientist">
-        <child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0"/>
-        <child type="ScientificBriefcase" spawnsecondary="false" x="0.7" z="-1.25" a="180"/>
-    </group>
+	<group name="Scientist">
+		<child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0"/>
+		<child type="ScientificBriefcase" spawnsecondary="false" x="0.7" z="-1.25" a="180"/>
+	</group>
 </eventgroupdef>

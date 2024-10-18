@@ -156,33 +156,33 @@
 		<pos x="13613.731445" z="5182.834961"/>
 	</event>
 	<event name="StaticBonfire">
-		<pos x="8195.64" y="11.4882" z="7663.48" a="0"/>
-		<pos x="10811.2" y="8.84312" z="6317.99" a="0"/>
-		<pos x="12842.5" y="6.26066" z="7586.53" a="0"/>
-		<pos x="13990.9" y="8.12875" z="8314.1" a="0"/>
-		<pos x="14395.9" y="10.3988" z="8891.28" a="0"/>
-		<pos x="14634.1" y="6.90624" z="9699.72" a="0"/>
-		<pos x="12988.9" y="29.1852" z="11738.8" a="0"/>
-		<pos x="12454.4" y="5.34689" z="12746.9" a="0"/>
-		<pos x="11710.5" y="32.2445" z="12756.6" a="0"/>
-		<pos x="10951.5" y="20.9621" z="13135.6" a="0"/>
-		<pos x="10505.1" y="51.3927" z="13274.1" a="0"/>
-		<pos x="9718.92" y="7.27241" z="13502.1" a="0"/>
-		<pos x="8398.33" y="6.57552" z="13710.1" a="0"/>
-		<pos x="7955.78" y="6.44002" z="13500.8" a="0"/>
-		<pos x="6673.59" y="8.77573" z="13380.3" a="0"/>
-		<pos x="6246.4" y="34.3583" z="12624.7" a="0"/>
-		<pos x="5755.47" y="9.56759" z="12569.8" a="0"/>
-		<pos x="5834.21" y="31.9265" z="11767.9" a="0"/>
-		<pos x="5844.43" y="6.54408" z="10906.2" a="0"/>
-		<pos x="5506.58" y="5.79275" z="10019.5" a="0"/>
-		<pos x="5163.6" y="5.58096" z="11326" a="0"/>
-		<pos x="1367.22" y="69.4825" z="7888.68" a="0"/>
-		<pos x="8468.35" y="53.0956" z="10559.7" a="0"/>
-		<pos x="11033.3" y="104.387" z="9561.35" a="0"/>
-		<pos x="10359.5" y="16.8104" z="13288.5" a="0"/>
-		<pos x="12940.9" y="11.7891" z="5406.33" a="0"/>
-		<pos x="11112.4" y="16.7506" z="14559.3" a="0"/>
+		<pos x="8195.64" y="11.4882" z="7663.48" a="0" group="Bonfire"/>
+		<pos x="10811.2" y="8.84312" z="6317.99" a="0" group="Bonfire"/>
+		<pos x="12842.5" y="6.26066" z="7586.53" a="0" group="Bonfire"/>
+		<pos x="13990.9" y="8.12875" z="8314.1" a="0" group="Bonfire"/>
+		<pos x="14395.9" y="10.3988" z="8891.28" a="0" group="Bonfire"/>
+		<pos x="14634.1" y="6.90624" z="9699.72" a="0" group="Bonfire"/>
+		<pos x="12988.9" y="29.1852" z="11738.8" a="0" group="Bonfire"/>
+		<pos x="12454.4" y="5.34689" z="12746.9" a="0" group="Bonfire"/>
+		<pos x="11710.5" y="32.2445" z="12756.6" a="0" group="Bonfire"/>
+		<pos x="10951.5" y="20.9621" z="13135.6" a="0" group="Bonfire"/>
+		<pos x="10505.1" y="51.3927" z="13274.1" a="0" group="Bonfire"/>
+		<pos x="9718.92" y="7.27241" z="13502.1" a="0" group="Bonfire"/>
+		<pos x="8398.33" y="6.57552" z="13710.1" a="0" group="Bonfire"/>
+		<pos x="7955.78" y="6.44002" z="13500.8" a="0" group="Bonfire"/>
+		<pos x="6673.59" y="8.77573" z="13380.3" a="0" group="Bonfire"/>
+		<pos x="6246.4" y="34.3583" z="12624.7" a="0" group="Bonfire"/>
+		<pos x="5755.47" y="9.56759" z="12569.8" a="0" group="Bonfire"/>
+		<pos x="5834.21" y="31.9265" z="11767.9" a="0" group="Bonfire"/>
+		<pos x="5844.43" y="6.54408" z="10906.2" a="0" group="Bonfire"/>
+		<pos x="5506.58" y="5.79275" z="10019.5" a="0" group="Bonfire"/>
+		<pos x="5163.6" y="5.58096" z="11326" a="0" group="Bonfire"/>
+		<pos x="1367.22" y="69.4825" z="7888.68" a="0" group="Bonfire"/>
+		<pos x="8468.35" y="53.0956" z="10559.7" a="0" group="Bonfire"/>
+		<pos x="11033.3" y="104.387" z="9561.35" a="0" group="Bonfire"/>
+		<pos x="10359.5" y="16.8104" z="13288.5" a="0" group="Bonfire"/>
+		<pos x="12940.9" y="11.7891" z="5406.33" a="0" group="Bonfire"/>
+		<pos x="11112.4" y="16.7506" z="14559.3" a="0" group="Bonfire"/>
 	</event>
 	<event name="StaticPoliceCar">
 		<pos x="5087.616211" z="11550.746094"/>
@@ -275,9 +275,15 @@
 		<pos x="10477.754883" z="11476.423828" a="0.000000" group="Scientist"/>
 		<pos x="10484.353516" z="11298.525391" a="0.000000" group="Scientist"/>
 	</event>
+	<event name="TrajectoryApple"/>
+	<event name="TrajectoryPear"/>
+	<event name="TrajectoryPlum"/>
+	<event name="TrajectorySambucus"/>
+	<event name="TrajectoryCanina"/>
 	<event name="TrajectoryConiferous"/>
 	<event name="TrajectoryDeciduous"/>
 	<event name="TrajectoryHumus"/>
+	<event name="TrajectoryStumps"/>
 	<event name="TrajectoryStones"/>
 	<event name="TrajectoryCraterellus"/>
 	<event name="VehicleCivilianSedan">
