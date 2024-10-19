@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
 	<type name="SparkPlug">
+		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="Glowplug">
+		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="CarRadiator">
 		<damage min="0.0" max="0.0"/>
@@ -557,25 +559,24 @@
 	</type>
 	<type name="Boat_01_Black">
 		<attachments chance="0.20">
-			<item name="SparkPlug" chance="1.0" />
+			<item name="SparkPlug" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Boat_01_Blue">
 		<attachments chance="0.20">
-			<item name="SparkPlug" chance="1.0" />
+			<item name="SparkPlug" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Boat_01_Camo">
 		<attachments chance="0.20">
-			<item name="SparkPlug" chance="1.0" />
+			<item name="SparkPlug" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Boat_01_Orange">
 		<attachments chance="0.20">
-			<item name="SparkPlug" chance="1.0" />
+			<item name="SparkPlug" chance="1.0"/>
 		</attachments>
 	</type>
-	
 	<!-- RUSTY CARS / TRUCKS SPAWN ON MAP -->
 	<type name="OffroadHatchback_White">
 		<attachments chance="1.00">
@@ -1435,40 +1436,40 @@
 	</type>
 	<type name="TransitBus">
 		<attachments chance="1.00">
-			<item name="TransitBusWheel" chance="1.00" />
+			<item name="TransitBusWheel" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TransitBusWheel" chance="1.00" />
+			<item name="TransitBusWheel" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TransitBusWheel" chance="1.00" />
+			<item name="TransitBusWheel" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TransitBusWheel" chance="1.00" />
+			<item name="TransitBusWheel" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TransitBusWheelDouble" chance="1.00" />
+			<item name="TransitBusWheelDouble" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TransitBusWheelDouble" chance="1.00" />
+			<item name="TransitBusWheelDouble" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="1.00" />
+			<item name="CarRadiator" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarBattery" chance="1.00" />
+			<item name="CarBattery" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="SparkPlug" chance="1.00" />
+			<item name="SparkPlug" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="BusDoor_Left" chance="1.00" />
+			<item name="BusDoor_Left" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="BusDoor_Right" chance="1.00" />
+			<item name="BusDoor_Right" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="BusHood" chance="1.00" />
+			<item name="BusHood" chance="1.00"/>
 		</attachments>
 	</type>
 	<!-- NOT WORKING 

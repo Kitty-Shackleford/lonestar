@@ -361,7 +361,7 @@
 		<item name="ZmijovkaCap_Green" chance="0.058"/>
 		<item name="ZmijovkaCap_Red" chance="0.058"/>
 	</attachments>
-	<attachments chance="0.20" name="handsVillage">
+	<attachments chance="0.25" name="handsVillage">
 		<item name="WoodAxe" chance="0.1"/>
 		<item name="Pickaxe" chance="0.8"/>
 		<item name="Shovel" chance="0.8"/>
@@ -401,7 +401,7 @@
 		<item name="ZmijovkaCap_Blue" chance="0.05"/>
 		<item name="ZmijovkaCap_Brown" chance="0.05"/>
 	</attachments>
-	<attachments chance="0.10" name="handsCity">
+	<attachments chance="0.25" name="handsCity">
 		<item name="NailedBaseballBat" chance="1.0"/>
 		<item name="BaseballBat" chance="1.0"/>
 		<item name="Machete" chance="1.0"/>
@@ -453,7 +453,7 @@
 		<item name="ZmijovkaCap_Green" chance="0.058"/>
 		<item name="ZmijovkaCap_Red" chance="0.058"/>
 	</attachments>
-	<attachments chance="0.15" name="handsIndustrial">
+	<attachments chance="0.25" name="handsIndustrial">
 		<item name="Pipe" chance="0.15"/>
 		<item name="Crowbar" chance="0.15"/>
 		<item name="Sledgehammer" chance="0.15"/>
@@ -551,7 +551,7 @@
 		<item name="PressVest_LightBlue" chance="0.25"/>
 	</attachments>
 	<!--Headtorches-->
-	<attachments chance="0.03" name="headtorches">
+	<attachments chance="0.13" name="headtorches">
 		<item name="Headtorch_Grey" chance="0.5"/>
 		<item name="Headtorch_Black" chance="0.5"/>
 	</attachments>

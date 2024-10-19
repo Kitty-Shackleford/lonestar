@@ -16,9 +16,9 @@
 		<cargo preset="mixArmy"/>
 	</type>
 	<type name="AssaultBag_Winter">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
 	</type>
 	<type name="AliceBag_Camo">
 		<cargo preset="mixArmy"/>
@@ -36,19 +36,19 @@
 		<cargo preset="mixArmy"/>
 	</type>
 	<type name="CoyoteBag_Brown">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
 	</type>
 	<type name="CoyoteBag_Green">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
 	</type>
 	<type name="CoyoteBag_Winter">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
+		<cargo preset="mixArmy"/>
 	</type>
 	<type name="DryBag_Orange">
 		<cargo preset="foodVillage"/>
@@ -378,8 +378,8 @@
 		<hoarder/>
 	</type>
 	<type name="DrysackBag_Orange">
-			<hoarder/>
-		</type>
+		<hoarder/>
+	</type>
 	<type name="DrysackBag_Yellow">
 		<hoarder/>
 	</type>
