@@ -83,8 +83,8 @@ jobs:
 
       - name: Commit formatted changes
         run: |
-          git config --local user.email "kittylinter@github.com"
-          git config --local user.name "Kitty Linter"
+          git config --local user.email "74373243+Kitty-Shackleford@users.noreply.github.com"
+          git config --local user.name "Kitty-Shackleford"
           git add .
           if ! git diff-index --quiet HEAD --; then
             git commit -m "Format files with Prettier" || echo "Commit failed"
