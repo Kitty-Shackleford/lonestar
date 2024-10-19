@@ -1,78 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-		<!-- MODS -->
-		<cargo chance="1.00" name="SantaBeard">
-			<item name="SantasBeard" chance="1.00"/>
-		</cargo>
-		<cargo chance="1.00" name="GasExp">
-			<item name="Ammo_40mm_Chemgas" chance="0.50"/>
-			<item name="Ammo_40mm_Explosive" chance="0.50"/>
-		</cargo>
-		<attachments chance="1.00" name="MummyHat">
-			<item name="PumpkinHelmet" chance="0.10"/>
-			<item name="WitchHat" chance="0.10"/>
-			<item name="DarkMotoHelmet_YellowScarred" chance="0.10"/>
-			<item name="NorseHelm" chance="0.10"/>
-			<item name="GreatHelm" chance="0.10"/>
-			<item name="Chainmail_Coif" chance="0.10"/>
-			<item name="PaydayMask_Chains" chance="0.10"/>
-			<item name="PaydayMask_Dallas" chance="0.10"/>
-			<item name="PaydayMask_Hoxton" chance="0.10"/>
-			<item name="PaydayMask_Wolf" chance="0.10"/>
-		</attachments>
-		<attachments chance="1.00" name="MummyVest">
-			<item name="Chestplate" chance="0.50"/>
-			<item name="PlateCarrierVest" chance="0.50"/>
-		</attachments>
-		<cargo chance="0.50" name="MummyLoot">
-			<item name="LandMineTrap" chance="0.50"/>
-			<item name="Grenade_ChemGas" chance="0.50"/>
-		</cargo>
-		<attachments chance="1.00" name="PriestHat">
-			<item name="WitchHood_Black" chance="0.70"/>
-		</attachments>
-		<cargo chance="0.25" name="mushroomInfected">
-			<item name="AgaricusMushroom" chance="0.1"/>
-			<item name="AuriculariaMushroom" chance="0.1"/>
-			<item name="BoletusMushroom" chance="0.1"/>
-			<item name="LactariusMushroom" chance="0.1"/>
-			<item name="MacrolepiotaMushroom" chance="0.1"/>
-			<item name="PleurotusMushroom" chance="0.1"/>
-			<item name="AmanitaMushroom" chance="0.01"/>
-			<item name="PsilocybeMushroom" chance="0.01"/>
-		</cargo>
-		<cargo chance="0.50" name="grossInfected">
-			<item name="Guts" chance="0.3"/>
-			<item name="Lard" chance="0.3"/>
-			<item name="Bone" chance="0.3"/>
-			<item name="HumanSteakMeat" chance="0.2"/>
-		</cargo>
-		<cargo chance="0.3" name="susInfected">
-			<item name="Thermometer" chance="0.25"/>
-			<item name="PetrolLighter" chance="0.25"/>
-			<item name="TetracyclineAntibiotics" chance="0.25"/>
-			<item name="Cannabis" chance="0.25"/>
-		</cargo>
-		<cargo chance="0.3" name="mixSus">
-			<item name="Thermometer" chance="0.33"/>
-			<item name="PetrolLighter" chance="0.33"/>
-			<item name="Cannabis" chance="0.33"/>
-		</cargo>
-		<cargo chance="0.1" name="foodCustom">
-			<item name="TunaCan" chance="0.11"/>
-			<item name="SardinesCan" chance="0.11"/>
-			<item name="Apple" chance="0.07"/>
-		</cargo>
-		<cargo chance="0.01" name="btkloot">
-			<item name="GlassBottle" chance="0.14"/>
-			<item name="CannabisSeedsPack" chance="0.14"/>
-			<item name="CigarettePack_Chernamorka" chance="0.14"/>
-			<item name="CigarettePack_Merkur" chance="0.14"/>
-			<item name="CigarettePack_Partyzanka" chance="0.14"/>
-			<item name="HumanSteakMeat" chance="0.14"/>
-			<item name="InjectionVial" chance="0.14"/>
-		</cargo>
-		<!-- END OF MODS -->
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
@@ -565,32 +492,6 @@
 			<item name="Headtorch_Grey" chance="0.5" />
 			<item name="Headtorch_Black" chance="0.5" />
 		</attachments>
-		
-		<!-- Halloween -->
-		<cargo chance="0.25" name="halloween_01">
-			<item name="ClaymoreMine" chance="0.40" />
-			<item name="Plastic_Explosive" chance="0.40" />
-			<item name="SmallGasCanister" chance="0.20" />
-		</cargo>
-		<cargo chance="0.80" name="halloween_02">
-			<item name="ElectronicRepairKit" chance="0.33" />
-			<item name="RemoteDetonator" chance="0.33" />
-			<item name="SmallProtectorCase" chance="0.33" />
-		</cargo>
-		<cargo chance="1.00" name="halloween_03">
-			<item name="Zagorky" chance="0.09" />
-			<item name="ZagorkyChocolate" chance="0.09" />
-			<item name="ZagorkyPeanuts" chance="0.09" />
-			<item name="CigarettePack_Chernamorka" chance="0.09" />
-			<item name="CigarettePack_Merkur" chance="0.09" />
-			<item name="CigarettePack_Partyzanka" chance="0.09" />
-			<item name="Cannabis" chance="0.09" />
-			<item name="PsilocybeMushroom" chance="0.09" />
-			<item name="AmanitaMushroom" chance="0.08" />
-			<item name="Syringe" chance="0.08" />
-			<item name="GlassBottle" chance="0.08" />
-			<item name="PunchedCard" chance="0.01" />
-		</cargo>
 		<!--Xmas Clothing-->
 		<attachments chance="1.00" name="SantaHat">
 			<item name="SantasHat" chance="1.00" />
