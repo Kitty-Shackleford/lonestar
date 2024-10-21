@@ -53,7 +53,7 @@
         }
     },
     "WorldsData": {
-        "lightingConfig": 2,
+        "lightingConfig": 1,
         "objectSpawnersArr": [
             "./custom/Airstrip_Snow_Remod_By_SHOTSx3_DZMC_.json",
             "./custom/sakhal_cebepomopck_cannibal.json",
