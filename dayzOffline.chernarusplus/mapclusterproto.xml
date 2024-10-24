@@ -8,7 +8,6 @@
 			<export name="PathR10" shape="dz\structures\Roads\Parts\path_rock_10.p3d" />
 			<export name="PathR30" shape="dz\structures\Roads\Parts\path_rock_30.p3d" />
 			<export name="Stones" shape="dz\rocks\stones_erosion.p3d" />
-			
 			<export name="Rail1" shape="dz\structures\rail\tracks\rail_track_25.p3d" />
 			<export name="Rail2" shape="dz\structures\rail\tracks\rail_tracke_25.p3d" />
 			<export name="Rail3" shape="dz\structures\rail\tracks\rail_tracke_40.p3d" />
@@ -29,7 +28,7 @@
 -->
 			<export name="AppleTree1" shape="dz\plants\tree\t_malusDomestica_1s.p3d" />
 			<export name="AppleTree2" shape="dz\plants\tree\t_malusDomestica_2s.p3d" />
-			<export name="AppleTree3" shape="dz\plants\tree\t_malusDomestica_3s.p3d" />			
+			<export name="AppleTree3" shape="dz\plants\tree\t_malusDomestica_3s.p3d" />
 			<export name="PearTree1" shape="dz\plants\tree\t_pyrusCommunis_3sb.p3d" />
 			<export name="PearTree2" shape="dz\plants\tree\t_pyrusCommunis_2s.p3d" />
 			<export name="PearTree3" shape="dz\plants\tree\t_pyrusCommunis_3s.p3d" />

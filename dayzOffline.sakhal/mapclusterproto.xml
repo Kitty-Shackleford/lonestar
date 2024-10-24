@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <prototype>
 		<clusters>
+<!-- 
+<!--Feathers Eggs Will be moved to normal groups-->
+<!-- 
+<export name="ChickenCoop" shape="dz\structures\Residential\Misc\misc_chickenCoop.p3d" /> 
+-->
+			<export name="AppleTree1" shape="dz\plants\tree\t_malusDomestica_1s.p3d" />
+			<export name="AppleTree2" shape="dz\plants\tree\t_malusDomestica_2s.p3d" />
+			<export name="AppleTree3" shape="dz\plants\tree\t_malusDomestica_3s.p3d" />
+			<export name="PearTree1" shape="dz\plants\tree\t_pyrusCommunis_3sb.p3d" />
+			<export name="PearTree2" shape="dz\plants\tree\t_pyrusCommunis_2s.p3d" />
+			<export name="PearTree3" shape="dz\plants\tree\t_pyrusCommunis_3s.p3d" />
+			<export name="PlumTree1" shape="dz\plants\tree\t_prunusDomestica_2s.p3d" />
+<!-- -->
+			<export name="Haybale" shape="dz\structures\industrial\misc\misc_haybale.p3d" />
+			<export name="Strawstack" shape="dz\structures\industrial\farms\farm_strawstack.p3d" />
+<!-- -->
+			<export name="CaninaBush1" shape="dz\plants\bush\b_rosaCanina_1s.p3d" />
+			<export name="CaninaBush2" shape="dz\plants\bush\b_rosaCanina_2s.p3d" />
+<!-- -->
+			<export name="SambucusBush1" shape="dz\plants\bush\b_sambucusNigra_1s.p3d" />
+			<export name="SambucusBush2" shape="dz\plants\bush\b_sambucusNigra_2s.p3d" />
+<!--Apple -->
+		<cluster name="CaninaBush1" lootmax="2" maxinstances="150">
+			<de name="TrajectoryCanina" />
+			<container name="branch" lootmax="1">
+			<point pos="-1.86 -2.40 0.12" range="0.55" height="1.0" flags="32" />
+			<point pos="0.51 -2.40 0.85" range="0.55" height="1.0" flags="32" />
+			<point pos="0.15 -2.40 -0.57" range="0.55" height="1.0" flags="32" />
+			<point pos="-1.09 -2.40 1.47" range="0.55" height="1.0" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="CaninaBush2" lootmax="2" maxinstances="150">
+			<de name="TrajectoryCanina" />
+			<container name="branch" lootmax="1">
+			<point pos="-1.86 -2.40 0.12" range="0.55" height="1.0" flags="32" />
+			<point pos="0.51 -2.40 0.85" range="0.55" height="1.0" flags="32" />
+			<point pos="0.15 -2.40 -0.57" range="0.55" height="1.0" flags="32" />
+			<point pos="-1.09 -2.40 1.47" range="0.55" height="1.0" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="SambucusBush1" lootmax="2" maxinstances="150">
+			<de name="TrajectorySambucus" />
+			<container name="branch" lootmax="1">
+			<point pos="-1.86 -2.40 0.12" range="0.55" height="1.0" flags="32" />
+			<point pos="0.51 -2.40 0.85" range="0.55" height="1.0" flags="32" />
+			<point pos="0.15 -2.40 -0.57" range="0.55" height="1.0" flags="32" />
+			<point pos="-1.09 -2.40 1.47" range="0.55" height="1.0" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="SambucusBush2" lootmax="2" maxinstances="150">
+			<de name="TrajectorySambucus" />
+			<container name="branch" lootmax="1">
+			<point pos="-1.86 -2.40 0.12" range="0.55" height="1.0" flags="32" />
+			<point pos="0.51 -2.40 0.85" range="0.55" height="1.0" flags="32" />
+			<point pos="0.15 -2.40 -0.57" range="0.55" height="1.0" flags="32" />
+			<point pos="-1.09 -2.40 1.47" range="0.55" height="1.0" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="AppleTree1" lootmax="2" maxinstances="150">
+			<de name="TrajectoryApple" />
+			<container name="branch" lootmax="1">
+			<point pos="-1.86 -2.40 0.12" range="0.55" height="1.63" flags="32" />
+			<point pos="0.51 -2.40 0.85" range="0.55" height="1.63" flags="32" />
+			<point pos="0.15 -2.40 -0.57" range="0.55" height="1.63" flags="32" />
+			<point pos="-1.09 -2.40 1.47" range="0.55" height="1.63" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="AppleTree2" lootmax="2" maxinstances="150">
+			<de name="TrajectoryApple" />
+			<container name="branch" lootmax="1">
+			<point pos="0.25 -3.88 -1.00" range="0.70" height="2.00" flags="32" />
+			<point pos="1.15 -3.88 0.59" range="0.92" height="2.00" flags="32" />
+			<point pos="-0.50 -3.88 1.20" range="0.63" height="2.00" flags="32" />
+			<point pos="-1.28 -3.88 -0.18" range="0.75" height="2.00" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="AppleTree3" lootmax="2" maxinstances="150">
+			<de name="TrajectoryApple" />
+			<container name="branch" lootmax="1">
+			<point pos="0.13 -5.73 1.23" range="1.00" height="2.00" flags="32" />
+			<point pos="1.40 -5.73 -1.21" range="1.00" height="2.00" flags="32" />
+			<point pos="-1.36 -5.73 -0.95" range="1.00" height="2.00" flags="32" />
+			<point pos="1.94 -5.73 0.62" range="0.71" height="2.00" flags="32" />
+			</container>
+		</cluster>
+<!--Pear -->
+		<cluster name="PearTree1" lootmax="2" maxinstances="150">
+			<de name="TrajectoryPear" />
+			<container name="branch" lootmax="2">
+			<point pos="-0.82 -5.20 -0.37" range="0.55" height="1.63" flags="32" />
+			<point pos="0.88 -5.20 -0.37" range="0.55" height="1.63" flags="32" />
+			<point pos="0.86 -5.20 1.11" range="0.55" height="1.63" flags="32" />
+			<point pos="-0.59 -5.20 1.42" range="0.55" height="1.63" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="PearTree2" lootmax="2" maxinstances="150">
+			<de name="TrajectoryPear" />
+			<container name="branch" lootmax="2">
+			<point pos="-0.34 -3.10 1.20" range="1.08" height="1.90" flags="32" />
+			<point pos="-1.00 -3.10 -0.90" range="0.92" height="2.00" flags="32" />
+			<point pos="1.42 -3.10 0.24" range="0.72" height="2.00" flags="32" />
+			<point pos="0.81 -3.10 -1.55" range="0.80" height="2.00" flags="32" />
+			</container>
+		</cluster>
+		<cluster name="PearTree3" lootmax="2" maxinstances="150">
+			<de name="TrajectoryPear" />
+			<container name="branch" lootmax="2">
+			<point pos="-1.52 -5.77 -0.18" range="0.84" height="2.00" flags="32" />
+			<point pos="1.32 -5.77 0.16" range="1.00" height="2.00" flags="32" />
+			<point pos="-0.16 -5.77 1.70" range="0.93" height="2.00" flags="32" />
+			<point pos="-0.03 -5.77 -1.72" range="1.07" height="2.00" flags="32" />
+			</container>
+		</cluster>
+ <!--Plum -->
+		<cluster name="PlumTree1" lootmax="2" maxinstances="150">
+			<de name="TrajectoryPlum" />
+			<container name="branch" lootmax="2">
+			<point pos="-1.37 -4.75 0.040" range="0.89" height="2.00" flags="32" />
+			<point pos="0.80 -4.75 0.80" range="0.45" height="1.63" flags="32" />
+			<point pos="0.48 -4.75 -1.40" range="0.45" height="1.63" flags="32" />
+			<point pos="1.20 -4.75 -0.42" range="0.45" height="1.63" flags="32" />
+			</container>
+		</cluster>
 <!-- Roads -->
 			<export name="RoadGrav_02k" shape="dz\structures_sakhal\roads\parts\gravsakhal_0 2000.p3d" />
 			<export name="RoadGrav_11k" shape="dz\structures_sakhal\roads\parts\gravsakhal_1 1000.p3d" />

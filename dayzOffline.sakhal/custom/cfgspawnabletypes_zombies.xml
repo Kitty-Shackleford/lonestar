@@ -41,6 +41,7 @@
 	</type>
 	<type name="ZmbM_PatrolNormal_Winter">
 		<cargo preset="foodArmy"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="ammoArmy"/>
 		<attachments preset="headtorches"/>
 		<attachments preset="hatsArmy"/>
@@ -86,6 +87,7 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0"/>
 		</attachments>
 		<cargo preset="foodArmy"/>
+		<cargo preset="grossInfected"/>
 		<cargo chance="0.6">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
@@ -99,12 +101,14 @@
 	<type name="ZmbM_eastSoldier_Heavy_Navy">
 		<cargo preset="foodArmy"/>
 		<cargo preset="ammoArmy"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="HeavyArmorArmy"/>
 		<attachments preset="HeavyHelmetArmy"/>
 	</type>
 	<type name="ZmbM_eastSoldier_normal_Navy">
 		<cargo preset="foodArmy"/>
 		<cargo preset="ammoArmy"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="bagsArmy"/>
 		<attachments preset="hatsArmy"/>
 		<attachments preset="vestsArmy"/>
@@ -114,13 +118,11 @@
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCity"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
-		<cargo preset="grossInfected"/>
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
@@ -132,14 +134,12 @@
 	<type name="ZmbF_Clerk_Normal_Red">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 	</type>
 	<type name="ZmbF_Clerk_Normal_White">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -148,7 +148,6 @@
 	<type name="ZmbF_CitizenANormal_Beige">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
@@ -156,7 +155,6 @@
 	</type>
 	<type name="ZmbF_CitizenANormal_Blue">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -169,7 +167,6 @@
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
@@ -179,7 +176,6 @@
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
@@ -187,7 +183,6 @@
 	</type>
 	<type name="ZmbF_JournalistNormal_Blue">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -198,14 +193,12 @@
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 	</type>
 	<type name="ZmbF_JournalistNormal_Red">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -215,14 +208,12 @@
 		<cargo preset="susInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 	</type>
 	<type name="ZmbF_ShortSkirt_beige">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -233,14 +224,12 @@
 		<cargo preset="susInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 	</type>
 	<type name="ZmbF_ShortSkirt_brown">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -252,7 +241,6 @@
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
@@ -260,7 +248,6 @@
 	</type>
 	<type name="ZmbF_ShortSkirt_green">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
@@ -428,33 +415,33 @@
 		<attachments preset="bagsCity"/>
 	</type>
 	<type name="ZmbM_ClerkFat_Brown">
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 	</type>
 	<type name="ZmbM_ClerkFat_Grey">
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
 	</type>
 	<type name="ZmbM_ClerkFat_Khaki">
-		<cargo preset="mushroomInfected"/>
-		<cargo preset="btkloot"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
 	</type>
 	<type name="ZmbM_ClerkFat_White">
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
@@ -462,14 +449,14 @@
 	<type name="ZmbM_CommercialPilotOld_Blue">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
+		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="btkloot"/>
 		<cargo preset="grossInfected"/>
+		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 	</type>
@@ -498,8 +485,6 @@
 	<type name="ZmbM_Jacket_black">
 		<cargo preset="grossInfected"/>
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
@@ -516,14 +501,12 @@
 	<type name="ZmbM_Jacket_bluechecks">
 		<cargo preset="susInfected"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 	</type>
 	<type name="ZmbM_Jacket_brown">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
@@ -531,7 +514,6 @@
 	<type name="ZmbM_Jacket_greenchecks">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
@@ -547,7 +529,6 @@
 	<type name="ZmbM_Jacket_khaki">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
@@ -555,81 +536,70 @@
 	<type name="ZmbM_Jacket_magenta">
 		<cargo preset="susInfected"/>
 		<cargo preset="toolsCommon_T1"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="hatsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 	</type>
 	<type name="ZmbM_Jacket_stripes">
 		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
 		<attachments preset="bagsCity"/>
 	</type>
 	<type name="ZmbM_JournalistSkinny">
 		<cargo preset="mushroomInfected"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_MotobikerFat_Beige">
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="btkloot"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="hatsMotorbike"/>
 	</type>
 	<type name="ZmbM_MotobikerFat_Black">
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="helmetsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
-		<cargo preset="mushroomInfected"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="grossInfected"/>
 		<attachments preset="hatsMotorbike"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="helmetsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
-		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="grossInfected"/>
+		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="hatsCitySkate"/>
 		<attachments preset="bagsCity"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
-		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="grossInfected"/>
+		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="hatsCitySkate"/>
 		<attachments preset="bagsCity"/>
 		<cargo preset="btkloot"/>
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
-		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="grossInfected"/>
+		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="hatsCitySkate"/>
 		<attachments preset="bagsCity"/>
 		<cargo preset="btkloot"/>
@@ -637,7 +607,7 @@
 	<!-- Industrial -->
 	<type name="ZmbF_BlueCollarFat_Blue">
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="foodCity"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -647,7 +617,7 @@
 	<type name="ZmbF_BlueCollarFat_Green">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -656,7 +626,7 @@
 	<type name="ZmbF_BlueCollarFat_Red">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -665,7 +635,7 @@
 	<type name="ZmbF_BlueCollarFat_White">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -674,7 +644,7 @@
 	<type name="ZmbF_MechanicNormal_Beige">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -683,7 +653,7 @@
 	<type name="ZmbF_MechanicNormal_Green">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -701,7 +671,7 @@
 	<type name="ZmbF_MechanicNormal_Orange">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -709,7 +679,7 @@
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Beige">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -718,7 +688,7 @@
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Black">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -727,7 +697,7 @@
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Green">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -737,7 +707,7 @@
 	<type name="ZmbM_ConstrWorkerNormal_Grey">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -745,7 +715,7 @@
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -754,7 +724,7 @@
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -763,7 +733,7 @@
 	</type>
 	<type name="ZmbM_HandymanNormal_Green">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -772,7 +742,7 @@
 	</type>
 	<type name="ZmbM_HandymanNormal_Grey">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -782,7 +752,7 @@
 	<type name="ZmbM_HandymanNormal_White">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -791,9 +761,7 @@
 	<type name="ZmbM_HeavyIndustryWorker">
 		<cargo preset="foodCity"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -801,8 +769,7 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -811,8 +778,6 @@
 	<type name="ZmbM_MechanicSkinny_Green">
 		<cargo preset="foodCity"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
-		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -821,7 +786,7 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -830,7 +795,7 @@
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -839,7 +804,7 @@
 	</type>
 	<type name="ZmbM_OffshoreWorker_Green">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -848,7 +813,7 @@
 	</type>
 	<type name="ZmbM_OffshoreWorker_Orange">
 		<cargo preset="foodCity"/>
-		<cargo preset="susInfected"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="mixSus"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
@@ -858,7 +823,7 @@
 	<type name="ZmbM_OffshoreWorker_Red">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
@@ -867,83 +832,104 @@
 	<type name="ZmbM_OffshoreWorker_Yellow">
 		<cargo preset="foodCity"/>
 		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
+		<cargo preset="grossInfected"/>
 		<cargo preset="toolsIndustrial"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
 		<attachments preset="vestsIndustrial"/>
 	</type>
 	<type name="ZmbM_Gamedev_Black">
+		<cargo preset="grossInfected"/>
 		<cargo preset="foodCity"/>
 		<cargo preset="toolsCity"/>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
+		<cargo preset="grossInfected"/>
 		<cargo preset="foodCity"/>
 		<cargo preset="toolsCity"/>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
+		<cargo preset="grossInfected"/>
 		<cargo preset="foodCity"/>
 		<cargo preset="toolsCity"/>
 	</type>
 	<!-- FireFighter -->
 	<type name="ZmbM_FirefighterNormal">
 		<cargo preset="toolsCity"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="hatsFirefighter"/>
 	</type>
 	<!-- Medic -->
 	<type name="ZmbF_DoctorSkinny">
 		<cargo preset="toolsMedic"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<cargo preset="susInfected"/>
 		<cargo preset="mixSus"/>
 		<attachments preset="hatsMedic"/>
 	</type>
 	<type name="ZmbF_NurseFat">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbF_ParamedicNormal_Red">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbF_PatientOld">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbF_PatientOld_Winter">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbM_DoctorFat">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="hatsMedic"/>
 	</type>
 	<type name="ZmbM_DoctorFat_Winter">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="hatsMedic"/>
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="toolsMedic"/>
+		<cargo preset="grossInfected"/>
 	</type>
 	<!-- Police -->
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice"/>
 		<cargo preset="ammoPolice"/>
+		<cargo preset="grossInfected"/>
 		<cargo chance="0.10">
 			<item name="Mag_SSG82_5rnd" chance="1.0"/>
 		</cargo>
@@ -952,6 +938,7 @@
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice"/>
 		<cargo preset="ammoPolice"/>
+		<cargo preset="grossInfected"/>
 		<cargo chance="0.10">
 			<item name="Mag_SSG82_5rnd" chance="1.0"/>
 		</cargo>
@@ -960,6 +947,7 @@
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice"/>
 		<cargo preset="ammoPolice"/>
+		<cargo preset="grossInfected"/>
 		<cargo chance="0.30">
 			<item name="Mag_SSG82_5rnd" chance="0.50"/>
 			<item name="Mag_Scout_5Rnd" chance="0.50"/>
@@ -970,9 +958,6 @@
 		<cargo preset="toolsPolice"/>
 		<cargo preset="ammoPolice"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<cargo chance="0.30">
 			<item name="Mag_SSG82_5rnd" chance="0.50"/>
 			<item name="Mag_Scout_5Rnd" chance="0.50"/>
@@ -986,9 +971,6 @@
 			<item name="Rope" chance="0.14"/>
 		</cargo>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
-		<cargo preset="susInfected"/>
-		<cargo preset="mixSus"/>
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsPrisoner"/>
 	</type>
@@ -1004,7 +986,6 @@
 		<cargo preset="foodHermit"/>
 		<cargo preset="toolsHermit"/>
 		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 		<attachments preset="hatsFarm"/>
 	</type>
 	<type name="ZmbF_HikerSkinny_Grey">
@@ -1128,6 +1109,7 @@
 	<type name="ZmbM_HunterOld_Summer">
 		<cargo preset="foodHermit"/>
 		<cargo preset="toolsHermit"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="hatsFarm"/>
 		<attachments preset="bagsHunter"/>
 		<attachments preset="headtorches"/>
@@ -1136,6 +1118,7 @@
 	<type name="ZmbM_HunterOld_Winter">
 		<cargo preset="foodHermit"/>
 		<cargo preset="toolsHermit"/>
+		<cargo preset="grossInfected"/>
 		<attachments preset="headtorches"/>
 		<attachments preset="hatsFarm"/>
 		<cargo preset="grossInfected"/>
@@ -1147,7 +1130,6 @@
 		<cargo preset="foodVillage"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsVillage"/>
-		<cargo preset="grossInfected"/>
 		<cargo preset="mushroomInfected"/>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Black">
@@ -1161,15 +1143,11 @@
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="hatsCommon_T1"/>
-		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Grey">
 		<cargo preset="foodVillage"/>
 		<cargo preset="grossInfected"/>
 		<cargo preset="toolsVillage"/>
-		<cargo preset="grossInfected"/>
-		<cargo preset="mushroomInfected"/>
 	</type>
 	<type name="ZmbF_VillagerOld_Blue">
 		<cargo preset="susInfected"/>

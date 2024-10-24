@@ -5820,6 +5820,31 @@
 			<proxy type="GardenPlotPolytunnel" pos="-0.134765 -1.272247 0.168213" rpy="-0.000000 0.000000 -0.000000"/>
 		</dispatch>
 	</group>
+	<group name="ChristmasTree_Green" lootmax="10">
+	<usage name="Xmas"/>
+	<container name="lootFloor" lootmax="10">
+		<category name="containers"/>
+		<point pos="2.621000 1.000000 -3.694000" range="0.300000" height="1.000000"/>
+		<point pos="-2.043000 1.000000 -3.967000" range="0.300000" height="1.000000"/>
+		<point pos="-2.616000 1.000000 -3.121000" range="0.300000" height="1.000000"/>
+		<point pos="-3.926000 1.000000 -2.848000" range="0.300000" height="1.000000"/>
+		<point pos="-4.417000 1.000000 -1.566000" range="0.300000" height="1.000000"/>
+		<point pos="-1.880000 1.000000 3.781000" range="0.300000" height="1.000000"/>
+		<point pos="-0.243000 1.000000 3.917000" range="0.300000" height="1.000000"/>
+		<point pos="0.957000 1.000000 4.190000" range="0.300000" height="1.000000"/>
+		<point pos="2.621000 1.000000 3.644000" range="0.300000" height="1.000000"/>
+		<point pos="3.494000 1.000000 2.662000" range="0.300000" height="1.000000"/>
+		<point pos="4.313000 1.000000 1.817000" range="0.300000" height="1.000000"/>
+		<point pos="4.667000 1.000000 0.753000" range="0.300000" height="1.000000"/>
+		<point pos="4.777000 1.000000 -0.366000" range="0.300000" height="1.000000"/>
+		<point pos="4.449000 1.000000 -1.593000" range="0.300000" height="1.000000"/>
+		<point pos="4.013000 1.000000 -3.367000" range="0.300000" height="1.000000"/>
+		<point pos="1.066000 1.000000 -3.585000" range="0.300000" height="1.000000"/>
+		<point pos="-0.543000 1.000000 -3.912000" range="0.300000" height="1.000000"/>
+		<point pos="-4.771000 1.000000 0.725000" range="0.300000" height="1.000000"/>
+		<point pos="-4.144000 1.000000 3.808000" range="0.300000" height="1.000000"/>
+	</container>
+</group>
 	<!-- END MODS -->
 	<group name="Vanilla_Land_Roadblock_Table" lootmax="1">
 		<usage name="Military"/>
@@ -25742,8 +25767,9 @@
 		</container>
 	</group>
 	<!-- SEASONAL EVENTS-->
-	<group name="Bonfire" lootmax="5">
-		<usage name="Firefighter"/>
+	<group name="Bonfire" lootmax="8">
+		<usage name="SeasonalEvent"/>
+		<usage name="Bonfire"/>
 		<container name="lootFloor" lootmax="5">
 			<point pos="2.876667 0.500000 3.211807" range="1.650000" height="1.500000" flags="32"/>
 			<point pos="2.496737 0.500000 -3.174454" range="1.650000" height="1.500000" flags="32"/>
@@ -25756,6 +25782,7 @@
 		</container>
 	</group>
 	<group name="ChristmasTree" lootmax="10">
+		<usage name="Xmas"/>
 		<container name="lootFloor" lootmax="10">
 			<category name="containers"/>
 			<point pos="2.621000 1.000000 -3.694000" range="0.300000" height="1.000000"/>
@@ -25780,6 +25807,7 @@
 		</container>
 	</group>
 	<group name="Wreck_SantasSleigh" lootmax="15">
+		<usage name="Xmas"/>
 		<usage name="Military"/>
 		<container name="lootFloor" lootmax="15">
 			<category name="tools"/>
@@ -25820,12 +25848,16 @@
 			<point pos="-2.765030 -1.518448 2.362644" range="1.096875" height="2.000000" flags="32"/>
 		</container>
 		<dispatch dechance="1.000000">
-			<proxy type="GiftBox_Large_3" pos="-0.221761 -0.583313 0.805818" rpy="0.000000 0.000000 0.000000" dechance="0.250000"/>
-			<proxy type="GiftBox_Large_4" pos="-0.351653 -0.609894 0.023589" rpy="0.000000 0.000000 0.000000" dechance="0.250000"/>
-			<proxy type="FireworksLauncher" pos="-1.726919 -0.390000 0.223045" rpy="0.000000 0.000000 0.000000" dechance="0.250000"/>
+			<proxy type="GiftBox_Large_3" pos="-0.221761 -0.583313 0.805818" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
+		</dispatch>
+		<dispatch dechance="1.000000">
+			<proxy type="GiftBox_Large_4" pos="-0.351653 -0.609894 0.023589" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
+		</dispatch>
+		<dispatch dechance="1.000000">
+			<proxy type="FireworksLauncher" pos="-1.726919 -0.390000 0.223045" rpy="0.000000 0.000000 0.000000" dechance="1.000000"/>
 		</dispatch>
 	</group>
-<!-- Dynamic EVENTS-->
+	<!-- Dynamic EVENTS-->
 	<group name="Land_wreck_truck01_aban1_firetruck_DE">
 		<usage name="Firefighter"/>
 		<container name="loot" lootmax="2">

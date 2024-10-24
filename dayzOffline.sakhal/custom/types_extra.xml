@@ -462,6 +462,16 @@
 		<usage name="Office"/>
 		<usage name="School"/>
 	</type>
+	<type name="CannabisSeeds">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	<!-- DRINK -->
 	<type name="GlassBottle">
 		<nominal>30</nominal>
@@ -633,14 +643,14 @@
 		<usage name="School"/>
 	</type>
 	<type name="FoxSteakMeat">
-		<nominal>15</nominal>
+		<nominal>0</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>13</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 		<category name="food"/>
 		<tag name="shelves"/>
 		<usage name="Cannibal"/>
@@ -887,42 +897,40 @@
 		<usage name="SeasonalEvent"/>
 	</type>
 	<type name="Mosin9130_Black">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>9</nominal>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>100</quantmin>
+		<min>6</min>
+		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
-		<usage name="Military"/>
+		<usage name="Village"/>
 	</type>
 	<type name="Mosin9130_Camo">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>9</nominal>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>100</quantmin>
+		<min>6</min>
+		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Underground"/>
+		<usage name="Farm"/>
 	</type>
 	<type name="Mosin9130_Green">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>9</nominal>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>100</quantmin>
+		<min>6</min>
+		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
-		<usage name="Admin"/>
+		<usage name="Town"/>
 	</type>
 	<type name="M4A1_Green">
 		<nominal>0</nominal>
@@ -975,68 +983,72 @@
 		<usage name="Admin"/>
 	</type>
 	<type name="CZ527_Green">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<nominal>10</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1200</restock>
+		<min>7</min>
+		<quantmin>30</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
-		<usage name="Admin"/>
+		<usage name="Farm"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
 	</type>
 	<type name="CZ527_Black">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<nominal>10</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1200</restock>
+		<min>7</min>
+		<quantmin>30</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
-		<usage name="Military"/>
+		<usage name="Farm"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
 	</type>
 	<type name="CZ527_Camo">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<nominal>10</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1200</restock>
+		<min>7</min>
+		<quantmin>30</quantmin>
+		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Custom"/>
-		<usage name="SeasonalEvent"/>
+		<usage name="Farm"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
 	</type>
 	<type name="SKS_Green">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>22</nominal>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
+		<min>18</min>
+		<quantmin>25</quantmin>
+		<quantmax>75</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
-		<usage name="Admin"/>
+		<usage name="Military"/>
 	</type>
 	<type name="SKS_Black">
-		<nominal>0</nominal>
-		<lifetime>14400</lifetime>
+		<nominal>22</nominal>
+		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
+		<min>18</min>
+		<quantmin>25</quantmin>
+		<quantmax>75</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<!-- <tag name="wall"/> -->
 		<usage name="Military"/>
 	</type>
 	<type name="Winchester70_Green">
@@ -1190,31 +1202,6 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="SawedoffMosin9130_Green">
-		<nominal>1</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Cannibal"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-	</type>
-	<type name="Iceaxe">
-		<nominal>1</nominal>
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>1</min>
-		<quantmin>100</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons"/>
-		<usage name="Cannibal"/>
-	</type>
 	<type name="TelescopicBaton">
 		<nominal>3</nominal>
 		<lifetime>7200</lifetime>

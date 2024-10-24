@@ -127,7 +127,7 @@
 			<item name="HeadlightH7" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="GlowPlug" chance="1.00"/>
+			<item name="GlowPlug" chance="0.10"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="1.00"/>
@@ -568,7 +568,7 @@
 		</attachments>
 	</type>
 	<type name="Boat_01_Camo">
-		<attachments chance="0.20">
+		<attachments chance="1.00">
 			<item name="SparkPlug" chance="1.0"/>
 		</attachments>
 	</type>
