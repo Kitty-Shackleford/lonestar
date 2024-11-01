@@ -59,7 +59,7 @@
             "./custom/sakhal_cebepomopck_cannibal.json",
             "./custom/sakhal_pyahoropck_cannibal.json",
             "./custom/sakhal_tymahobo_cannibal.json",
-            "./custom/ssakhal_wahtap_cannibal.json",
+            "./custom/sakhal_wahtap_cannibal.json",
             "./custom/sakhal_ywkn_cannibal.json"
         ],
         "environmentMinTemps": [-6.5, -9.5, -6.5, -9.5, 2, 6, 9, 10, 6, 1, -5, -10],

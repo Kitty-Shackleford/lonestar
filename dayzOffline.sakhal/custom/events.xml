@@ -839,7 +839,7 @@
 		<children/>
 	</event>
 	<event name="StaticMi8Wreck">
-		<nominal>3</nominal>
+		<nominal>1</nominal>
 		<min>0</min>
 		<max>0</max>
 		<lifetime>2100</lifetime>
@@ -853,7 +853,7 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
+			<child lootmax="15" lootmin="10" max="1" min="1" type="Wreck_Mi8_Crashed"/>
 		</children>
 	</event>
 	<event name="StaticMilitaryContainerSpecial">
