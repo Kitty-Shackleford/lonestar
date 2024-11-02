@@ -6792,18 +6792,16 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="DuctTape">
-		<nominal>50</nominal>
+		<nominal>80</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>44</min>
+		<min>75</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="tools"/>
 		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 	</type>
@@ -17594,10 +17592,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="SewingKit">
-		<nominal>50</nominal>
+		<nominal>80</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>40</min>
+		<min>65</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
