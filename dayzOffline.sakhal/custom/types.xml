@@ -11,6 +11,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Police"/>
+		<usage name="USA"/>
 	</type>
 	<type name="ACOGOptic_6x">
 		<nominal>8</nominal>
@@ -23,6 +24,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
+		<usage name="USA"/>
 	</type>
 	<type name="AK101">
 		<nominal>3</nominal>
@@ -122,9 +124,9 @@
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Underground"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="AKS74U">
 		<nominal>3</nominal>
@@ -136,7 +138,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="AKS74U_Black">
 		<nominal>0</nominal>
@@ -378,7 +380,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="AgaricusMushroom">
 		<nominal>0</nominal>
@@ -2208,10 +2210,10 @@
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
-		<value name="Unique"/>
+		<usage name="Military"/>
+		<usage name="Underground"/>
 	</type>
 	<type name="AugShort">
 		<nominal>3</nominal>
@@ -2221,10 +2223,10 @@
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
-		<value name="Unique"/>
+		<usage name="Military"/>
+		<usage name="Underground"/>
 	</type>
 	<type name="AuriculariaMushroom">
 		<nominal>0</nominal>
@@ -2264,32 +2266,28 @@
 		<usage name="Hunting"/>
 	</type>
 	<type name="BDUJacket">
-		<nominal>15</nominal>
+		<nominal>3</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>11</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="USA"/>
 	</type>
 	<type name="BDUPants">
-		<nominal>15</nominal>
+		<nominal>3</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>11</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="USA"/>
 	</type>
 	<type name="BUISOptic">
 		<nominal>10</nominal>
@@ -2537,22 +2535,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
-		<usage name="Industrial"/>
-		<usage name="Farm"/>
-		<usage name="Coast"/>
-		<usage name="Town"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<usage name="Office"/>
-		<usage name="School"/>
-		<usage name="SeasonalEvent"/>
-		<usage name="ContaminatedArea"/>
-		<usage name="Special"/>
-		<usage name="Lunapark"/>
-		<usage name="Underground"/>
 	</type>
 	<type name="BalaclavaMask_Pink">
 		<nominal>5</nominal>
@@ -2592,11 +2574,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="USA"/>
 	</type>
 	<type name="BallisticHelmet_Black">
 		<nominal>8</nominal>
@@ -2883,7 +2863,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<tag name="ground"/>
 		<usage name="Industrial"/>
@@ -2897,7 +2877,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<tag name="ground"/>
 		<usage name="Industrial"/>
@@ -2911,7 +2891,7 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<tag name="ground"/>
 		<usage name="Industrial"/>
@@ -3612,7 +3592,9 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
-		<usage name="Farm"/>
+		<tag name="floor"/>
+		<usage name="Dog"/>
+		<usage name="Chicken"/>
 	</type>
 	<type name="BoneBait">
 		<nominal>0</nominal>
@@ -4833,7 +4815,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="food"/>
 		<tag name="ground"/>
-		<usage name="Village"/>
+		<usage name="Chicken"/>
+		<usage name="Dog"/>
 	</type>
 	<type name="ChildBag_Blue">
 		<nominal>9</nominal>
@@ -7025,7 +7008,7 @@
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
 		<value name="Tier3"/>
@@ -7039,7 +7022,7 @@
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
 		<value name="Tier3"/>
@@ -7059,16 +7042,16 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="FNX45">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Fabric">
 		<nominal>30</nominal>
@@ -8176,6 +8159,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="USSR"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
@@ -8220,9 +8204,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="USSR"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
@@ -8267,9 +8252,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="USSR"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
@@ -8314,9 +8300,10 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Military"/>
+		<usage name="USSR"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
@@ -8522,17 +8509,17 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 	<type name="Glock19">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
 		<tag name="shelves"/>
-		<usage name="Police"/>
+		<usage name="USA"/>
 	</type>
 	<type name="GlowPlug">
 		<nominal>0</nominal>
@@ -12592,18 +12579,16 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="Mag_1911_7Rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_AK101_30Rnd">
 		<nominal>6</nominal>
@@ -12699,22 +12684,22 @@
 		<value name="Unique"/>
 	</type>
 	<type name="Mag_CMAG_10Rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_CMAG_20Rnd">
-		<nominal>0</nominal>
+		<nominal>6</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>3</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -12732,7 +12717,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_CMAG_40Rnd">
 		<nominal>0</nominal>
@@ -12744,7 +12729,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_CZ527_5rnd">
 		<nominal>16</nominal>
@@ -12798,16 +12783,16 @@
 		<usage name="Police"/>
 	</type>
 	<type name="Mag_Deagle_9rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Town"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_FAL_20Rnd">
 		<nominal>13</nominal>
@@ -12834,28 +12819,28 @@
 		<usage name="Military"/>
 	</type>
 	<type name="Mag_FNX45_15Rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_Glock_15Rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Police"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_IJ70_8Rnd">
 		<nominal>40</nominal>
@@ -12870,30 +12855,28 @@
 		<usage name="Village"/>
 	</type>
 	<type name="Mag_M14_10Rnd">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
-		<value name="Unique"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_M14_20Rnd">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
-		<value name="Unique"/>
+		<usage name="USA"/>
 	</type>
 	<type name="Mag_MKII_10Rnd">
 		<nominal>26</nominal>
@@ -13043,9 +13026,9 @@
 		<quantmin>0</quantmin>
 		<quantmax>100</quantmax>
 		<cost>1000</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="Underground"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="Mag_Saiga_5Rnd">
 		<nominal>24</nominal>
@@ -14186,7 +14169,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="NBCBootsYellow">
 		<nominal>6</nominal>
@@ -14212,7 +14195,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 		<usage name="Special"/>
 	</type>
 	<type name="NBCGlovesYellow">
@@ -14251,7 +14234,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="NBCHoodYellow">
 		<nominal>6</nominal>
@@ -14289,7 +14272,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="NBCJacketYellow">
 		<nominal>6</nominal>
@@ -14327,7 +14310,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="NBCPantsYellow">
 		<nominal>6</nominal>
@@ -16738,7 +16721,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="Saiga">
 		<nominal>3</nominal>
@@ -16750,7 +16733,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
-		<usage name="HeliMi8"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="Saiga_Bttstck">
 		<nominal>5</nominal>
@@ -20872,10 +20855,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="Winchester70">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>28800</lifetime>
 		<restock>600</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>25</quantmin>
 		<quantmax>75</quantmax>
 		<cost>100</cost>
@@ -23631,15 +23614,15 @@
 		<usage name="Farm"/>
 	</type>
 	<type name="M14">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
 		<lifetime>14400</lifetime>
 		<restock>3600</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Special"/>
+		<usage name="USA"/>
 	</type>
 </types>

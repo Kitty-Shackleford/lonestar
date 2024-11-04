@@ -33,14 +33,14 @@
 	<group name="C130J">
 		<child type="Land_Wreck_C130J" deloot="0" lootmax="8" lootmin="4" x="0" z="0" a="0" y="0"/>
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
-		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
-		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
+		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
 	</group>
 	<group name="C130JC">
 		<child type="Land_Wreck_C130J_Cargo" deloot="0" lootmax="10" lootmin="7" x="0" z="0" a="0" y="0"/>
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5" z="11.20068359375" a="0" y="-4.862518310546875"/>
-		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
-		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
+		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.5966796875" z="17.7294921875" a="0" y="-4.3388671875"/>
+		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="0.65234375" z="14.63720703125" a="0" y="-4.45263671875"/>
 	</group>
 	<!-- RICO -->
 	<event name="Static_Builder">
@@ -106,13 +106,13 @@
 	</group>
 	<group name="supplyuh1yhelicrash">
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="4.26611328125" z="5.716796875" a="267.2076950073242" y="-1.415679931640625"/>
-		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/>
+		<!-- <child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="1.8486328125" z="8.9111328125" a="337.24668884277344" y="-1.14593505859375"/> -->
 		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="4.3740234375" z="10.609375" a="248.93697357177734" y="-1.149444580078125"/>
 	</group>
 	<group name="supplymi8helicrash">
 		<child type="StaticObj_Misc_SupplyBox1_DE" deloot="0" lootmax="8" lootmin="4" x="8.0791015625" z="7.6953125" a="267.2076950073242" y="-0.889404296875"/>
 		<child type="StaticObj_Misc_SupplyBox2_DE" deloot="0" lootmax="8" lootmin="4" x="4.9267578125" z="9.8232421875" a="337.2466869354248" y="-0.6201171875"/>
-		<child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/>
+		<!-- <child type="StaticObj_Misc_SupplyBox3_DE" deloot="0" lootmax="8" lootmin="4" x="7.4521484375" z="11.521484375" a="248.93697357177734" y="-0.623626708984375"/> -->
 	</group>
 	<group name="meleewall">
 		<child type="StaticObj_Wall_Tin6_2_4" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
@@ -179,19 +179,6 @@
 		<child type="MetalPlate" spawnsecondary="false" x="1.1044921875" z="-1.6904296875" a="0" y="0.023113250732421875"/>
 	</group>
 	<!-- Not Working -->
-	<group name="Gun_Racks">
-		<child type="StaticObj_Misc_Gunrack" deloot="1" lootmax="0" lootmin="0" x="0" z="0" a="0" y="0"/>
-	</group>
-	<!-- Bear Strike -->
-	<group name="BearStrike">
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="6" lootmin="6" x="0" z="0" a="0" y="0"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="-0.294921875" z="0.324462890625" a="306.00001525878906" y="0.9632673263549805"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="-0.3349609375" z="-1.35498046875" a="261.00003814697266" y="0.9632625579833984"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.01953125" z="-2.97998046875" a="207.00018310546875" y="0.9632701873779297"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="3.3046875" z="-2.617431640625" a="144.0000762939453" y="0.9633636474609375"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="3.5830078125" z="-0.395751953125" a="72.00006866455078" y="0.9632139205932617"/>
-		<child type="Animal_UrsusArctos" deloot="0" lootmax="3" lootmin="1" x="1.30859375" z="0.97314453125" a="351" y="0.9632625579833984"/>
-	</group>
 	<!-- END MODS -->
 	<group name="Scientist">
 		<child type="StaticObj_FrozenScientist_DE" spawnsecondary="false" x="0.0" z="0.0" a="0"/>

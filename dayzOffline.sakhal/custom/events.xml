@@ -853,7 +853,8 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="15" lootmin="10" max="1" min="1" type="Wreck_Mi8_Crashed"/>
+			<child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_Mi8_Crashed"/>
+			<child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_UH1Y"/>
 		</children>
 	</event>
 	<event name="StaticMilitaryContainerSpecial">
@@ -870,7 +871,7 @@
 		<limit>child</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="3" lootmin="3" max="5" min="5" type="Land_Container_1Moh_DE"/>
+			<child lootmax="3" lootmin="3" max="16" min="12" type="Land_Container_1Moh_DE"/>
 		</children>
 	</event>
 	<event name="StaticMilitaryConvoy">
@@ -1340,6 +1341,23 @@
 			<child lootmax="0" lootmin="0" max="0" min="0" type="Truck_01_Covered"/>
 			<child lootmax="0" lootmin="0" max="15" min="9" type="Truck_01_Covered_Blue"/>
 			<child lootmax="0" lootmin="0" max="0" min="0" type="Truck_01_Covered_Orange"/>
+		</children>
+	</event>
+	<event name="VehicleOffroad02">
+		<nominal>3</nominal>
+		<min>2</min>
+		<max>3</max>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<saferadius>500</saferadius>
+		<distanceradius>500</distanceradius>
+		<cleanupradius>200</cleanupradius>
+		<flags deletable="0" init_random="0" remove_damaged="1"/>
+		<position>fixed</position>
+		<limit>mixed</limit>
+		<active>1</active>
+		<children>
+			<child lootmax="0" lootmin="0" max="3" min="2" type="Offroad_02"/>
 		</children>
 	</event>
 </events>

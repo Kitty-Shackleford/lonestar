@@ -12,6 +12,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Candle">
 		<nominal>13</nominal>
@@ -27,6 +28,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Cauldron">
 		<nominal>13</nominal>
@@ -40,6 +42,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="CrookedNose">
 		<nominal>13</nominal>
@@ -54,6 +57,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="CombatKnife">
 		<nominal>20</nominal>
@@ -68,6 +72,7 @@
 		<tag name="shelves"/>
 		<usage name="Military"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="CrudeMachete">
 		<nominal>25</nominal>
@@ -82,6 +87,7 @@
 		<usage name="Industrial"/>
 		<usage name="Cannibal"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Cleaver">
 		<nominal>25</nominal>
@@ -97,6 +103,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Epinephrine">
 		<nominal>15</nominal>
@@ -112,6 +119,7 @@
 		<usage name="Medic"/>
 		<usage name="Cannibal"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="EyeMask_Dead">
 		<nominal>13</nominal>
@@ -126,6 +134,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Hook">
 		<nominal>30</nominal>
@@ -140,6 +149,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="KitchenKnife">
 		<nominal>35</nominal>
@@ -154,6 +164,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Pitchfork">
 		<nominal>25</nominal>
@@ -169,6 +180,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="GiftWrapPaper">
 		<nominal>13</nominal>
@@ -195,6 +207,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="PumpkinHelmet">
 		<nominal>0</nominal>
@@ -247,6 +260,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 		<value name="Tier1"/>
 	</type>
 	<type name="WitchHat">
@@ -262,6 +276,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="WitchHood_Black">
 		<nominal>13</nominal>
@@ -276,6 +291,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="WitchHood_Brown">
 		<nominal>13</nominal>
@@ -290,6 +306,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="WitchHood_Red">
 		<nominal>13</nominal>
@@ -304,6 +321,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="PaydayMask_Chains">
 		<nominal>13</nominal>
@@ -316,6 +334,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="PaydayMask_Dallas">
 		<nominal>13</nominal>
@@ -328,6 +347,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="PaydayMask_Hoxton">
 		<nominal>13</nominal>
@@ -340,6 +360,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="PaydayMask_Wolf">
 		<nominal>13</nominal>
@@ -352,6 +373,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="MimeMask_Female">
 		<nominal>13</nominal>
@@ -364,6 +386,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="MimeMask_Male">
 		<nominal>13</nominal>
@@ -376,6 +399,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="BarbedBaseballBat">
 		<nominal>13</nominal>
@@ -389,6 +413,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="NailedBaseballBat">
 		<nominal>13</nominal>
@@ -402,6 +427,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="Mace">
 		<nominal>13</nominal>
@@ -417,6 +443,7 @@
 		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="SeasonalEvent"/>
+		<usage name="Halloween"/>
 	</type>
 	<type name="UndergroundStash">
 		<nominal>100</nominal>

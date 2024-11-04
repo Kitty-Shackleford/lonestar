@@ -9,12 +9,12 @@
 		<item name="Ammo_40mm_Explosive" chance="0.50"/>
 	</cargo>
 	<attachments chance="1.00" name="MummyHat">
-		<item name="PumpkinHelmet" chance="0.16"/>
-		<item name="WitchHat" chance="0.16"/>
-		<item name="DarkMotoHelmet_YellowScarred" chance="0.16"/>
-		<item name="NorseHelm" chance="0.16"/>
-		<item name="GreatHelm" chance="0.16"/>
-		<item name="Chainmail_Coif" chance="0.16"/>\
+		<item name="PumpkinHelmet" chance="0.166"/>
+		<item name="WitchHat" chance="0.166"/>
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.166"/>
+		<item name="NorseHelm" chance="0.166"/>
+		<item name="GreatHelm" chance="0.166"/>
+		<item name="Chainmail_Coif" chance="0.166"/>\
 	</attachments>
 	<attachments chance="1.00" name="MummyVest">
 		<item name="Chestplate" chance="0.50"/>
