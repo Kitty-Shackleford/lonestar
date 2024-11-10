@@ -1,36 +1,7 @@
 {
   "spawnWeight": 1,
   "name": "Player",
-  "characterTypes": [
-    "SurvivorM_Mirek",
-    "SurvivorM_Boris",
-    "SurvivorM_Cyril",
-    "SurvivorM_Denis",
-    "SurvivorM_Elias",
-    "SurvivorM_Guo",
-    "SurvivorM_Hassan",
-    "SurvivorM_Indar",
-    "SurvivorM_Jose",
-    "SurvivorM_Kaito",
-    "SurvivorM_Manua",
-    "SurvivorM_Niki",
-    "SurvivorM_Oliver",
-    "SurvivorM_Peter",
-    "SurvivorM_Quinn",
-    "SurvivorM_Rolf",
-    "SurvivorM_Seth",
-    "SurvivorM_Taiki",
-    "SurvivorF_Eva",
-    "SurvivorF_Frida",
-    "SurvivorF_Gabi",
-    "SurvivorF_Helga",
-    "SurvivorF_Irena",
-    "SurvivorF_Keiko",
-    "SurvivorF_Linda",
-    "SurvivorF_Maria",
-    "SurvivorF_Naomi",
-    "SurvivorF_Baty"
-  ],
+  "characterTypes": [],
   "attachmentSlotItemSets": [
     {
       "slotName": "shoulderR",
@@ -73,7 +44,7 @@
       ]
     },
     {
-      "slotName": "Mask",
+      "slotName": "Headgear",
       "discreteItemSets": [
         {
           "itemType": "PaydayMask_Hoxton",

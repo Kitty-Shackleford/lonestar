@@ -2314,10 +2314,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="BakedBeansCan">
-		<nominal>4</nominal>
+		<nominal>8</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3802,10 +3802,10 @@
 		<usage name="Hunting"/>
 	</type>
 	<type name="BoxCerealCrunchin">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>4</min>
+		<min>8</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -3973,10 +3973,10 @@
 		<value name="Tier1"/>
 	</type>
 	<type name="BrisketSpread">
-		<nominal>8</nominal>
+		<nominal>16</nominal>
 		<lifetime>9000</lifetime>
 		<restock>600</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -4573,10 +4573,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="CatFoodCan">
-		<nominal>4</nominal>
+		<nominal>8</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -4858,10 +4858,10 @@
 		<value name="Tier1"/>
 	</type>
 	<type name="Chips">
-		<nominal>8</nominal>
+		<nominal>16</nominal>
 		<lifetime>7200</lifetime>
 		<restock>600</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -5874,10 +5874,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="CrabCan">
-		<nominal>20</nominal>
+		<nominal>35</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>14</min>
+		<min>20</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -5910,10 +5910,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="Crackers">
-		<nominal>8</nominal>
+		<nominal>16</nominal>
 		<lifetime>7200</lifetime>
 		<restock>600</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -6489,10 +6489,10 @@
 		<usage name="Village"/>
 	</type>
 	<type name="DogFoodCan">
-		<nominal>4</nominal>
+		<nominal>8</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -8743,7 +8743,7 @@
 		<nominal>30</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>20</min>
+		<min>25</min>
 		<quantmin>50</quantmin>
 		<quantmax>70</quantmax>
 		<cost>100</cost>
@@ -10145,10 +10145,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="Honey">
-		<nominal>6</nominal>
+		<nominal>12</nominal>
 		<lifetime>28800</lifetime>
 		<restock>600</restock>
-		<min>4</min>
+		<min>11</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12075,10 +12075,10 @@
 		<usage name="Industrial"/>
 	</type>
 	<type name="Lunchmeat">
-		<nominal>4</nominal>
+		<nominal>8</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>6</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -13278,10 +13278,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="Marmalade">
-		<nominal>6</nominal>
+		<nominal>12</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>4</min>
+		<min>8</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -14941,10 +14941,10 @@
 		<usage name="Medic"/>
 	</type>
 	<type name="Pajka">
-		<nominal>8</nominal>
+		<nominal>16</nominal>
 		<lifetime>9000</lifetime>
 		<restock>600</restock>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -15102,10 +15102,10 @@
 		<usage name="Lunapark"/>
 	</type>
 	<type name="Pate">
-		<nominal>8</nominal>
+		<nominal>16</nominal>
 		<lifetime>9000</lifetime>
 		<restock>600</restock>
-		<min>6</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -15173,10 +15173,10 @@
 		<category name="clothes"/>
 	</type>
 	<type name="PeachesCan">
-		<nominal>4</nominal>
+		<nominal>16</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -15843,10 +15843,10 @@
 		<usage name="Police"/>
 	</type>
 	<type name="PorkCan">
-		<nominal>4</nominal>
+		<nominal>16</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -16579,10 +16579,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="Rice">
-		<nominal>4</nominal>
+		<nominal>16</nominal>
 		<lifetime>28800</lifetime>
 		<restock>600</restock>
-		<min>2</min>
+		<min>10</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -16837,10 +16837,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="SardinesCan">
-		<nominal>6</nominal>
+		<nominal>18</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>4</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18548,10 +18548,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SodaCan_Cola">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18566,10 +18566,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SodaCan_Fronta">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18584,10 +18584,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SodaCan_Kvass">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18602,10 +18602,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SodaCan_Pipsi">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18620,10 +18620,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SodaCan_Spite">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -18638,10 +18638,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="SpaghettiCan">
-		<nominal>5</nominal>
+		<nominal>16</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>3</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -20331,10 +20331,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="TunaCan">
-		<nominal>6</nominal>
+		<nominal>18</nominal>
 		<lifetime>14400</lifetime>
 		<restock>600</restock>
-		<min>4</min>
+		<min>12</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
