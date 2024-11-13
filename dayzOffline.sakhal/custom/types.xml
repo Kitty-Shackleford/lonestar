@@ -30,7 +30,7 @@
 		<nominal>3</nominal>
 		<lifetime>28800</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -117,15 +117,16 @@
 		<usage name="Military"/>
 	</type>
 	<type name="AKM">
-		<nominal>3</nominal>
+		<nominal>6</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>2</min>
+		<min>3</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
+		<usage name="Underground"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="AKS74U">
@@ -393,17 +394,16 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="AirborneMask">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Medic"/>
-		<usage name="Firefighter"/>
+		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="AlarmClock_Blue">
 		<nominal>10</nominal>
@@ -2203,10 +2203,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="Aug">
-		<nominal>3</nominal>
+		<nominal>7</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -2216,10 +2216,10 @@
 		<usage name="Underground"/>
 	</type>
 	<type name="AugShort">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>3600</restock>
-		<min>1</min>
+		<min>3</min>
 		<quantmin>30</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -7948,6 +7948,26 @@
 		<value name="Tier1"/>
 		<value name="Tier2"/>
 	</type>
+	<type name="FoxPelt">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
+	<type name="FoxSteakMeat">
+		<nominal>0</nominal>
+		<lifetime>7200</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	</type>
 	<type name="FryingPan">
 		<nominal>24</nominal>
 		<lifetime>14400</lifetime>
@@ -7981,16 +8001,17 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="GP5GasMask">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>7</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+		<usage name="Firefighter"/>
+		<usage name="Medic"/>
 	</type>
 	<type name="GPSReceiver">
 		<nominal>12</nominal>
@@ -8047,10 +8068,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
 	</type>
 	<type name="GasMask">
-		<nominal>0</nominal>
+		<nominal>10</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>7</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -14157,7 +14178,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Medic"/>
+		<usage name="Underground"/>
+		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="NBCBootsWhite">
 		<nominal>6</nominal>
@@ -14169,6 +14191,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
+		<usage name="ContaminatedArea"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="NBCBootsYellow">
@@ -14186,16 +14209,18 @@
 		<usage name="Firefighter"/>
 	</type>
 	<type name="NBCGlovesGray">
-		<nominal>6</nominal>
+		<nominal>18</nominal>
 		<lifetime>14400</lifetime>
 		<restock>3600</restock>
-		<min>3</min>
+		<min>9</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="USSR"/>
+		<usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<usage name="Special"/>
 	</type>
 	<type name="NBCGlovesYellow">
@@ -14222,7 +14247,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Medic"/>
+		<usage name="Underground"/>
+		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="NBCHoodWhite">
 		<nominal>6</nominal>
@@ -14234,6 +14260,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
+		<usage name="ContaminatedArea"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="NBCHoodYellow">
@@ -14260,7 +14287,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Medic"/>
+		<usage name="Underground"/>
+		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="NBCJacketWhite">
 		<nominal>6</nominal>
@@ -14272,6 +14300,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
+		<usage name="ContaminatedArea"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="NBCJacketYellow">
@@ -14298,7 +14327,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Medic"/>
+		<usage name="Underground"/>
+		<usage name="ContaminatedArea"/>
 	</type>
 	<type name="NBCPantsWhite">
 		<nominal>6</nominal>
@@ -14310,6 +14340,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="clothes"/>
+		<usage name="ContaminatedArea"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="NBCPantsYellow">
@@ -16071,15 +16102,16 @@
 		<usage name="Farm"/>
 	</type>
 	<type name="PunchedCard">
-		<nominal>0</nominal>
+		<nominal>6</nominal>
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="tools"/>
+		<category name="clothes"/>
+		<usage name="Police"/>
 	</type>
 	<type name="PurificationTablets">
 		<nominal>30</nominal>
@@ -16710,6 +16742,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Underground"/>
+		<usage name="USSR"/>
 	</type>
 	<type name="SVD">
 		<nominal>3</nominal>
@@ -16721,6 +16754,7 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 		<category name="weapons"/>
+		<usage name="Underground"/>
 		<usage name="USSR"/>
 	</type>
 	<type name="Saiga">

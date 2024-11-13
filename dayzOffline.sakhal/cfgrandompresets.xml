@@ -174,13 +174,14 @@
 		<item name="Thermometer" chance="0.05"/>
 	</cargo>
 	<cargo chance="0.25" name="toolsPolice">
-		<item name="Battery9V" chance="0.1"/>
-		<item name="PersonalRadio" chance="0.1"/>
-		<item name="Flashlight" chance="0.15"/>
-		<item name="Roadflare" chance="0.2"/>
-		<item name="CombatKnife" chance="0.05"/>
-		<item name="Morphine" chance="0.05"/>
-		<item name="BandageDressing" chance="0.05"/>
+		<item name="Battery9V" chance="0.125"/>
+		<item name="PersonalRadio" chance="0.125"/>
+		<item name="Flashlight" chance="0.125"/>
+		<item name="Roadflare" chance="0.125"/>
+		<item name="CombatKnife" chance="0.125"/>
+		<item name="Morphine" chance="0.125"/>
+		<item name="BandageDressing" chance="0.125"/>
+		<item name="PunchedCard" chance="0.125"/>
 	</cargo>
 	<cargo chance="0.15" name="toolsHunter">
 		<item name="Paper" chance="0.1"/>
@@ -641,9 +642,8 @@
 	</attachments>
 	<!-- Halloween -->
 	<cargo chance="0.25" name="halloween_01">
-		<item name="ClaymoreMine" chance="0.40"/>
-		<item name="Plastic_Explosive" chance="0.40"/>
-		<item name="SmallGasCanister" chance="0.20"/>
+		<item name="ClaymoreMine" chance="0.50"/>
+		<item name="Plastic_Explosive" chance="0.50"/>
 	</cargo>
 	<cargo chance="0.80" name="halloween_02">
 		<item name="ElectronicRepairKit" chance="0.33"/>

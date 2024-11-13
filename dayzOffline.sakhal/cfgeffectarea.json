@@ -4,7 +4,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8906, 0, 10913],
+                "Pos": [
+                    8906,
+                    0,
+                    10913
+                ],
                 "Radius": 12,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -14,7 +18,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8898, 0, 10934.5],
+                "Pos": [
+                    8898,
+                    0,
+                    10934.5
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -24,7 +32,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8884, 0, 10934],
+                "Pos": [
+                    8884,
+                    0,
+                    10934
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -34,7 +46,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8875.2, 0, 10925.5],
+                "Pos": [
+                    8875.2,
+                    0,
+                    10925.5
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -44,7 +60,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8873.25, 0, 10908],
+                "Pos": [
+                    8873.25,
+                    0,
+                    10908
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -54,7 +74,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8865.3, 0, 10916],
+                "Pos": [
+                    8865.3,
+                    0,
+                    10916
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -64,7 +88,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8872.5, 0, 10878.5],
+                "Pos": [
+                    8872.5,
+                    0,
+                    10878.5
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -74,7 +102,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8862.2, 0, 10871],
+                "Pos": [
+                    8862.2,
+                    0,
+                    10871
+                ],
                 "Radius": 5,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -84,7 +116,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8861.15, 0, 10864.25],
+                "Pos": [
+                    8861.15,
+                    0,
+                    10864.25
+                ],
                 "Radius": 5,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -94,7 +130,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8864.5, 0, 10856.3],
+                "Pos": [
+                    8864.5,
+                    0,
+                    10856.3
+                ],
                 "Radius": 5,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -104,7 +144,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8871.2, 0, 10850],
+                "Pos": [
+                    8871.2,
+                    0,
+                    10850
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -114,7 +158,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8856.1, 0, 10848.8],
+                "Pos": [
+                    8856.1,
+                    0,
+                    10848.8
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -124,7 +172,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8695.8, 0, 10207.3],
+                "Pos": [
+                    8695.8,
+                    0,
+                    10207.3
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -134,7 +186,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8700.75, 0, 10191.25],
+                "Pos": [
+                    8700.75,
+                    0,
+                    10191.25
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -144,7 +200,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8707.1, 0, 10186.6],
+                "Pos": [
+                    8707.1,
+                    0,
+                    10186.6
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -154,7 +214,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8719.2, 0, 10188.8],
+                "Pos": [
+                    8719.2,
+                    0,
+                    10188.8
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -164,7 +228,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8721.7, 0, 10199],
+                "Pos": [
+                    8721.7,
+                    0,
+                    10199
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -174,7 +242,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8357.35, 0, 9876],
+                "Pos": [
+                    8357.35,
+                    0,
+                    9876
+                ],
                 "Radius": 9,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -184,7 +256,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [8348.75, 0, 9879.5],
+                "Pos": [
+                    8348.75,
+                    0,
+                    9879.5
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -194,7 +270,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7726.75, 0, 11534.1],
+                "Pos": [
+                    7726.75,
+                    0,
+                    11534.1
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -204,7 +284,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7728.8, 0, 11528.12],
+                "Pos": [
+                    7728.8,
+                    0,
+                    11528.12
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -214,7 +298,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7729.6, 0, 11519.45],
+                "Pos": [
+                    7729.6,
+                    0,
+                    11519.45
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -224,7 +312,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7723.28, 0, 11514.5],
+                "Pos": [
+                    7723.28,
+                    0,
+                    11514.5
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -234,7 +326,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7739.55, 0, 11505.15],
+                "Pos": [
+                    7739.55,
+                    0,
+                    11505.15
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -244,7 +340,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7710.4, 0, 11504.35],
+                "Pos": [
+                    7710.4,
+                    0,
+                    11504.35
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -254,7 +354,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7717.210, 0, 11501],
+                "Pos": [
+                    7717.21,
+                    0,
+                    11501
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -264,7 +368,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7687.4, 0, 11482.15],
+                "Pos": [
+                    7687.4,
+                    0,
+                    11482.15
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -274,7 +382,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7676.4, 0, 11482.5],
+                "Pos": [
+                    7676.4,
+                    0,
+                    11482.5
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -284,7 +396,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7670.85, 0, 11475.4],
+                "Pos": [
+                    7670.85,
+                    0,
+                    11475.4
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -294,7 +410,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7672.5, 0, 11465.6],
+                "Pos": [
+                    7672.5,
+                    0,
+                    11465.6
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -304,7 +424,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [7676.5, 0, 11456.45],
+                "Pos": [
+                    7676.5,
+                    0,
+                    11456.45
+                ],
                 "Radius": 6,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -314,7 +438,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11445.5, 0, 11089.5],
+                "Pos": [
+                    11445.5,
+                    0,
+                    11089.5
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -324,7 +452,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11317, 0, 11050],
+                "Pos": [
+                    11317,
+                    0,
+                    11050
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -334,7 +466,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11311.7, 0, 11098],
+                "Pos": [
+                    11311.7,
+                    0,
+                    11098
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -344,7 +480,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11304.11, 0, 11097.8],
+                "Pos": [
+                    11304.11,
+                    0,
+                    11097.8
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -354,7 +494,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11331, 0, 11110.8],
+                "Pos": [
+                    11331,
+                    0,
+                    11110.8
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -364,7 +508,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11336.6, 0, 11108.86],
+                "Pos": [
+                    11336.6,
+                    0,
+                    11108.86
+                ],
                 "Radius": 8,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -374,7 +522,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11352.4, 0, 11181.4],
+                "Pos": [
+                    11352.4,
+                    0,
+                    11181.4
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -384,7 +536,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11358.8, 0, 11169],
+                "Pos": [
+                    11358.8,
+                    0,
+                    11169
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -394,7 +550,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11362.7, 0, 11175],
+                "Pos": [
+                    11362.7,
+                    0,
+                    11175
+                ],
                 "Radius": 10,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -404,7 +564,11 @@
             "Type": "HotSpringArea",
             "TriggerType": "HotSpringTrigger",
             "Data": {
-                "Pos": [11374.1, 0, 11170.8],
+                "Pos": [
+                    11374.1,
+                    0,
+                    11170.8
+                ],
                 "Radius": 7,
                 "PosHeight": 10,
                 "NegHeight": 10
@@ -414,7 +578,11 @@
             "Type": "VolcanicArea",
             "TriggerType": "VolcanicTrigger",
             "Data": {
-                "Pos": [10039.5, 0, 12010.3],
+                "Pos": [
+                    10039.5,
+                    0,
+                    12010.3
+                ],
                 "Radius": 8,
                 "PosHeight": 20,
                 "NegHeight": 10
@@ -424,7 +592,11 @@
             "Type": "VolcanicArea",
             "TriggerType": "VolcanicTrigger",
             "Data": {
-                "Pos": [10031.9, 0, 12027.4],
+                "Pos": [
+                    10031.9,
+                    0,
+                    12027.4
+                ],
                 "Radius": 8,
                 "PosHeight": 20,
                 "NegHeight": 10
@@ -434,7 +606,11 @@
             "Type": "VolcanicArea",
             "TriggerType": "VolcanicTrigger",
             "Data": {
-                "Pos": [10028.9, 0, 12014],
+                "Pos": [
+                    10028.9,
+                    0,
+                    12014
+                ],
                 "Radius": 8,
                 "PosHeight": 20,
                 "NegHeight": 10
@@ -444,17 +620,27 @@
             "Type": "VolcanicArea",
             "TriggerType": "VolcanicTrigger",
             "Data": {
-                "Pos": [10050.1, 0, 12027.9],
+                "Pos": [
+                    10050.1,
+                    0,
+                    12027.9
+                ],
                 "Radius": 8,
                 "PosHeight": 20,
                 "NegHeight": 10
             }
         }, {
+            "AreaName": "STARTMODS"
+        }, {
             "AreaName": "ScientistLab",
             "Type": "ContaminatedArea_Static",
             "TriggerType": "ContaminatedTrigger",
             "Data": {
-                "Pos": [11040, 0, 11499],
+                "Pos": [
+                    11040,
+                    0,
+                    11499
+                ],
                 "Radius": 100,
                 "PosHeight": 22,
                 "NegHeight": 2,
@@ -477,7 +663,11 @@
             "Type": "ContaminatedArea_Static",
             "TriggerType": "ContaminatedTrigger",
             "Data": {
-                "Pos": [8364, 0, 10302],
+                "Pos": [
+                    8364,
+                    0,
+                    10302
+                ],
                 "Radius": 100,
                 "PosHeight": 22,
                 "NegHeight": 2,
@@ -495,11 +685,142 @@
                 "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
                 "PPERequesterType": "PPERequester_ContaminatedAreaTint"
             }
+        }, {
+            "AreaName": "GrowhouseWahtap1",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2777.465576171875,
+                    18.264453887939453,
+                    3476.73828125
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap2",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2777.71044921875,
+                    18.26456069946289,
+                    3483.770263671875
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap3",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2777.8154296875,
+                    18.268516540527344,
+                    3490.796875
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap4",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2787.445556640625,
+                    18.25912094116211,
+                    3476.564208984375
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap5",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2787.684814453125,
+                    18.259225845336914,
+                    3483.598876953125
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap6",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2787.78759765625,
+                    18.263181686401367,
+                    3490.62353515625
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap7",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2797.106201171875,
+                    18.259119033813477,
+                    3476.40380859375
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap8",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2797.347900390625,
+                    18.25922393798828,
+                    3483.435302734375
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
+        }, {
+            "AreaName": "GrowhouseWahtap9",
+            "Type": "HotSpringArea",
+            "TriggerType": "HotSpringTrigger",
+            "Data": {
+                "Pos": [
+                    2797.449951171875,
+                    18.263179779052734,
+                    3490.46630859375
+                ],
+                "Radius": 12,
+                "PosHeight": 10,
+                "NegHeight": 10
+            }
         }
     ],
-
-	"SafePositions":[
-		[12114, 9810],
-		[12120, 9723]
-	]
+    "SafePositions": [
+        [
+            12114,
+            9810
+        ],
+        [
+            12120,
+            9723
+        ]
+    ]
 }
