@@ -175,6 +175,10 @@
 		<pos x="12940.9" z="5406.33" a="0" group="Bonfire"/>
 		<pos x="11112.4" z="14559.3" a="0" group="Bonfire"/>
 	</event>
+	<event name="StaticContaminatedArea">
+		<pos x="3005.31" y="33.25" z="5851.26" a="0"/>
+		<pos x="2576.46" y="13.67" z="5956.74" a="0"/>
+	</event>
 	<event name="StaticSantaCrash">
 		<zone smin="1" smax="1" dmin="1" dmax="1" r="45"/>
 		<pos x="4606.83" z="7975.59" a="132.378"/>

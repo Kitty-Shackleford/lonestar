@@ -59,7 +59,8 @@
 		<usage name="Custom"/>
 		<usage name="Halloween"/>
 		<usage name="Xmas"/>
-		<usage name="Animals"/>
+		<usage name="Dog"/>
+		<usage name="Chicken"/>
 	</usageflags>
 	<valueflags>
 		<value name="Tier1"/>
