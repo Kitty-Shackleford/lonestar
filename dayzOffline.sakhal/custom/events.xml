@@ -1213,7 +1213,7 @@
 			<child lootmax="0" lootmin="0" max="10" min="5" type="Boat_01_Orange"/>
 		</children>
 	</event>
-	<event name="VehicleMiliBoat">
+	<event name="VehicleMilitaryBoat">
 		<nominal>8</nominal>
 		<min>6</min>
 		<max>8</max>
