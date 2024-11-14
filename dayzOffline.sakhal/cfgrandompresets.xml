@@ -688,21 +688,21 @@
 		<item name="EyeMask_Christmas" chance="0.0625"/>
 		<item name="EyeMask_NewYears" chance="0.0625"/>
 		<item name="ZmijovkaCap_Red" chance="0.0625"/>
-		<item name="NBCBootsYellow" chance="0.0625"/>
-		<item name="NBCBootsGray" chance="0.0625"/>
-		<item name="NBCHoodYellow" chance="0.0625"/>
-		<item name="NBCHoodGray" chance="0.0625"/>
-		<item name="NBCGlovesYellow" chance="0.0625"/>
-		<item name="NBCGlovesGray" chance="0.0625"/>
+		<item name="NBCBootsWhite" chance="0.0625"/>
+		<item name="NBCBootsWhite" chance="0.0625"/>
+		<item name="NBCHoodWhite" chance="0.0625"/>
+		<item name="NBCHoodWhite" chance="0.0625"/>
+		<item name="NBCGlovesWhite" chance="0.0625"/>
+		<item name="NBCGlovesWhite" chance="0.0625"/>
 	</cargo>
 	<cargo chance="1.0" name="Xmas_Weapons_Small">
 		<item name="Flaregun" chance="0.01"/>
-		<item name="M67Grenade" chance="0.10"/>
-		<item name="RGD5Grenade" chance="0.10"/>
-		<item name="LandMineTrap" chance="0.10"/>
-		<item name="Grenade_ChemGas" chance="0.02"/>
-		<item name="Ammo_40mm_Explosive" chance="0.02"/>
-		<item name="Ammo_40mm_ChemGas" chance="0.02"/>
+		<item name="CombatKnife" chance="0.10"/>
+		<item name="FangeKnife" chance="0.10"/>
+		<item name="HuntingKnife" chance="0.10"/>
+		<item name="KitchenKnife" chance="0.02"/>
+		<item name="KukriKnife" chance="0.02"/>
+		<item name="AK_Bayonet" chance="0.02"/>
 	</cargo>
 	<cargo chance="1.0" name="Xmas_Ammo_Small">
 		<item name="Ammo_Flare" chance="0.01"/>
@@ -745,7 +745,7 @@
 		<item name="Derringer_Black" chance="0.10"/>
 		<item name="Derringer_Grey" chance="0.10"/>
 		<item name="Derringer_Pink" chance="0.10"/>
-		<item name="Nail" chance="0.10"/>
+		<item name="AmmoBox" chance="0.10"/>
 		<item name="GPSReceiver" chance="0.10"/>
 		<item name="PunchedCard" chance="0.10"/>
 	</cargo>
@@ -768,7 +768,7 @@
 		<item name="Marmalade" chance="0.10"/>
 		<item name="SardinesCan" chance="0.10"/>
 		<item name="TunaCan" chance="0.10"/>
-		<item name="DogFoodCan" chance="0.10"/>
+		<item name="CrabCan" chance="0.10"/>
 		<item name="CatFoodCan" chance="0.10"/>
 		<item name="PorkCan" chance="0.10"/>
 		<item name="Lunchmeat" chance="0.10"/>
@@ -801,14 +801,14 @@
 		<item name="Sweater_Red" chance="0.05"/>
 		<item name="WoolCoat_Red" chance="0.05"/>
 		<item name="WoolCoat_RedCheck" chance="0.05"/>
-		<item name="HuntingVest" chance="0.05"/>
+		<item name="HuntingVest_Winter" chance="0.05"/>
 		<item name="CombatBoots_Grey" chance="0.05"/>
 		<item name="HunterPants_Winter" chance="0.05"/>
 		<item name="HuntingJacket_Winter" chance="0.05"/>
-		<item name="NBCPantsGray" chance="0.01"/>
-		<item name="NBCPantsYellow" chance="0.03"/>
-		<item name="NBCJacketGray" chance="0.01"/>
-		<item name="NBCJacketYellow" chance="0.03"/>
+		<item name="NBCPantsWhite" chance="0.01"/>
+		<item name="NBCPantsWhite" chance="0.03"/>
+		<item name="NBCJacketWhite" chance="0.01"/>
+		<item name="NBCJacketWhite" chance="0.03"/>
 		<item name="GasMask" chance="0.05"/>
 		<item name="GP5GasMask" chance="0.05"/>
 		<item name="AirborneMask" chance="0.05"/>
@@ -819,9 +819,9 @@
 		<item name="Colt1911" chance="0.083"/>
 		<item name="Magnum" chance="0.083"/>
 		<item name="Deagle" chance="0.083"/>
-		<item name="CombatKnife" chance="0.083"/>
-		<item name="CrudeMachete" chance="0.083"/>
-		<item name="OrientalMachete" chance="0.083"/>
+		<item name="PistolSuppressor" chance="0.083"/>
+		<item name="SKS_Bayonet" chance="0.083"/>
+		<item name="BaseballBat" chance="0.083"/>
 		<item name="KukriKnife" chance="0.083"/>
 		<item name="FangeKnife" chance="0.083"/>
 		<item name="Longhorn" chance="0.083"/>
@@ -854,7 +854,7 @@
 		<item name="ElectronicRepairKit" chance="0.05"/>
 	</cargo>
 	<cargo chance="1.0" name="Xmas_Food_Medium">
-		<item name="CarpFilletMeat" chance="0.10"/>
+		<item name="CarpFilletMeat" chance="1.00"/>
 	</cargo>
 	<cargo chance="0.25" name="Xmas_Weapons_Large">
 		<item name="PlateCarrierVest_Camo" chance="0.10"/>

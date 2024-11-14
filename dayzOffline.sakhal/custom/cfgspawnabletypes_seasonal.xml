@@ -25,40 +25,7 @@
 			<item name="GiftWrapPaper" chance="0.50"/>
 		</cargo>
 	</type>
-	<!-- HALLOWEEN -->
-	<type name="PumpkinHelmet">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="Cauldron">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="CrookedNose">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="EyeMask_Dead">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="Pumpkin">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="WitchHat">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="WitchHood_Black">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="WitchHood_Brown">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="WitchHood_Red">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="Broom_Birch">
-		<damage min="0.0" max="0.0"/>
-	</type>
-	<type name="PumpkinSeedsPack">
-		<damage min="0.0" max="0.0"/>
-	</type>
+	
 	<!-- XMAS Clothing -->
 	<type name="ChristmasHeadband_Antlers">
 		<damage min="0.0" max="0.0"/>
