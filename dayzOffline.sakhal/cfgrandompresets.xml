@@ -843,8 +843,8 @@
 		<item name="Mag_PP19_64Rnd" chance="0.05"/>
 	</cargo>
 	<cargo chance="1.0" name="Xmas_Fillers_Medium">
-		<item name="ClaymoreMine" chance="0.33"/>
-		<item name="Plastic_Explosive" chance="0.33"/>
+		<item name="Mag_MP5_30Rnd" chance="0.33"/>
+		<item name="Mag_PP19_64Rnd" chance="0.33"/>
 		<item name="XmasLights" chance="0.33"/>
 	</cargo>
 	<cargo chance="1.0" name="Xmas_Repairs_Medium">
