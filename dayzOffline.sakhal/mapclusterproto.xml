@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <prototype>
 		<clusters>
-<!-- 
-<!--Feathers Eggs Will be moved to normal groups-->
+<!-- Feathers Eggs Will be moved to normal groups -->
 <!-- 
 <export name="ChickenCoop" shape="dz\structures\Residential\Misc\misc_chickenCoop.p3d" /> 
 -->
@@ -22,7 +21,7 @@
 <!-- -->
 			<export name="SambucusBush1" shape="dz\plants\bush\b_sambucusNigra_1s.p3d" />
 			<export name="SambucusBush2" shape="dz\plants\bush\b_sambucusNigra_2s.p3d" />
-<!--Apple -->
+<!-- Apple -->
 		<cluster name="CaninaBush1" lootmax="2" maxinstances="150">
 			<de name="TrajectoryCanina" />
 			<container name="branch" lootmax="1">
