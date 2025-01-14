@@ -58,7 +58,6 @@
 		<usage name="Historical"/>
 		<usage name="Custom"/>
 		<usage name="Halloween"/>
-		<usage name="Xmas"/>
 		<usage name="Dog"/>
 		<usage name="Chicken"/>
 	</usageflags>
