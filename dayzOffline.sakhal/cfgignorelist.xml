@@ -8,6 +8,8 @@
 	<type name="BandanaMask_RedPattern"/>
 	<type name="Spear"/>
 	<type name="Mag_STANAGCoupled_30Rnd"/>
+	<type name="Watchtower" cheatCheck="1"></type>
+	<type name="Fence" cheatCheck="1"></type>
 	<!-- DISABLED 
 	<type name="CattleProd"></type>
 	<type name="DallasMask"></type>

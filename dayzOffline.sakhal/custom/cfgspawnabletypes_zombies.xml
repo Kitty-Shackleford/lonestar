@@ -1216,6 +1216,7 @@
 		<cargo preset="foodVillage"/>
 		<cargo preset="toolsVillage"/>
 		<cargo preset="grossInfected"/>
+		<attachments preset="hatsCommon_T1" />
 		<attachments preset="glassesVillage"/>
 	</type>
 	<type name="ZmbM_FarmerFat_Brown">
