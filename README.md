@@ -17,7 +17,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Player Count | 2/50 |
+| Player Count | 1/50 |
 | Banned Users | None |
 
 ### ⚙️ Server Settings
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Thu Jan 30 23:43:47 UTC 2025
+Last updated: Thu Jan 30 23:53:31 UTC 2025
