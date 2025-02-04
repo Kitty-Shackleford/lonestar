@@ -87,6 +87,22 @@ jobs:
             echo "No changes to commit"
           fi
 
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for all branches
+
+      - name: Ensure local branch is up-to-date
+        run: |
+          git fetch origin main
+          git merge origin/main || { echo "Merge failed, attempting rebase."; git rebase origin/main || exit 1; }
+          
+      - name: Check status before pushing
+        run: |
+          git status
+          git log --oneline -n 5
+
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
