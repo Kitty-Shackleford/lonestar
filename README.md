@@ -6,7 +6,7 @@
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | restarting |
+| Status | stopping |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.sakhal |
 | Version | Unknown |
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Feb  4 03:06:31 UTC 2025
+Last updated: Tue Feb  4 03:19:12 UTC 2025
