@@ -1,15 +1,15 @@
 # 🎮 Gameserver Details
 
-## 🖥️ ServerNameNotAvailable
+## 🖥️ Server Name Not Available
 
 ### 📋 General Information
 
 | **Property**        | **Value**                  |
 |---------------------|----------------------------|
-| Status | restarting |
+| Status | started |
 | Game | DayZ (Xbox One) |
 | Mission | dayzOffline.sakhal |
-| Version | Unknown |
+| Version | v1.27.159420 |
 | Last Update | 2024-02-20T15:00:14 |
 | Comment | None |
 
@@ -37,4 +37,4 @@
 ## Summary of Last Gameserver Check
 
 
-Last updated: Tue Feb 25 16:55:14 UTC 2025
+Last updated: Tue Feb 25 17:05:11 UTC 2025
